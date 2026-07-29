@@ -1,0 +1,1918 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Leopards Courier — Karachi Zone Q2 2026 Performance Review</title>
+<style>
+  :root{
+    --brand:#e8a400; --brand-dark:#c8860a; --ink-on-brand:#1f1a0c; --brand-strong:#8a6300;
+    --surface-1:#fcfcfb; --plane:#f4f3f0; --card:#ffffff;
+    --text-primary:#0b0b0b; --text-secondary:#52514e; --muted:#898781;
+    --grid:#e6e5df; --baseline:#c9c8c1; --border:rgba(11,11,11,.10);
+    /* categorical (validated) */
+    --s1:#2a78d6; --s2:#eb6834; --s3:#1baf7a; --s4:#eda100; --s5:#e87ba4; --s6:#008300; --s7:#4a3aa7; --s8:#e34948;
+    /* status */
+    --good:#0ca30c; --warning:#e0a000; --serious:#ec835a; --critical:#d03b3b;
+    --good-ink:#006300;
+    --shadow:0 1px 2px rgba(11,11,11,.05),0 4px 16px rgba(11,11,11,.05);
+    color-scheme:light;
+  }
+  html[data-theme="dark"]{
+    --surface-1:#1a1a19; --plane:#0d0d0d; --card:#202020;
+    --text-primary:#ffffff; --text-secondary:#c3c2b7; --muted:#a3a29a;
+    --grid:#2c2c2a; --baseline:#383835; --border:rgba(255,255,255,.12);
+    --s1:#3987e5; --s2:#d95926; --s3:#199e70; --s4:#c98500; --s5:#d55181; --s6:#008300; --s7:#9085e9; --s8:#e66767;
+    --good:#0ca30c; --good-ink:#0ca30c; --brand:#f5b301; --brand-dark:#d99a00; --brand-strong:#f2ba30;
+    --shadow:0 1px 2px rgba(0,0,0,.4),0 4px 20px rgba(0,0,0,.4);
+    color-scheme:dark;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--plane);color:var(--text-primary);
+    font-family:system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.5;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:1180px;margin:0 auto;padding:0 20px 64px}
+  /* header */
+  header.top{background:linear-gradient(135deg,#f5c024 0%,var(--brand) 55%,var(--brand-dark) 100%);color:var(--ink-on-brand);
+    padding:26px 0 30px;box-shadow:0 2px 18px rgba(200,134,10,.30)}
+  .top .wrap{padding-bottom:0}
+  .brandline{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+  .logo{display:flex;align-items:center;gap:11px}
+  .logochip{display:inline-flex;align-items:center;background:#fff;border-radius:11px;padding:9px 16px;box-shadow:0 2px 10px rgba(0,0,0,.14)}
+  .logochip img{height:42px;display:block}
+  .logo .mark{width:42px;height:42px;border-radius:11px;background:#1f1a0c;color:#f5c024;
+    display:grid;place-items:center;font-size:22px;border:1px solid rgba(0,0,0,.15)}
+  .logo .name{font-size:20px;font-weight:800;letter-spacing:.3px;line-height:1.1}
+  .logo .name small{display:block;font-size:11px;font-weight:700;opacity:.72;letter-spacing:2px;margin-top:2px}
+  .spacer{flex:1}
+  .toggle{background:rgba(0,0,0,.10);color:var(--ink-on-brand);border:1px solid rgba(0,0,0,.22);
+    border-radius:20px;padding:7px 14px;font-size:12.5px;font-weight:700;cursor:pointer}
+  .toggle:hover{background:rgba(0,0,0,.18)}
+  h1.title{margin:20px 0 4px;font-size:27px;font-weight:800;letter-spacing:-.4px}
+  .sub{font-size:14px;opacity:.82;font-weight:600}
+  .review-badge{display:inline-block;margin-top:14px;background:#1f1a0c;color:#fff;border:1px solid rgba(0,0,0,.2);
+    border-radius:8px;padding:6px 13px;font-size:12.5px;font-weight:700;letter-spacing:.3px}
+  /* tabs */
+  .tabs{background:var(--card);border-bottom:1px solid var(--border);position:sticky;top:0;z-index:20;box-shadow:0 1px 8px rgba(0,0,0,.05)}
+  .tabsrow{display:flex;gap:4px;overflow-x:auto;flex-wrap:nowrap}
+  .navtab{white-space:nowrap}
+  .navtab{background:none;border:none;border-bottom:3px solid transparent;padding:14px 20px;font-size:14px;font-weight:700;
+    color:var(--text-secondary);cursor:pointer;font-family:inherit}
+  .navtab:hover{color:var(--text-primary)}
+  .navtab.on{color:var(--brand-strong);border-bottom-color:var(--brand-dark)}
+  .tabpanel[hidden]{display:none}
+  /* sections */
+  section{margin-top:34px}
+  .sec-head{display:flex;align-items:baseline;gap:12px;margin:0 0 14px}
+  .sec-head h2{margin:0;font-size:18px;font-weight:750;letter-spacing:-.2px}
+  .sec-head .hint{font-size:12.5px;color:var(--muted)}
+  /* kpi tiles */
+  .kpis{display:grid;grid-template-columns:repeat(5,1fr);gap:14px}
+  .kpi{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:16px 16px 15px;box-shadow:var(--shadow)}
+  .kpi .label{font-size:12px;color:var(--text-secondary);font-weight:600;letter-spacing:.2px}
+  .kpi .val{font-size:29px;font-weight:800;letter-spacing:-1px;margin-top:7px;line-height:1}
+  .kpi .val small{font-size:15px;font-weight:700;color:var(--muted);letter-spacing:0}
+  .kpi .delta{font-size:12px;font-weight:600;margin-top:8px;display:flex;align-items:center;gap:5px}
+  .kpi .accent{height:3px;border-radius:3px;margin-top:12px;background:var(--brand);opacity:.9}
+  .up{color:var(--good-ink)} .down{color:var(--critical)}
+  /* cards / grid */
+  .grid2{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+  .grid3{display:grid;grid-template-columns:1.35fr 1fr;gap:18px}
+  .card{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:18px 18px 16px;box-shadow:var(--shadow)}
+  .card h3{margin:0 0 3px;font-size:15px;font-weight:700}
+  .card .csub{font-size:12px;color:var(--muted);margin-bottom:14px}
+  /* legend */
+  .legend{display:flex;flex-wrap:wrap;gap:14px;margin-top:6px;font-size:12px;color:var(--text-secondary)}
+  .legend span{display:inline-flex;align-items:center;gap:6px}
+  .swatch{width:11px;height:11px;border-radius:3px;display:inline-block}
+  .dash{width:16px;height:0;border-top:2px dashed var(--muted);display:inline-block}
+  /* svg text */
+  svg text{font-family:system-ui,-apple-system,"Segoe UI",sans-serif}
+  .axis-lbl{fill:var(--muted);font-size:11px}
+  .val-lbl{fill:var(--text-primary);font-size:11.5px;font-weight:700}
+  .val-lbl.tab{font-variant-numeric:tabular-nums}
+  .cat-lbl{fill:var(--text-secondary);font-size:12px}
+  /* table */
+  table{width:100%;border-collapse:collapse;font-size:12.5px}
+  th,td{text-align:right;padding:8px 10px;border-bottom:1px solid var(--grid);font-variant-numeric:tabular-nums}
+  th:first-child,td:first-child{text-align:left;font-variant-numeric:normal}
+  thead th{font-size:11px;text-transform:uppercase;letter-spacing:.4px;color:var(--muted);font-weight:700;border-bottom:1.5px solid var(--baseline)}
+  tbody tr:hover{background:color-mix(in srgb,var(--brand) 5%,transparent)}
+  .pill{display:inline-block;padding:2px 9px;border-radius:20px;font-size:11px;font-weight:700}
+  .pill.g{background:color-mix(in srgb,var(--good) 16%,transparent);color:var(--good-ink)}
+  .pill.w{background:color-mix(in srgb,var(--warning) 22%,transparent);color:#8a6600}
+  .pill.c{background:color-mix(in srgb,var(--critical) 16%,transparent);color:var(--critical)}
+  .pill.b{background:color-mix(in srgb,var(--s1) 18%,transparent);color:#1c5cab}
+  html[data-theme="dark"] .pill.w{color:#f0c040}
+  html[data-theme="dark"] .pill.b{color:#8fbcf2}
+  /* 5-whys cascade */
+  .whys{display:flex;flex-direction:column;gap:0}
+  .why{display:grid;grid-template-columns:64px 1fr;gap:14px;align-items:start;padding:11px 0;position:relative}
+  .why:not(:last-child)::after{content:'';position:absolute;left:31px;top:38px;bottom:-4px;width:2px;background:var(--grid)}
+  .why .wtag{font-size:11px;font-weight:800;color:var(--brand-strong);background:color-mix(in srgb,var(--brand) 16%,transparent);border-radius:8px;padding:6px 4px;text-align:center;line-height:1.2}
+  .why .wbody{font-size:13.5px;padding-top:3px}
+  .why .wbody b{font-weight:750}
+  .why.root .wtag{color:var(--good-ink);background:color-mix(in srgb,var(--good) 16%,transparent)}
+  .why.root .wbody{background:color-mix(in srgb,var(--good) 8%,transparent);border-radius:10px;padding:10px 12px;border-left:3px solid var(--good)}
+  /* PDCA */
+  .pdca{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:4px}
+  .pd{border-radius:12px;padding:14px;border:1px solid var(--border);box-shadow:var(--shadow)}
+  .pd h4{margin:0 0 4px;font-size:14px;font-weight:800;display:flex;align-items:center;gap:8px}
+  .pd .ph{font-size:10.5px;font-weight:800;letter-spacing:1px;text-transform:uppercase;opacity:.7}
+  .pd p{margin:6px 0 0;font-size:12.5px;color:var(--text-secondary)}
+  .pd.p1{background:color-mix(in srgb,var(--s1) 8%,var(--card));border-top:3px solid var(--s1)}
+  .pd.p2{background:color-mix(in srgb,var(--good) 8%,var(--card));border-top:3px solid var(--good)}
+  .pd.p3{background:color-mix(in srgb,var(--s4) 10%,var(--card));border-top:3px solid var(--s4)}
+  .pd.p4{background:color-mix(in srgb,var(--s7) 8%,var(--card));border-top:3px solid var(--s7)}
+  @media(max-width:900px){.pdca{grid-template-columns:1fr 1fr}}
+  /* movement (Jun -> Jul) rows */
+  .mv-list{display:flex;flex-direction:column;margin-top:8px}
+  .mv-row{display:grid;grid-template-columns:1fr auto auto;gap:12px;align-items:center;padding:9px 2px;border-bottom:1px solid var(--grid)}
+  .mv-row:last-child{border-bottom:none}
+  .mv-name{font-size:13px;font-weight:650}
+  .mv-name small{display:block;font-size:10.5px;font-weight:600;color:var(--muted);letter-spacing:.3px;text-transform:uppercase}
+  .mv-track{font-size:12.5px;color:var(--text-secondary);font-variant-numeric:tabular-nums;white-space:nowrap}
+  .mv-delta{font-size:12px;font-weight:800;padding:2px 9px;border-radius:20px;font-variant-numeric:tabular-nums;white-space:nowrap;min-width:56px;text-align:center}
+  .mv-delta.up{background:color-mix(in srgb,var(--good) 15%,transparent);color:var(--good-ink)}
+  .mv-delta.down{background:color-mix(in srgb,var(--critical) 15%,transparent);color:var(--critical)}
+  html[data-theme="dark"] .mv-delta.up{color:#3ad13a}
+  /* insight cards */
+  .insights{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+  .ins{background:var(--card);border:1px solid var(--border);border-left:4px solid var(--brand);border-radius:12px;padding:15px 16px;box-shadow:var(--shadow)}
+  .ins.good{border-left-color:var(--good)}
+  .ins.warn{border-left-color:var(--warning)}
+  .ins.crit{border-left-color:var(--critical)}
+  .ins h4{margin:0 0 6px;font-size:14px;font-weight:750;display:flex;align-items:center;gap:8px}
+  .ins p{margin:0;font-size:13px;color:var(--text-secondary)}
+  .ins .tag{font-size:10.5px;font-weight:700;letter-spacing:.5px;text-transform:uppercase;padding:2px 8px;border-radius:6px;background:var(--plane);color:var(--muted)}
+  .actions{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:6px 4px;box-shadow:var(--shadow)}
+  .actions .arow{display:grid;grid-template-columns:28px 1fr auto;gap:14px;align-items:center;padding:13px 18px;border-bottom:1px solid var(--grid)}
+  .actions .arow:last-child{border-bottom:none}
+  .actions .n{width:26px;height:26px;border-radius:50%;background:#1f1a0c;color:var(--brand);display:grid;place-items:center;font-size:13px;font-weight:800}
+  .actions .txt{font-size:13.5px}
+  .actions .txt b{font-weight:750}
+  .actions .own{font-size:11.5px;color:var(--muted);font-weight:600;white-space:nowrap}
+  footer{margin-top:40px;padding-top:18px;border-top:1px solid var(--grid);font-size:12px;color:var(--muted);display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
+  .note{font-size:11.5px;color:var(--muted);margin-top:10px}
+  /* month-over-month table */
+  .mtbl-toolbar{display:flex;align-items:center;gap:10px;flex-wrap:wrap;padding:2px 12px 14px}
+  .tb-lbl{font-size:12px;color:var(--muted);font-weight:600}
+  .tb-group{display:inline-flex;border:1px solid var(--border);border-radius:9px;overflow:hidden}
+  .tb-group button{background:var(--card);color:var(--text-secondary);border:none;border-right:1px solid var(--border);
+    padding:6px 12px;font-size:12.5px;font-weight:650;cursor:pointer;font-family:inherit}
+  .tb-group button:last-child{border-right:none}
+  .tb-group button:hover{background:var(--plane)}
+  .tb-group button.on{background:var(--brand);color:var(--ink-on-brand)}
+  .zone-note{color:#8a6600;background:color-mix(in srgb,var(--warning) 13%,transparent);border:1px solid color-mix(in srgb,var(--warning) 35%,transparent);border-radius:8px;padding:9px 13px;margin:2px 0 12px;font-size:12.5px;line-height:1.5}
+  .tb-dir{background:var(--plane);border:1px solid var(--border);border-radius:9px;padding:6px 12px;
+    font-size:12.5px;font-weight:650;cursor:pointer;color:var(--text-secondary);font-family:inherit}
+  .tb-dir:hover{background:var(--card)}
+  .mtbl-wrap{overflow-x:auto}
+  .mtbl{width:100%;border-collapse:collapse;font-size:12px;min-width:900px}
+  .mtbl th,.mtbl td{padding:7px 8px;text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+  .mtbl .hubcol{text-align:left;font-variant-numeric:normal;position:sticky;left:0;background:var(--card);z-index:2;font-weight:700}
+  .mtbl thead .mgrp th{font-size:12px;font-weight:750;text-align:center;color:#fff;border-bottom:2px solid var(--card)}
+  .mtbl thead .gA{background:var(--s1)} .mtbl thead .gB{background:var(--s7)} .mtbl thead .gC{background:var(--s2)}
+  .mtbl thead .msub th{font-size:10.5px;text-transform:uppercase;letter-spacing:.3px;color:var(--muted);font-weight:700;border-bottom:1.5px solid var(--baseline);background:var(--card)}
+  .mtbl tbody td{border-bottom:1px solid var(--grid)}
+  .mtbl tbody tr:hover td{background:color-mix(in srgb,var(--brand) 5%,transparent)}
+  .mtbl tbody tr:hover .hubcol{background:color-mix(in srgb,var(--brand) 9%,transparent)}
+  .mtbl .gsep{border-left:2px solid var(--grid)}
+  .mtbl .totrow td{border-top:2px solid var(--baseline);border-bottom:none;font-weight:800;background:color-mix(in srgb,var(--brand) 5%,transparent)}
+  .mtbl .totrow .hubcol{background:color-mix(in srgb,var(--brand) 8%,transparent)}
+  .mtbl .grouprow td{text-align:left;font-variant-numeric:normal;background:color-mix(in srgb,var(--brand) 12%,var(--card));
+    color:var(--brand-strong);font-weight:800;font-size:11px;letter-spacing:.6px;text-transform:uppercase;padding:6px 10px;position:sticky;left:0}
+  .mtbl .grandrow td{border-top:2px solid var(--brand);border-bottom:none;font-weight:800;background:color-mix(in srgb,var(--brand) 10%,transparent)}
+  .mtbl .grandrow .hubcol{background:color-mix(in srgb,var(--brand) 14%,transparent)}
+  .mtbl .ach{font-weight:800;border-radius:6px}
+  /* July hub detail group/total rows */
+  .jgroup td{text-align:left !important;background:color-mix(in srgb,var(--brand) 14%,var(--card));color:var(--brand-strong);
+    font-weight:800;font-size:10.5px;letter-spacing:.5px;text-transform:uppercase}
+  tr.jtot td{font-weight:800;background:color-mix(in srgb,var(--brand) 5%,transparent);border-top:1.5px solid var(--baseline)}
+  tr.jgrand td{font-weight:800;background:color-mix(in srgb,var(--brand) 10%,transparent);border-top:2px solid var(--brand)}
+  .achg{color:var(--good-ink)} .achw{color:#8a6600} .achc{color:var(--critical)} .achb{color:#1c5cab}
+  html[data-theme="dark"] .achw{color:#f0c040}
+  html[data-theme="dark"] .achb{color:#8fbcf2}
+  @media(max-width:900px){.kpis{grid-template-columns:repeat(2,1fr)}.grid2,.grid3,.insights{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <div class="brandline">
+      <div class="logo"><span class="logochip"><img src="data:image/png;base64,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" alt="Leopards Courier Services"></span></div>
+      <div class="spacer"></div>
+      <button class="toggle" id="themeBtn">◐ Dark mode</button>
+    </div>
+    <h1 class="title">Karachi Zone — Q2 2026 Performance Review</h1>
+    <div class="sub">Zonal Operations · Delivery (D2D) performance, April – June 2026</div>
+    <div class="review-badge">Prepared for Regional Review</div>
+  </div>
+</header>
+
+<nav class="tabs">
+  <div class="wrap tabsrow">
+    <button class="navtab on" data-tab="zonal">ECOM Performance</button>
+    <button class="navtab" data-tab="express">Express Performance</button>
+    <button class="navtab" data-tab="score">KPI Scorecard</button>
+    <button class="navtab" data-tab="gap">Gap Analysis</button>
+    <button class="navtab" data-tab="rca">Root Cause &amp; Way Forward</button>
+  </div>
+</nav>
+
+<div class="wrap">
+ <div id="tab-zonal" class="tabpanel">
+
+  <!-- KPI ROW -->
+  <section>
+    <div class="sec-head"><h2>Quarter at a glance</h2><span class="hint">Consolidated Apr–Jun 2026, all hubs &amp; branches</span></div>
+    <div class="kpis">
+      <div class="kpi">
+        <div class="label">Total Shipments</div>
+        <div class="val">1.07<small> M</small></div>
+        <div class="delta"><span class="up">1,073,674 CN handled</span></div>
+        <div class="accent"></div>
+      </div>
+      <div class="kpi">
+        <div class="label">Delivered</div>
+        <div class="val">820<small>,465</small></div>
+        <div class="delta"><span class="up">76.4% success ratio</span></div>
+        <div class="accent" style="background:var(--s3)"></div>
+      </div>
+      <div class="kpi">
+        <div class="label">Achievement vs Target</div>
+        <div class="val">93.2<small>%</small></div>
+        <div class="delta"><span class="down">▼ 5.6 pts short of 82.0% SR target</span></div>
+        <div class="accent" style="background:var(--warning)"></div>
+      </div>
+      <div class="kpi">
+        <div class="label">KHI Proper Achievement</div>
+        <div class="val">94.2<small>%</small></div>
+        <div class="delta"><span class="up">9 city hubs · 97% of volume</span></div>
+        <div class="accent" style="background:var(--s1)"></div>
+      </div>
+      <div class="kpi">
+        <div class="label">Branch Network Achievement</div>
+        <div class="val">60.4<small>%</small></div>
+        <div class="delta"><span class="down">▼ Balochistan coastal drag</span></div>
+        <div class="accent" style="background:var(--critical)"></div>
+      </div>
+    </div>
+    <div class="note">CN = Consignment Notes (shipments). Success Ratio (SR%) = Delivered ÷ Total CN. Achievement% = SR% ÷ Target SR%.</div>
+  </section>
+
+  <!-- MONTHLY TREND -->
+  <section>
+    <div class="sec-head"><h2>Monthly trajectory</h2><span class="hint">Volume held; success ratio softened into June</span></div>
+    <div class="grid3">
+      <div class="card">
+        <h3>Success ratio vs target, by month</h3>
+        <div class="csub">Delivery success stayed 5–7 pts below target all quarter; gap widened in June.</div>
+        <div id="trendChart"></div>
+        <div class="legend">
+          <span><span class="swatch" style="background:var(--s1)"></span>Success ratio (SR%)</span>
+          <span><span class="dash" style="border-color:var(--critical)"></span>Target SR%</span>
+        </div>
+      </div>
+      <div class="card">
+        <h3>Shipment volume</h3>
+        <div class="csub">Eid dip in May, recovered in June.</div>
+        <div id="volChart"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HUB-WISE MONTH-OVER-MONTH TABLE -->
+  <section>
+    <div class="sec-head"><h2>Hub &amp; Allied-branch detail — all South zones</h2><span class="hint">KHI (Apr–Jun) + HYD / SKZ / UET (May–Jun) · CN, B/S, Delivery, S/R, Target &amp; Achievement</span></div>
+    <div class="card" style="padding:14px 6px 8px">
+      <div class="mtbl-toolbar">
+        <span class="tb-lbl">Sort by</span>
+        <div class="tb-group" id="sortMetric">
+          <button data-m="cn">CN (volume)</button>
+          <button data-m="ach" class="on">Achievement</button>
+          <button data-m="sr">S/R</button>
+        </div>
+        <span class="tb-lbl">for</span>
+        <div class="tb-group" id="sortMonth">
+          <button data-mo="apr">Apr</button>
+          <button data-mo="may">May</button>
+          <button data-mo="jun" class="on">Jun</button>
+        </div>
+        <button class="tb-dir" id="sortDir" title="Toggle order">↓ High → Low</button>
+      </div>
+      <div class="mtbl-wrap">
+        <table class="mtbl">
+          <thead>
+            <tr class="mgrp">
+              <th class="hubcol" rowspan="2">Hub</th>
+              <th colspan="6" class="gA">April 2026</th>
+              <th colspan="6" class="gB">May 2026</th>
+              <th colspan="6" class="gC">June 2026</th>
+            </tr>
+            <tr class="msub">
+              <th>CN</th><th>B/S</th><th>Del.</th><th>S/R</th><th>Tgt</th><th>Ach</th>
+              <th>CN</th><th>B/S</th><th>Del.</th><th>S/R</th><th>Tgt</th><th>Ach</th>
+              <th>CN</th><th>B/S</th><th>Del.</th><th>S/R</th><th>Tgt</th><th>Ach</th>
+            </tr>
+          </thead>
+          <tbody id="mtblBody"></tbody>
+        </table>
+      </div>
+      <div class="note" style="padding:0 12px 4px">CN = total consignments (booked). B/S = pending Balance/Stock (forward balance). Del. = delivered. S/R = success ratio %. Tgt = target %. Ach = achievement %. Achievement shading: <span class="pill c">&lt;95</span> <span class="pill w">95–98</span> <span class="pill g">98–100</span> <span class="pill b">100+</span>. Allied Locations = KHI Branches (Balochistan coastal network). Grand Total — Zone = city hubs + Allied combined.</div>
+    </div>
+  </section>
+
+  <!-- HUB PERFORMANCE -->
+  <section>
+    <div class="sec-head"><h2>Hub performance — <span id="hubScope">Karachi (KHI) · July 2026</span></h2><span class="hint">Achievement vs 100% target line, ranked</span></div>
+    <div class="mtbl-toolbar" id="hubZoneFilter" style="margin-bottom:12px">
+      <span class="tb-lbl">Zone</span>
+      <div class="tb-group">
+        <button data-z="KHI" class="on">Karachi (KHI)</button>
+        <button data-z="HYD">Hyderabad (HYD)</button>
+        <button data-z="SKZ">Sukkur (SKZ)</button>
+        <button data-z="UET">Quetta (UET)</button>
+      </div>
+    </div>
+    <div class="grid3">
+      <div class="card">
+        <h3>Achievement % by hub</h3>
+        <div class="csub" id="hubChartSub">Express beat target (100.5%); six of nine hubs cleared 92%. LHK remains the clear outlier and top recovery priority.</div>
+        <div id="hubChart"></div>
+      </div>
+      <div class="card">
+        <h3>Hub detail</h3>
+        <div class="csub" id="hubTableSub">July · City hubs + Allied Locations (KHI Branches)</div>
+        <table>
+          <thead><tr><th>Hub</th><th>CN</th><th>SR%</th><th>Ach%</th></tr></thead>
+          <tbody id="hubTable"></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- ZONE SPLIT + CATEGORY -->
+  <section>
+    <div class="sec-head"><h2>Where the gap sits</h2><span class="hint">Network split &amp; brand-category quality</span></div>
+    <div class="grid2">
+      <div class="card">
+        <h3>City hubs vs branch network — achievement trend</h3>
+        <div class="csub">City hubs are stable near target; the branch network deteriorated every month, from 64% to 54%.</div>
+        <div id="splitChart"></div>
+        <div class="legend">
+          <span><span class="swatch" style="background:var(--s1)"></span>KHI Proper (city hubs)</span>
+          <span><span class="swatch" style="background:var(--s2)"></span>KHI Branches (Balochistan)</span>
+        </div>
+      </div>
+      <div class="card">
+        <h3>Success ratio by brand category — June</h3>
+        <div class="csub">Premium &amp; Top brands (~86–87%) carry the zone; B / B+ tiers drag delivery quality.</div>
+        <div id="catChart"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- OPERATIONAL EFFICIENCY -->
+  <section>
+    <div class="sec-head"><h2>Operational efficiency — June 2026</h2><span class="hint">Assignment speed &amp; the cost of aging</span></div>
+    <div class="grid2">
+      <div class="card">
+        <h3>Arrival-to-assignment speed</h3>
+        <div class="csub">62% of shipments are assigned same-day in the city, but 1 in 12 zone-wide slips into the 2+ day critical bucket.</div>
+        <div id="slaChart"></div>
+        <div class="legend">
+          <span><span class="swatch" style="background:var(--s3)"></span>Same day</span>
+          <span><span class="swatch" style="background:var(--s1)"></span>1 day</span>
+          <span><span class="swatch" style="background:var(--s4)"></span>2 day</span>
+          <span><span class="swatch" style="background:var(--critical)"></span>2+ day critical</span>
+        </div>
+      </div>
+      <div class="card">
+        <h3>Aging destroys delivery — SR% by RC-to-arrival delay</h3>
+        <div class="csub">Fresh shipments deliver at 76%; once they age past a week, success falls to 58%. Speed is the lever.</div>
+        <div id="ageChart"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- INSIGHTS -->
+  <section>
+    <div class="sec-head"><h2>Key takeaways</h2></div>
+    <div class="insights">
+      <div class="ins good">
+        <span class="tag">Strength</span>
+        <h4>City-hub network is stable and near target</h4>
+        <p>KHI Proper delivered 820K+ of the quarter's volume at ~93.7% achievement, with DHA, Express and Malir hubs all above 95% in June. The core engine is healthy.</p>
+      </div>
+      <div class="ins crit">
+        <span class="tag">Priority</span>
+        <h4>Branch network is dragging and worsening</h4>
+        <p>Balochistan coastal branches fell from 64% → 63% → 54% achievement across the quarter, with 49% of branch shipments stuck 2+ days before assignment. Small volume, outsized reputational risk.</p>
+      </div>
+      <div class="ins warn">
+        <span class="tag">Watch</span>
+        <h4>June softening vs May</h4>
+        <p>Zone SR slipped from 77.2% (May) to 75.7% (June) and achievement from 93.2% to 92.8%. LHK hub (79% ach) and rising 2+ day critical assignments are the main causes.</p>
+      </div>
+      <div class="ins">
+        <span class="tag">Opportunity</span>
+        <h4>Speed is the single biggest lever</h4>
+        <p>Shipments assigned within 3 days deliver at 76% vs 58% once aged past a week — an 18-point swing. Tightening same-day assignment directly lifts SR toward target.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ACTION PLAN -->
+  <section>
+    <div class="sec-head"><h2>Proposed action plan — Q3</h2><span class="hint">Editable — align owners &amp; targets before the review</span></div>
+    <div class="actions">
+      <div class="arow"><div class="n">1</div><div class="txt"><b>LHK hub recovery task force.</b> Root-cause the 79% achievement (routing, rider capacity, address quality); target +8 pts to reach zone average.</div><div class="own">Hub Lead · LHK</div></div>
+      <div class="arow"><div class="n">2</div><div class="txt"><b>Branch turnaround for Balochistan coastal.</b> Fix the 2+ day assignment backlog at Hub Chowki, Gwadar, Turbat &amp; Pasni; set an interim 65% achievement floor.</div><div class="own">Regional Ops</div></div>
+      <div class="arow"><div class="n">3</div><div class="txt"><b>Same-day assignment SLA.</b> Drive city same-day assignment from 63% → 75% to shrink the aging pool that costs ~18 pts of SR.</div><div class="own">Zone Ops · Hubs</div></div>
+      <div class="arow"><div class="n">4</div><div class="txt"><b>Protect the B / B+ tiers.</b> Targeted intervention on lower-SR brand categories where delivery quality lags premium brands by 30+ pts.</div><div class="own">KAM · Ops</div></div>
+      <div class="arow"><div class="n">5</div><div class="txt"><b>Close the 5.6-pt target gap.</b> Combined hub + speed + branch actions to move zone SR from 76.4% toward the 82% target through Q3.</div><div class="own">Zonal Manager</div></div>
+    </div>
+  </section>
+
+ </div><!-- /tab-zonal -->
+
+ <div id="tab-express" class="tabpanel" hidden>
+
+  <!-- EXPRESS REGION -->
+  <section>
+    <div class="sec-head"><h2>Express — SLA &amp; assignment performance</h2><span class="hint">South region · Q2 (Apr–Jul 2026) · <b id="exScope">All South region</b></span></div>
+    <div class="mtbl-toolbar" id="exZoneFilter">
+      <span class="tb-lbl">Zone</span>
+      <div class="tb-group">
+        <button data-z="All" class="on">All South</button>
+        <button data-z="KHI">KHI</button>
+        <button data-z="HYD">HYD</button>
+        <button data-z="SKZ">SKZ</button>
+        <button data-z="UET">UET</button>
+      </div>
+    </div>
+    <div class="kpis" style="grid-template-columns:repeat(4,1fr)">
+      <div class="kpi"><div class="label">5-Day closure · within SLA (Jul)</div><div class="val" id="exK5">–</div><div class="delta" id="exK5d"></div><div class="accent" style="background:var(--s1)"></div></div>
+      <div class="kpi"><div class="label">6-Day closure · within SLA (Jul)</div><div class="val" id="exK6">–</div><div class="delta" id="exK6d"></div><div class="accent" style="background:var(--s2)"></div></div>
+      <div class="kpi"><div class="label">Same-Day Assignation (Jul)</div><div class="val" id="exKS">–</div><div class="delta" id="exKSd"></div><div class="accent" style="background:var(--s3)"></div></div>
+      <div class="kpi"><div class="label">Express volume (Jul, light)</div><div class="val" id="exKV">–</div><div class="delta" id="exKVd"></div><div class="accent" style="background:var(--brand)"></div></div>
+    </div>
+    <div class="note">Pick a zone above to break the figures down. “Light shipment closure” = share of express light shipments cleared within the 5-/6-day SLA window (Arrival → delivery). “Same-Day Assignation” = share assigned to courier within the same-day cut-off. Source: regional Express KPI exports, South region, Apr–Jul 2026.</div>
+  </section>
+
+  <section>
+    <div class="grid2">
+      <div class="card">
+        <h3>Light shipment closure — within SLA %</h3>
+        <div class="csub">Higher is better. 5-day and 6-day within-SLA closure, month by month, for the selected zone.</div>
+        <div id="exCloTrend"></div>
+        <div class="legend"><span><span class="swatch" style="background:var(--s1)"></span>5-Day closure</span><span><span class="swatch" style="background:var(--s2)"></span>6-Day closure</span></div>
+      </div>
+      <div class="card">
+        <h3>Same-Day Assignation — compliance %</h3>
+        <div class="csub">Share of express shipments assigned to a courier within the same-day cut-off.</div>
+        <div id="exSdaTrend"></div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="sec-head"><h2>Zones compared — July 2026</h2><span class="hint">All four South zones side by side</span></div>
+    <div class="card">
+      <h3>5-Day closure vs Same-Day Assignation by zone</h3>
+      <div class="csub">HYD &amp; SKZ lead on closure (~98–99%); KHI carries the volume; UET trails on same-day assignation.</div>
+      <div id="exZoneCompare"></div>
+      <div class="legend"><span><span class="swatch" style="background:var(--s1)"></span>5-Day closure %</span><span><span class="swatch" style="background:var(--s3)"></span>Same-Day compliance %</span></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="sec-head"><h2>Express data — full detail</h2><span class="hint">Selected zone · Apr–Jul 2026</span></div>
+    <div class="card" style="padding:14px 6px 8px">
+      <div class="mtbl-wrap">
+        <table class="mtbl" style="min-width:520px">
+          <thead><tr class="msub"><th class="hubcol">Metric</th><th>Apr</th><th>May</th><th>Jun</th><th>Jul</th></tr></thead>
+          <tbody id="exZoneTable"></tbody>
+        </table>
+      </div>
+      <div class="note" style="padding:0 12px 4px">Closure = within-SLA % of light express shipments. Same-day = courier-assignment compliance %. Volumes are monthly light-shipment counts.</div>
+    </div>
+  </section>
+
+ </div><!-- /tab-express -->
+
+ <div id="tab-score" class="tabpanel" hidden>
+  <section>
+    <div class="sec-head"><h2>South Region — KPI Scorecard</h2><span class="hint">Weighted balanced scorecard · zones scored out of 37.75 · <b id="scScope">June</b> 2026</span></div>
+    <div class="mtbl-toolbar" id="scMonthFilter">
+      <span class="tb-lbl">Month</span>
+      <div class="tb-group"><button data-m="All" class="on">All</button><button data-m="April">April</button><button data-m="May">May</button><button data-m="June">June</button></div>
+    </div>
+    <div class="kpis" style="grid-template-columns:repeat(4,1fr)">
+      <div class="kpi"><div class="label">Top zone (total)</div><div class="val" id="scTop" style="font-size:24px">–</div><div class="delta" id="scTopd"></div><div class="accent" style="background:var(--good)"></div></div>
+      <div class="kpi"><div class="label">KHI total score</div><div class="val" id="scKhi">–</div><div class="delta" id="scKhid"></div><div class="accent" style="background:var(--s1)"></div></div>
+      <div class="kpi"><div class="label">Weakest category</div><div class="val" style="font-size:20px">E-commerce</div><div class="delta"><span class="down">lowest-scoring block region-wide</span></div><div class="accent" style="background:var(--warning)"></div></div>
+      <div class="kpi"><div class="label">Region avg (total)</div><div class="val" id="scAvg">–</div><div class="delta"><span>across all 4 zones</span></div><div class="accent" style="background:var(--brand)"></div></div>
+    </div>
+    <div class="note">Balanced scorecard — each zone earns weighted points across <b>Overland &amp; Heavy</b> (3), <b>Line Haul / Hub</b> (5), <b>Express</b> (17) and <b>E-commerce</b> (12.75), a 37.75-point total shown as %. Source: South KPI scorecard, Apr–Jun 2026.</div>
+  </section>
+
+  <section>
+    <div class="sec-head"><h2>Scorecard heatmap — <span id="scMonthH">June</span> 2026</h2><span class="hint">Zones × KPI category · % of weighted points earned</span></div>
+    <div class="card" style="padding:14px 6px 8px">
+      <div class="mtbl-wrap"><table class="mtbl" style="min-width:660px">
+        <thead><tr class="msub"><th class="hubcol">Zone</th><th>Overland &amp; Heavy</th><th>Line Haul / Hub</th><th>Express</th><th>E-commerce</th><th>Express+LineHaul</th><th>TOTAL</th></tr></thead>
+        <tbody id="scBody"></tbody>
+      </table></div>
+      <div class="note" style="padding:0 12px 4px">Cell colour: <span class="pill g">≥90</span> <span class="pill" style="background:color-mix(in srgb,var(--good) 14%,transparent);color:var(--good-ink)">75–90</span> <span class="pill w">60–75</span> <span class="pill c">&lt;60</span> — % of weighted points earned in that block.</div>
+    </div>
+  </section>
+
+  <section>
+    <div class="grid2">
+      <div class="card">
+        <h3>Total score by zone — <span id="scMonthB">June</span></h3>
+        <div class="csub">SKZ &amp; HYD lead; KHI and UET trail — dragged mainly by the E-commerce block.</div>
+        <div id="scBar"></div>
+      </div>
+      <div class="card">
+        <h3>Total-score trend — Apr → Jun</h3>
+        <div class="csub">Monthly total-score movement, all four zones.</div>
+        <div id="scTrend"></div>
+        <div class="legend" id="scLegend"></div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="sec-head"><h2>Detailed KPI breakdown — <span id="scMonthD">June</span> 2026</h2><span class="hint">Every sub-KPI · % of points earned · by zone</span></div>
+    <div class="card" style="padding:14px 6px 8px">
+      <div class="mtbl-wrap"><table class="mtbl" style="min-width:640px">
+        <thead><tr class="msub"><th class="hubcol">KPI</th><th>KHI</th><th>HYD</th><th>SKZ</th><th>UET</th></tr></thead>
+        <tbody id="scSubBody"></tbody>
+      </table></div>
+      <div class="note" style="padding:0 12px 4px">Each cell = % of that KPI’s weighted points earned by the zone. Colour: <span class="pill g">≥90</span> <span class="pill" style="background:color-mix(in srgb,var(--good) 14%,transparent);color:var(--good-ink)">75–90</span> <span class="pill w">60–75</span> <span class="pill c">&lt;60</span>. Category subtotals shown in the heatmap above.</div>
+    </div>
+  </section>
+ </div><!-- /tab-score -->
+
+ <div id="tab-gap" class="tabpanel" hidden>
+
+  <!-- TAB-LEVEL ZONE FILTER -->
+  <div class="mtbl-toolbar" id="gapZoneFilter" style="margin:2px 0 6px">
+    <span class="tb-lbl">Zone</span>
+    <div class="tb-group">
+      <button data-z="KHI" class="on">Karachi (KHI)</button>
+      <button data-z="HYD">Hyderabad (HYD)</button>
+      <button data-z="SKZ">Sukkur (SKZ)</button>
+      <button data-z="UET">Quetta (UET)</button>
+    </div>
+    <span class="hint" style="margin-left:10px">drives Gaps &amp; RC-to-Arrival · RTA &amp; App are Karachi-network views</span>
+  </div>
+
+  <!-- JUNE -> JULY MOVEMENT (zone-wise) -->
+  <section>
+    <div class="sec-head"><h2>June → July · movement — <span id="gapScope">Karachi (KHI)</span></h2><span class="hint">Month-on-month achievement movement, by zone</span></div>
+    <div class="kpis" id="gapKpis" style="grid-template-columns:repeat(3,1fr)"></div>
+    <div class="grid2" style="margin-top:16px">
+      <div class="card">
+        <h3 id="gapUpHead" style="color:var(--good-ink)">✓ Gaps closed — hubs that moved up</h3>
+        <div class="csub" id="gapUpSub">Ranked by improvement (achievement %, June → July)</div>
+        <div class="mv-list" id="gapUpList"></div>
+      </div>
+      <div class="card">
+        <h3 style="color:var(--critical)">▼ Watch — slipped in July</h3>
+        <div class="csub" id="gapDnSub">Top 10 by volume (load) that slipped · achievement %, June → July</div>
+        <div class="mv-list" id="gapDnList"></div>
+      </div>
+    </div>
+    <div class="note" id="gapNote"></div>
+  </section>
+
+  <!-- RC TO ARRIVAL -->
+  <section>
+    <div class="sec-head"><h2>RC-to-Arrival — inbound arrival speed — <span id="rcScope">Karachi (KHI)</span></h2><span class="hint" id="rcHint">Days between booking (RC) and hub arrival · Apr–Jul</span></div>
+    <div class="kpis" id="rcKpis" style="grid-template-columns:repeat(4,1fr)"></div>
+    <div class="note" id="rcNote"></div>
+  </section>
+
+  <section>
+    <div class="grid2">
+      <div class="card">
+        <h3>Delayed arrivals (4+ days) — % of volume</h3>
+        <div class="csub" id="rcDelaySub">Inbound delay share by month — lower is better.</div>
+        <div id="rcDelayChart"></div>
+      </div>
+      <div class="card">
+        <h3 id="rcSRHead">Aging penalty — delivery SR% by arrival band</h3>
+        <div class="csub" id="rcSRSub">Fresh arrivals deliver best; once arrival slips past a week, success falls. Inbound speed directly protects SR.</div>
+        <div id="rcSRChart"></div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="sec-head"><h2>RC-to-Arrival — full detail</h2><span class="hint" id="rcTblHint">Arrival mix &amp; band SR% · 2026</span></div>
+    <div class="card" style="padding:14px 6px 8px">
+      <div class="mtbl-wrap">
+        <table class="mtbl" style="min-width:600px">
+          <thead><tr class="msub" id="rcTableHead"></tr></thead>
+          <tbody id="rcTable"></tbody>
+        </table>
+      </div>
+      <div class="note" style="padding:0 12px 4px">Arrival-mix % = share of shipments arriving in each band (higher “≤3 days” is better). Band SR% = delivery success within each arrival band. Faster arrival + higher band SR both lift overall delivery. South zones: shipment-level RC records (July on matured RC ≤24 Jul window); April not in South source.</div>
+    </div>
+  </section>
+
+  <!-- RTA SMART DEBRIEFING -->
+  <section>
+    <div class="sec-head"><h2>RTA · Smart Debriefing — reattempt performance — <span id="rtaScope">Karachi (KHI)</span></h2><span class="hint">Failed first attempts reassigned &amp; retried · June (1–30) vs July (1–27)</span></div>
+    <div class="kpis" id="rtaKpis" style="grid-template-columns:repeat(4,1fr)"></div>
+    <div class="grid2" style="margin-top:6px">
+      <div class="card">
+        <h3>Reason approval mix — June vs July</h3>
+        <div class="csub" id="rtaMixSub">Share of reattempts whose reason was <b>not approved</b> vs <b>approved</b> (validated) — lower not-approved is better reason quality.</div>
+        <div id="rtaChart"></div>
+        <div class="legend"><span><span class="swatch" style="background:var(--s3)"></span>Approved reason</span><span><span class="swatch" style="background:var(--warning)"></span>Not-approved reason</span></div>
+      </div>
+      <div class="card">
+        <h3>Detail &amp; movement</h3>
+        <div class="csub" id="rtaDetailSub">Karachi (KHI) zone · reattempt funnel</div>
+        <table>
+          <thead><tr><th>Metric</th><th>Jun 1–30</th><th>Jul 1–27</th><th>Change</th></tr></thead>
+          <tbody id="rtaDetail"></tbody>
+        </table>
+      </div>
+    </div>
+    <div class="note" id="rtaNote"></div>
+  </section>
+
+  <!-- APP PERFORMANCE (merged into Gap Analysis) -->
+  <section>
+    <div class="sec-head" style="border-top:2px solid var(--border);padding-top:24px;margin-top:10px"><h2>Rider App Performance — <span id="appZoneScope">Karachi (KHI)</span></h2><span class="hint">App adoption &amp; field status-update discipline · Jan–Jul 2026 · <b id="appScope">All shipments</b></span></div>
+    <div class="mtbl-toolbar" id="appFilter">
+      <span class="tb-lbl">View</span>
+      <div class="tb-group"><button data-v="All" class="on">All</button></div>
+      <span class="tb-lbl">Division</span>
+      <div class="tb-group"><button data-v="Express">Express</button><button data-v="Ecom">Ecom</button></div>
+      <span class="tb-lbl">Type</span>
+      <div class="tb-group"><button data-v="T_Overnight">Overnight</button><button data-v="Ecom">Ecom</button><button data-v="T_Overland">Overland</button><button data-v="T_Detain">Detain</button></div>
+      <span class="tb-lbl">Leg</span>
+      <div class="tb-group"><button data-leg="All" class="on">All</button><button data-leg="Forward">Forward</button><button data-leg="Return">Return</button></div>
+    </div>
+    <div id="appLegWarn" class="note" style="display:none;color:#8a6600;background:color-mix(in srgb,var(--warning) 12%,transparent);border-radius:8px;padding:8px 12px;margin-bottom:8px">Return leg (RTO) shipments are not mobile-assigned and carry no app-usage violations, so <b>Mobile app %</b>, <b>Office %</b> and <b>Violation %</b> read 0 — only <b>status-update (QSR)</b> applies on returns.</div>
+    <div class="kpis" style="grid-template-columns:repeat(4,1fr)">
+      <div class="kpi"><div class="label">Mobile-app assignment (Jul)</div><div class="val" id="kMob">–</div><div class="delta" id="kMobD"></div><div class="accent" style="background:var(--good)"></div></div>
+      <div class="kpi"><div class="label">Status updated by 8 PM (QSR)</div><div class="val" id="kQsr">–</div><div class="delta" id="kQsrD"></div><div class="accent" style="background:var(--s3)"></div></div>
+      <div class="kpi"><div class="label">Updated in office (app bypass)</div><div class="val" id="kOff">–</div><div class="delta" id="kOffD"></div><div class="accent" style="background:var(--s1)"></div></div>
+      <div class="kpi"><div class="label">Violations (Jul)</div><div class="val" id="kViol">–</div><div class="delta" id="kViolD"></div><div class="accent" style="background:var(--warning)"></div></div>
+    </div>
+    <div class="note">Use the <b>View / Division / Type</b> filter above to break the figures down. Mobile-app assignment % = share of tasks assigned to riders through the mobile app. QSR = Quick Status Rate — share of tasks whose status was updated by the cut-off time. “Updated in office” = tasks the rider did not update in the field (app bypass — lower is better). Violation % = app-usage rule violations. Figures for the selected zone (Zone filter at top) · rider-app base data, all four South-region zones.</div>
+  </section>
+
+  <section>
+    <div class="grid2">
+      <div class="card">
+        <h3>Mobile-app assignment adoption</h3>
+        <div class="csub">Share of rider tasks assigned through the app, month by month, for the selected view.</div>
+        <div id="appMobChart"></div>
+      </div>
+      <div class="card">
+        <h3>Status-update discipline through the day (QSR)</h3>
+        <div class="csub">Cumulative % of tasks with status updated by each cut-off time — June vs July for the selected view.</div>
+        <div id="qsrCurve"></div>
+        <div class="legend"><span><span class="dash" style="border-color:var(--s2)"></span>June</span><span><span class="dash" style="border-color:var(--s1)"></span>July</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="grid2">
+      <div class="card">
+        <h3>App-usage violations — % of tasks</h3>
+        <div class="csub">App-usage rule violations as a share of tasks, month by month, for the selected view.</div>
+        <div id="appViolChart"></div>
+      </div>
+      <div class="card">
+        <h3>App performance — full detail</h3>
+        <div class="csub" id="appDetailSub">Karachi (KHI) zone · monthly</div>
+        <div class="mtbl-wrap">
+          <table class="mtbl" style="min-width:0">
+            <thead><tr class="msub"><th class="hubcol">Metric</th><th>Jan</th><th>Feb</th><th>Mar</th><th>Apr</th><th>May</th><th>Jun</th><th>Jul</th></tr></thead>
+            <tbody id="appTable"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div class="note" style="margin-top:12px"><b>Read:</b> for <b>All shipments</b>, app adoption and field-update discipline both peaked in July, which supports the faster inbound and better reason-quality seen elsewhere. Switch the filter to <b>Express</b> vs <b>Ecom</b> to see the gap — Express riders run ~90%+ app usage while Ecom sits near 50–60%. The one watch-item is the July rebound in violations, concentrated in the Express/Overnight flow — worth a rider-level debrief in Q3.</div>
+  </section>
+
+ </div><!-- /tab-gap -->
+
+ <div id="tab-rca" class="tabpanel" hidden>
+  <div class="mtbl-toolbar" id="rcaZoneFilter" style="margin:2px 0 6px">
+    <span class="tb-lbl">Zone</span>
+    <div class="tb-group">
+      <button data-z="KHI" class="on">Karachi (KHI)</button>
+      <button data-z="HYD">Hyderabad (HYD)</button>
+      <button data-z="SKZ">Sukkur (SKZ)</button>
+      <button data-z="UET">Quetta (UET)</button>
+    </div>
+    <span class="hint" style="margin-left:10px">failure-reason Pareto &amp; gap figures recompute per zone</span>
+  </div>
+  <section>
+    <div class="sec-head"><h2>Root Cause &amp; Way Forward — <span id="rcaScope">Karachi (KHI)</span></h2><span class="hint">TQM analysis of the delivery gap · Pareto → Fishbone → 5-Whys → PDCA</span></div>
+    <div class="kpis" id="rcaKpis" style="grid-template-columns:repeat(4,1fr)"></div>
+  </section>
+
+  <section>
+    <div class="sec-head"><h2>1 · Pareto — the vital few</h2><span class="hint">What actually drives failed first attempts · <span id="rcaParetoHint">KHI zone</span></span></div>
+    <div class="card">
+      <h3>Failure reasons ranked (share &amp; cumulative)</h3>
+      <div class="csub" id="rcaParetoSub">Just three reasons account for ~78% of all reattempt-required shipments. Fix these and the SR gap closes fastest.</div>
+      <div id="paretoChart"></div>
+      <div class="legend"><span><span class="swatch" style="background:var(--s1)"></span>Reason share %</span><span><span class="dash" style="border-color:var(--brand)"></span>Cumulative %</span><span style="color:var(--muted)">Dashed line = 80% mark</span></span></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="sec-head"><h2>2 · Fishbone (Ishikawa) — root causes</h2><span class="hint" id="rcaFishHint">Effect: Karachi zone SR 5.6 pts below target · causes grouped by 6M</span></div>
+    <div class="card"><div class="mtbl-wrap"><div id="fishbone" style="min-width:900px"></div></div></div>
+  </section>
+
+  <section>
+    <div class="sec-head"><h2>3 · 5-Whys — drilling the #1 driver</h2><span class="hint" id="rcaWhyHint">“Consignee not available” · 48.7% of failures</span></div>
+    <div class="grid2">
+      <div class="card">
+        <h3>Why do so many first attempts fail?</h3>
+        <div class="whys">
+          <div class="why"><div class="wtag">WHY 1</div><div class="wbody">Deliveries fail because the <b>consignee is not available</b> when the rider arrives (<span id="rcaWhy1Pct">48.7%</span> of RTAs).</div></div>
+          <div class="why"><div class="wtag">WHY 2</div><div class="wbody">Because there is <b>no advance coordination</b> on delivery timing — the customer isn’t told when to expect the rider.</div></div>
+          <div class="why"><div class="wtag">WHY 3</div><div class="wbody">Because riders don’t <b>pre-call / WhatsApp-confirm</b> before attempting, and no time-slot is captured at booking.</div></div>
+          <div class="why"><div class="wtag">WHY 4</div><div class="wbody">Because the <b>app workflow doesn’t enforce a pre-attempt contact step</b>, and incentives reward attempts, not confirmed deliveries.</div></div>
+          <div class="why root"><div class="wtag">ROOT</div><div class="wbody"><b>No enforced pre-delivery coordination process</b> (call/robo-WhatsApp + time-slot) tied to a rider KPI. Same root drives the 20% “refused / not available” and address-clarification failures.</div></div>
+        </div>
+      </div>
+      <div class="card">
+        <h3>Two supporting root-cause chains</h3>
+        <div class="whys">
+          <div class="why"><div class="wtag">ECOM</div><div class="wbody"><b>Ecom delivers at 61.6% vs Express 90.6%.</b> → low app adoption (51%) → returns/COD friction → no field discipline enforced → <b>root: Ecom rider process not app-governed.</b></div></div>
+          <div class="why"><div class="wtag">ALLIED</div><div class="wbody"><b>Branch network at 57% achievement.</b> → 49% of branch shipments wait 2+ days to assign → thin coastal capacity + linehaul delay → <b>root: no minimum service model for remote coastal branches.</b></div></div>
+          <div class="why root"><div class="wtag">COMMON</div><div class="wbody">Both trace back to <b>process not being standardised &amp; enforced through the app</b> — the same lever as the #1 driver.</div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="sec-head"><h2>4 · Way Forward — PDCA countermeasures</h2><span class="hint">Plan → Do → Check → Act · owners &amp; targets for Q3</span></div>
+    <div class="pdca">
+      <div class="pd p1"><div class="ph">Plan</div><h4>Target the vital few</h4><p id="rcaPlan">Set Q3 goal: zone SR 76.4% → <b>80%+</b>. Prioritise the 3 Pareto reasons &amp; the Allied network. Define one owner per root cause.</p></div>
+      <div class="pd p2"><div class="ph">Do</div><h4>Deploy countermeasures</h4><p>Enforce <b>pre-delivery robo-call/WhatsApp + time-slot</b>; mandate app assignment for Ecom; branch turnaround SOP; address-quality gate at booking.</p></div>
+      <div class="pd p3"><div class="ph">Check</div><h4>Measure weekly</h4><p>Track first-attempt %, consignee-not-available rate, Ecom app adoption, branch achievement &amp; RC-to-arrival on a weekly control chart.</p></div>
+      <div class="pd p4"><div class="ph">Act</div><h4>Standardise &amp; scale</h4><p>Lock wins into SOP &amp; rider KPIs; roll the winning playbook from best hubs (DHA/Express) to LHK &amp; the coastal branches.</p></div>
+    </div>
+    <div class="card" style="padding:14px 6px 8px;margin-top:16px">
+      <div class="mtbl-wrap"><table class="mtbl" style="min-width:760px">
+        <thead><tr class="msub"><th class="hubcol">Root cause</th><th style="text-align:left">Countermeasure (Do)</th><th style="text-align:left">Owner</th><th style="text-align:left">Target KPI (Check)</th></tr></thead>
+        <tbody>
+          <tr><td class="hubcol">No pre-delivery coordination</td><td style="text-align:left">Enforce robo-call/WhatsApp confirm + capture time-slot before every attempt</td><td style="text-align:left">Ops &amp; Tech</td><td style="text-align:left">First-attempt 77%→85%; consignee-NA −10pts</td></tr>
+          <tr><td class="hubcol">Ecom process not app-governed</td><td style="text-align:left">Mandate mobile-app assignment for Ecom; daily QSR &amp; violation review</td><td style="text-align:left">Zone Ops · Hub Leads</td><td style="text-align:left">Ecom app 51%→75%; Ecom delivery 62%→70%</td></tr>
+          <tr><td class="hubcol">No minimum model for coastal branches</td><td style="text-align:left">Branch turnaround SOP; fix 2+ day assignment backlog at Hub Chowki/Gwadar/Turbat</td><td style="text-align:left">Regional Ops</td><td style="text-align:left">Allied achievement 57%→65% floor</td></tr>
+          <tr><td class="hubcol">Incomplete addresses (~15%)</td><td style="text-align:left">Address-quality gate + landmark capture at booking; feedback to origin/merchant</td><td style="text-align:left">KAM · Booking</td><td style="text-align:left">Address-fail reasons −50%</td></tr>
+          <tr><td class="hubcol">COD refusals / fake orders (~20%)</td><td style="text-align:left">Pre-verify high-risk COD; merchant scorecard on refusal/fake rates</td><td style="text-align:left">KAM · Ops</td><td style="text-align:left">Refused-no-reason 20%→12%</td></tr>
+          <tr><td class="hubcol">Inbound (RC→arrival) aging</td><td style="text-align:left">Tighten linehaul &amp; same-day assignment; protect fresh-arrival %</td><td style="text-align:left">Zone Ops · Hubs</td><td style="text-align:left">Same-day assign 63%→75%; delayed-arrival &lt;2%</td></tr>
+          <tr><td class="hubcol">LHK hub underperformance</td><td style="text-align:left">Recovery task force; copy DHA/Express playbook (routing, capacity)</td><td style="text-align:left">Hub Lead · LHK</td><td style="text-align:left">LHK achievement +8 pts to zone avg</td></tr>
+        </tbody>
+      </table></div>
+      <div class="note" style="padding:0 12px 4px">Every countermeasure maps to a Pareto reason or a structural gap; each has a single owner and a measurable Q3 target. Review on a monthly PDCA cadence and standardise what works.</div>
+    </div>
+  </section>
+ </div><!-- /tab-rca -->
+
+  <footer>
+    <span>Leopards Courier Services · Karachi Zone · Q2 2026 (Apr–Jun) Performance Review</span>
+    <span>Source: monthly zonal D2D performance workbooks · Prepared for CEO review</span>
+  </footer>
+</div>
+
+<script>
+// ---------- DATA ----------
+const months = ["Apr","May","Jun"];
+const monthly = [
+  {m:"Apr", cn:383092, del:292637, sr:76.39, tgt:81.62, ach:93.59},
+  {m:"May", cn:325015, del:250972, sr:77.22, tgt:82.82, ach:93.24},
+  {m:"Jun", cn:365567, del:276856, sr:75.73, tgt:81.63, ach:92.77},
+];
+const hubs = [
+  {h:"KHI-NORTH (Express)", cn:46192, sr:83.61, ach:100.51},
+  {h:"KHI-SOUTH (DHA)", cn:15740, sr:80.37, ach:97.85},
+  {h:"KHI-NORTH (SG)", cn:52413, sr:79.24, ach:97.37},
+  {h:"Karachi (general)", cn:33672, sr:79.83, ach:97.03},
+  {h:"KHI-EAST (Malir)", cn:28978, sr:77.92, ach:96.91},
+  {h:"KHI-WEST (Tower)", cn:23354, sr:74.63, ach:92.08},
+  {h:"KHI-WEST (SITE)", cn:27233, sr:72.87, ach:91.91},
+  {h:"KHI-SOUTH (TCP)", cn:6111, sr:73.33, ach:85.51},
+  {h:"KHI-SOUTH (LHK)", cn:16191, sr:64.33, ach:82.46},
+];
+const split = { proper:[93.59,93.24,93.81], branch:[63.88,62.71,53.74] }; // ach% per month
+// hub-wise month-over-month: [cn, bs(=FW balance), del, sr, tgt, ach] per month
+const mHubs = [
+  {h:"Karachi",    apr:[50992,1228,39643,77.74,82.59,94.13], may:[43610,1710,34481,79.07,83.95,94.19], jun:[48209,618,38007,78.84,82.54,95.51]},
+  {h:"SG Hub",     apr:[78795,2134,60541,76.83,81.89,93.83], may:[65676,2146,51612,78.59,83.28,94.36], jun:[74641,653,58025,77.74,81.98,94.83]},
+  {h:"SG Express", apr:[68484,493,56206,82.07,83.64,98.12], may:[59767,702,49235,82.38,84.54,97.44], jun:[65884,328,53270,80.85,83.54,96.79]},
+  {h:"Malir",      apr:[42942,900,33097,77.07,80.63,95.59], may:[36879,909,28927,78.44,81.85,95.84], jun:[41705,427,32339,77.54,81.09,95.63]},
+  {h:"Site",       apr:[39224,226,28884,73.64,79.67,92.42], may:[32465,521,24493,75.44,80.92,93.24], jun:[37690,527,27462,72.86,79.93,91.16]},
+  {h:"Tower",      apr:[34345,628,26682,77.69,81.42,95.42], may:[28961,1255,22221,76.73,82.56,92.93], jun:[32907,623,24591,74.73,81.18,92.06]},
+  {h:"DHA",        apr:[24045,200,19564,81.36,83.34,97.62], may:[20770,340,16996,81.83,84.21,97.18], jun:[23630,218,18891,79.94,82.23,97.22]},
+  {h:"TCP",        apr:[7626,238,6201,81.31,85.87,94.69],   may:[6373,224,5035,79.01,86.61,91.22],   jun:[7783,266,5967,76.67,86.30,88.84]},
+  {h:"LHK",        apr:[23953,388,15833,66.10,79.22,83.44], may:[20344,1021,13192,64.84,80.28,80.78], jun:[22629,731,14156,62.56,79.04,79.15]},
+];
+const mTotal = {h:"KHI Proper — Total", apr:[370406,6435,286651,77.39,81.89,94.50], may:[314845,8828,246192,78.19,83.07,94.13], jun:[355078,4391,272708,76.80,81.87,93.81]};
+// Allied Locations (KHI Branches) — top locations by volume
+const mBranches = [
+  {h:"Hub Chowki", apr:[5112,890,2554,49.96,75.26,66.38], may:[3958,595,1878,47.45,75.06,63.21], jun:[4271,952,1536,35.96,73.81,48.73]},
+  {h:"Gwadar",     apr:[2900,495,1462,50.41,73.56,68.53], may:[2372,415,1240,52.28,74.89,69.80], jun:[2318,581,1169,50.43,73.36,68.75]},
+  {h:"Turbat",     apr:[2602,379,1161,44.62,72.99,61.13], may:[2125,513,1049,49.36,75.97,64.98], jun:[2147,126,962,44.81,74.22,60.37]},
+  {h:"Lasbela",    apr:[495,156,186,37.58,71.70,52.40],   may:[452,147,152,33.63,72.36,46.47],   jun:[460,148,114,24.78,70.32,35.24]},
+  {h:"Uthal",      apr:[614,203,249,40.55,73.26,55.36],   may:[463,164,139,30.02,75.79,39.61],   jun:[459,165,133,28.98,75.34,38.46]},
+  {h:"Winder",     apr:[347,96,174,50.14,70.54,71.08],    may:[314,118,107,34.08,71.24,47.83],   jun:[320,110,104,32.50,71.33,45.57]},
+  {h:"Pasni",      apr:[299,105,102,34.11,73.95,46.13],   may:[287,97,145,50.52,75.30,67.09],    jun:[262,117,77,29.39,74.66,39.36]},
+];
+const mBranchTotal = {h:"KHI Branches (Allied) — Total", apr:[12686,2425,5986,47.19,73.87,63.88], may:[10170,2098,4780,47.00,74.95,62.71], jun:[10489,2291,4148,39.55,73.59,53.74]};
+const mGrand = {h:"Grand Total — Zone", apr:[383092,8860,292637,76.39,81.62,93.59], may:[325015,10926,250972,77.22,82.82,93.24], jun:[365567,6682,276856,75.73,81.63,92.77]};
+const mSouthZones=[{"name":"HYD Zone (Hyderabad)","hubs":[{"h":"Hyderabad","may":[33632,545,26276,78.1,82.5,94.7],"jun":[37683,667,28973,76.9,81.2,94.7]},{"h":"Mirpur Khas","may":[9078,133,6958,76.6,80.2,95.5],"jun":[10069,79,7564,75.1,79.0,95.1]},{"h":"Nawab Shah","may":[8843,196,6644,75.1,79.7,94.3],"jun":[9171,98,6735,73.4,78.3,93.8]},{"h":"Hyderabad Hub","may":[4515,109,3738,82.8,86.5,95.7],"jun":[4702,153,3867,82.2,86.8,94.8]},{"h":"Dadu","may":[3822,19,2936,76.8,78.9,97.3],"jun":[3916,33,2940,75.1,77.8,96.5]},{"h":"Tando Allah Yar","may":[3414,71,2474,72.5,77.5,93.5],"jun":[3856,74,2780,72.1,76.5,94.3]},{"h":"Thatta","may":[3505,71,2483,70.8,78.8,90.0],"jun":[3526,36,2590,73.5,78.5,93.6]}],"tmay":[116784,2326,87371,74.8,79.9,93.6],"tjun":[125682,1954,93121,74.1,78.9,93.9]},{"name":"SKZ Zone (Sukkur)","hubs":[{"h":"Rahim Yar Khan","may":[13235,44,9815,74.2,78.7,94.2],"jun":[14916,21,11195,75.1,77.9,96.4]},{"h":"Sadiqabad","may":[11545,48,8581,74.3,79.7,93.2],"jun":[12299,40,9365,76.1,78.9,96.5]},{"h":"Sukkur","may":[10534,35,8319,79.0,82.8,95.3],"jun":[10922,135,8599,78.7,81.5,96.6]},{"h":"Larkana","may":[10974,104,8068,73.5,79.6,92.3],"jun":[10783,81,7888,73.2,78.9,92.7]},{"h":"Khairpur","may":[6411,34,4708,73.4,79.6,92.2],"jun":[6407,61,4621,72.1,78.5,91.8]},{"h":"Khan Pur","may":[5677,76,3958,69.7,78.1,89.3],"jun":[6231,51,4258,68.3,77.2,88.5]},{"h":"Shikarpur","may":[4243,13,3078,72.5,79.0,91.9],"jun":[4451,31,3355,75.4,78.6,95.9]}],"tmay":[109404,875,78019,71.3,78.9,90.4],"tjun":[114396,872,81839,71.5,78.0,91.7]},{"name":"UET Zone (Quetta)","hubs":[{"h":"Quetta","may":[36600,2020,24058,65.7,79.9,82.3],"jun":[41047,1284,27519,67.0,78.7,85.2]},{"h":"Khuzdar","may":[2980,196,2085,70.0,77.9,89.9],"jun":[2995,36,1962,65.5,76.5,85.6]},{"h":"Sibbi","may":[2448,6,1910,78.0,78.5,99.4],"jun":[2524,12,1896,75.1,78.2,96.1]},{"h":"Chaman","may":[2103,20,1220,58.0,74.3,78.1],"jun":[2326,19,1476,63.5,73.4,86.5]},{"h":"Loralai","may":[2465,168,1331,54.0,74.7,72.3],"jun":[1995,74,1195,59.9,72.1,83.1]},{"h":"Zhob","may":[1744,166,1055,60.5,75.2,80.5],"jun":[1839,240,1155,62.8,74.8,84.0]},{"h":"Pishin","may":[1843,170,865,46.9,73.6,63.8],"jun":[1807,95,1022,56.6,72.4,78.1]}],"tmay":[55386,3055,35673,64.4,78.2,82.3],"tjun":[59690,1948,39510,66.2,77.3,85.7]}];
+// July Allied branch detail (for the July Hub detail table)
+const branchesJul = [
+  {h:"Hub Chowki", cn:3251, sr:56.78, ach:76.55},
+  {h:"Gwadar",     cn:1598, sr:34.04, ach:46.22},
+  {h:"Turbat",     cn:1418, sr:39.56, ach:53.24},
+  {h:"Lasbela",    cn:333,  sr:44.14, ach:62.98},
+  {h:"Uthal",      cn:320,  sr:45.00, ach:59.31},
+  {h:"Winder",     cn:253,  sr:49.41, ach:69.37},
+  {h:"Pasni",      cn:171,  sr:25.15, ach:33.82},
+];
+const properJulTotal = {h:"KHI Proper — Total", cn:249884, sr:77.81, ach:95.59};
+const branchJulTotal = {h:"KHI Branches (Allied) — Total", cn:7567, sr:45.34, ach:61.39};
+const grandJul = {h:"Grand Total — Zone", cn:257451, sr:76.86, ach:94.67};
+const cats = [
+  {c:"Normal A+", cn:77976, sr:87.41},
+  {c:"Top Brand", cn:71193, sr:86.44},
+  {c:"DARAZ", cn:16735, sr:83.17},
+  {c:"COD Retail", cn:11730, sr:77.92},
+  {c:"Normal A", cn:129445, sr:73.54},
+  {c:"New", cn:7742, sr:72.33},
+  {c:"Normal B+", cn:35641, sr:48.77},
+  {c:"Normal B", cn:4616, sr:38.50},
+];
+const sla = { // June %
+  proper:[62.78,22.29,7.66,7.27],
+  branch:[18.60,14.88,17.74,48.77],
+  grand:[61.54,22.08,7.94,8.44]
+};
+const aging = [ {s:"0–3 days", sr:76.06}, {s:"4–7 days", sr:69.18}, {s:"8–15 days", sr:58.12} ];
+
+const cssv = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+const NS="http://www.w3.org/2000/svg";
+function el(t,a={}){const e=document.createElementNS(NS,t);for(const k in a)e.setAttribute(k,a[k]);return e;}
+function fmt(n){return n.toLocaleString('en-US');}
+
+// ---------- 1. TREND (SR line vs target dashed) ----------
+function trend(){
+  const W=520,H=230,P={t:18,r:16,b:34,l:38};
+  const s=el("svg",{viewBox:`0 0 ${W} ${H}`,width:"100%",role:"img"});
+  const x=i=>P.l+(i*(W-P.l-P.r)/(months.length-1));
+  const yMin=70,yMax=86, y=v=>P.t+(yMax-v)/(yMax-yMin)*(H-P.t-P.b);
+  [72,76,80,84].forEach(g=>{
+    s.appendChild(el("line",{x1:P.l,x2:W-P.r,y1:y(g),y2:y(g),stroke:cssv('--grid'),"stroke-width":1}));
+    s.appendChild(el("text",{x:P.l-7,y:y(g)+4,"text-anchor":"end",class:"axis-lbl"})).textContent=g;
+  });
+  // target dashed
+  let dt=`M ${x(0)} ${y(monthly[0].tgt)}`; monthly.forEach((d,i)=>{if(i)dt+=` L ${x(i)} ${y(d.tgt)}`;});
+  s.appendChild(el("path",{d:dt,fill:"none",stroke:cssv('--critical'),"stroke-width":2,"stroke-dasharray":"5 4","stroke-linecap":"round"}));
+  // sr line
+  let dl=`M ${x(0)} ${y(monthly[0].sr)}`; monthly.forEach((d,i)=>{if(i)dl+=` L ${x(i)} ${y(d.sr)}`;});
+  s.appendChild(el("path",{d:dl,fill:"none",stroke:cssv('--s1'),"stroke-width":2.5,"stroke-linecap":"round","stroke-linejoin":"round"}));
+  monthly.forEach((d,i)=>{
+    s.appendChild(el("circle",{cx:x(i),cy:y(d.tgt),r:3,fill:cssv('--surface-1'),stroke:cssv('--critical'),"stroke-width":2}));
+    const c=el("circle",{cx:x(i),cy:y(d.sr),r:4.5,fill:cssv('--s1'),stroke:cssv('--surface-1'),"stroke-width":2});
+    s.appendChild(c);
+    const t=el("text",{x:x(i),y:y(d.sr)-11,"text-anchor":"middle",class:"val-lbl tab"});t.textContent=d.sr.toFixed(1);s.appendChild(t);
+    s.appendChild(el("text",{x:x(i),y:H-12,"text-anchor":"middle",class:"axis-lbl"})).textContent=d.m;
+  });
+  document.getElementById("trendChart").appendChild(s);
+}
+
+// ---------- 2. VOLUME bars ----------
+function vol(){
+  const W=340,H=230,P={t:18,r:12,b:34,l:44};
+  const s=el("svg",{viewBox:`0 0 ${W} ${H}`,width:"100%",role:"img"});
+  const max=400000, y=v=>P.t+(1-v/max)*(H-P.t-P.b);
+  const bw=54, gap=(W-P.l-P.r-bw*3)/4;
+  [100000,200000,300000,400000].forEach(g=>{
+    s.appendChild(el("line",{x1:P.l,x2:W-P.r,y1:y(g),y2:y(g),stroke:cssv('--grid'),"stroke-width":1}));
+    s.appendChild(el("text",{x:P.l-6,y:y(g)+4,"text-anchor":"end",class:"axis-lbl"})).textContent=(g/1000)+"k";
+  });
+  monthly.forEach((d,i)=>{
+    const xx=P.l+gap+i*(bw+gap);
+    const yy=y(d.cn), h=(H-P.b)-yy;
+    s.appendChild(el("rect",{x:xx,y:yy,width:bw,height:h,rx:4,fill:cssv('--brand'),opacity:.92}));
+    s.appendChild(el("text",{x:xx+bw/2,y:yy-7,"text-anchor":"middle",class:"val-lbl tab"})).textContent=fmt(d.cn);
+    s.appendChild(el("text",{x:xx+bw/2,y:H-12,"text-anchor":"middle",class:"axis-lbl"})).textContent=d.m;
+  });
+  document.getElementById("volChart").appendChild(s);
+}
+
+// ---------- 3. HUB horizontal bars (zone-wise) ----------
+let hubZone='KHI';
+const hubZoneMonth={KHI:'July 2026',HYD:'July 2026',SKZ:'July 2026',UET:'July 2026'};
+const hubZoneName={KHI:'Karachi (KHI)',HYD:'Hyderabad (HYD)',SKZ:'Sukkur (SKZ)',UET:'Quetta (UET)'};
+const hubZoneLong={HYD:'Hyderabad (HYD) Zone',SKZ:'Sukkur (SKZ) Zone',UET:'Quetta (UET) Zone'};
+// July South-region hub detail (RC-date ≤ 24 Jul maturity window, matches ops zone pivot)
+const mSouthJul={"HYD":{"rows":[{"h":"Hyderabad","cn":30892,"sr":77.1,"ach":94.7},{"h":"Mirpur Khas","cn":8295,"sr":76.4,"ach":96.4},{"h":"Nawab Shah","cn":7588,"sr":74.0,"ach":94.5},{"h":"Hyderabad Hub","cn":3388,"sr":81.9,"ach":95.2},{"h":"Dadu","cn":3065,"sr":74.9,"ach":96.4},{"h":"Tando Allah Yar","cn":3017,"sr":71.9,"ach":93.3},{"h":"Thatta","cn":2942,"sr":72.6,"ach":92.5}],"total":{"cn":102506,"sr":73.6,"ach":92.9}},"SKZ":{"rows":[{"h":"Rahim Yar Khan","cn":11718,"sr":74.2,"ach":94.6},{"h":"Larkana","cn":8736,"sr":72.5,"ach":92.5},{"h":"Sukkur","cn":8649,"sr":79.0,"ach":97.0},{"h":"Sadiqabad","cn":8464,"sr":75.5,"ach":95.8},{"h":"Khairpur","cn":4845,"sr":72.6,"ach":92.4},{"h":"Khan Pur","cn":4624,"sr":68.5,"ach":88.3},{"h":"Shikarpur","cn":3478,"sr":74.0,"ach":94.6}],"total":{"cn":89431,"sr":71.4,"ach":91.4}},"UET":{"rows":[{"h":"Quetta","cn":33391,"sr":64.5,"ach":81.8},{"h":"Khuzdar","cn":2636,"sr":58.4,"ach":76.0},{"h":"Sibbi","cn":1935,"sr":69.1,"ach":87.4},{"h":"Chaman","cn":1883,"sr":57.6,"ach":78.9},{"h":"Zhob","cn":1610,"sr":51.3,"ach":68.0},{"h":"Loralai","cn":1555,"sr":51.2,"ach":70.8},{"h":"Pishin","cn":1553,"sr":51.4,"ach":71.3}],"total":{"cn":48769,"sr":62.2,"ach":80.4}}};
+// Returns {rows, allied?, alliedTot?, properTot?, grand}
+function hubZoneData(zone){
+  if(zone==='KHI'){
+    return {
+      rows:hubs.map(d=>({h:d.h,cn:d.cn,sr:d.sr,ach:d.ach})),
+      properTot:{h:properJulTotal.h,cn:properJulTotal.cn,sr:properJulTotal.sr,ach:properJulTotal.ach},
+      allied:branchesJul.map(d=>({h:d.h,cn:d.cn,sr:d.sr,ach:d.ach})),
+      alliedTot:{h:branchJulTotal.h,cn:branchJulTotal.cn,sr:branchJulTotal.sr,ach:branchJulTotal.ach},
+      grand:{h:grandJul.h,cn:grandJul.cn,sr:grandJul.sr,ach:grandJul.ach}
+    };
+  }
+  const z=mSouthJul[zone];
+  return {
+    rows:z.rows.map(d=>({h:d.h,cn:d.cn,sr:d.sr,ach:d.ach})),
+    grand:{h:zone+' Zone — Total',cn:z.total.cn,sr:z.total.sr,ach:z.total.ach}
+  };
+}
+function hub(){
+  const D=hubZoneData(hubZone);
+  const chartRows=D.rows;
+  const rowH=30, W=540, P={t:8,r:54,b:26,l:150};
+  const H=P.t+chartRows.length*rowH+P.b;
+  const s=el("svg",{viewBox:`0 0 ${W} ${H}`,width:"100%",role:"img"});
+  const min=60,max=105, x=v=>P.l+(v-min)/(max-min)*(W-P.l-P.r);
+  [70,80,90,100].forEach(g=>{
+    s.appendChild(el("line",{x1:x(g),x2:x(g),y1:P.t,y2:H-P.b,stroke:cssv('--grid'),"stroke-width":1}));
+    s.appendChild(el("text",{x:x(g),y:H-10,"text-anchor":"middle",class:"axis-lbl"})).textContent=g+"%";
+  });
+  // 100% target marker
+  s.appendChild(el("line",{x1:x(100),x2:x(100),y1:P.t,y2:H-P.b,stroke:cssv('--critical'),"stroke-width":1.5,"stroke-dasharray":"4 3"}));
+  chartRows.forEach((d,i)=>{
+    const yy=P.t+i*rowH+5, bh=rowH-12;
+    const col = d.ach>=100?cssv('--s1'): d.ach>=98?cssv('--good'): d.ach>=95?cssv('--warning'):cssv('--critical');
+    s.appendChild(el("text",{x:P.l-10,y:yy+bh/2+4,"text-anchor":"end",class:"cat-lbl"})).textContent=d.h;
+    s.appendChild(el("rect",{x:P.l,y:yy,width:Math.max(2,x(d.ach)-P.l),height:bh,rx:4,fill:col}));
+    s.appendChild(el("text",{x:x(d.ach)+7,y:yy+bh/2+4,class:"val-lbl tab"})).textContent=d.ach.toFixed(1)+"%";
+  });
+  document.getElementById("hubChart").appendChild(s);
+  // table
+  const tb=document.getElementById("hubTable");
+  const pc=v=>v>=100?'b':v>=98?'g':v>=95?'w':'c';
+  const trow=(d,cls)=>`<tr class="${cls||''}"><td>${d.h}</td><td>${fmt(d.cn)}</td><td>${d.sr.toFixed(1)}</td><td><span class="pill ${pc(d.ach)}">${d.ach.toFixed(1)}%</span></td></tr>`;
+  D.rows.forEach(d=>tb.insertAdjacentHTML('beforeend',trow(d)));
+  if(D.properTot) tb.insertAdjacentHTML('beforeend',trow(D.properTot,'jtot'));
+  if(D.allied){
+    tb.insertAdjacentHTML('beforeend',`<tr class="jgroup"><td colspan="4">Allied Locations — KHI Branches</td></tr>`);
+    D.allied.forEach(d=>tb.insertAdjacentHTML('beforeend',trow(d)));
+    tb.insertAdjacentHTML('beforeend',trow(D.alliedTot,'jtot'));
+  }
+  tb.insertAdjacentHTML('beforeend',trow(D.grand,'jgrand'));
+}
+function renderHubZone(){
+  document.getElementById('hubChart').innerHTML='';
+  document.getElementById('hubTable').innerHTML='';
+  hub();
+  const mo=hubZoneMonth[hubZone];
+  document.getElementById('hubScope').textContent=hubZoneName[hubZone]+' · '+mo;
+  document.getElementById('hubChartSub').textContent = hubZone==='KHI'
+    ? 'Express beat target (100.5%); six of nine hubs cleared 92%. LHK remains the clear outlier and top recovery priority.'
+    : hubZoneLong[hubZone]+' — top hubs by volume, achievement vs 100% target ('+mo+').';
+  document.getElementById('hubTableSub').textContent = hubZone==='KHI'
+    ? 'July · City hubs + Allied Locations (KHI Branches)'
+    : mo+' · top hubs by volume (South Region D2D · matured RC-date window ≤24 Jul).';
+}
+function wireHubZoneFilter(){
+  document.querySelectorAll('#hubZoneFilter button').forEach(b=>b.addEventListener('click',()=>{
+    hubZone=b.dataset.z;
+    document.querySelectorAll('#hubZoneFilter button').forEach(x=>x.classList.toggle('on',x===b));
+    renderHubZone();
+  }));
+}
+
+// ---------- 4. SPLIT grouped bars (ach by month) ----------
+function splitChart(){
+  const W=520,H=250,P={t:16,r:14,b:44,l:38};
+  const s=el("svg",{viewBox:`0 0 ${W} ${H}`,width:"100%",role:"img"});
+  const max=100, y=v=>P.t+(1-v/max)*(H-P.t-P.b);
+  [25,50,75,100].forEach(g=>{
+    s.appendChild(el("line",{x1:P.l,x2:W-P.r,y1:y(g),y2:y(g),stroke:cssv('--grid'),"stroke-width":1}));
+    s.appendChild(el("text",{x:P.l-6,y:y(g)+4,"text-anchor":"end",class:"axis-lbl"})).textContent=g;
+  });
+  const groupW=(W-P.l-P.r)/3, bw=40;
+  months.forEach((m,i)=>{
+    const gx=P.l+i*groupW+groupW/2;
+    const vals=[{v:split.proper[i],c:cssv('--s1')},{v:split.branch[i],c:cssv('--s2')}];
+    vals.forEach((o,j)=>{
+      const xx=gx-bw-3+j*(bw+6);
+      const yy=y(o.v),h=(H-P.b)-yy;
+      s.appendChild(el("rect",{x:xx,y:yy,width:bw,height:h,rx:4,fill:o.c}));
+      s.appendChild(el("text",{x:xx+bw/2,y:yy-6,"text-anchor":"middle",class:"val-lbl tab"})).textContent=o.v.toFixed(0);
+    });
+    s.appendChild(el("text",{x:gx,y:H-24,"text-anchor":"middle",class:"axis-lbl"})).textContent=m+" 2026";
+  });
+  document.getElementById("splitChart").appendChild(s);
+}
+
+// ---------- 5. CATEGORY horizontal bars (SR%) ----------
+function catChart(){
+  const rowH=27,W=520,P={t:6,r:82,b:8,l:96};
+  const H=P.t+cats.length*rowH+P.b;
+  const s=el("svg",{viewBox:`0 0 ${W} ${H}`,width:"100%",role:"img"});
+  const max=100, x=v=>P.l+v/max*(W-P.l-P.r);
+  cats.forEach((d,i)=>{
+    const yy=P.t+i*rowH+4,bh=rowH-11;
+    const col=d.sr>=80?cssv('--s3'):d.sr>=65?cssv('--s1'):d.sr>=50?cssv('--warning'):cssv('--critical');
+    s.appendChild(el("text",{x:P.l-9,y:yy+bh/2+4,"text-anchor":"end",class:"cat-lbl"})).textContent=d.c;
+    s.appendChild(el("rect",{x:P.l,y:yy,width:Math.max(2,x(d.sr)-P.l),height:bh,rx:4,fill:col}));
+    s.appendChild(el("text",{x:x(d.sr)+7,y:yy+bh/2+4,class:"val-lbl tab"})).textContent=d.sr.toFixed(1)+"%";
+    s.appendChild(el("text",{x:W-4,y:yy+bh/2+4,"text-anchor":"end",class:"axis-lbl"})).textContent=fmt(d.cn)+" CN";
+  });
+  document.getElementById("catChart").appendChild(s);
+}
+
+// ---------- 6. SLA stacked bars ----------
+function slaChart(){
+  const W=520,H=210,P={t:14,r:14,b:40,l:96};
+  const s=el("svg",{viewBox:`0 0 ${W} ${H}`,width:"100%",role:"img"});
+  const cols=[cssv('--s3'),cssv('--s1'),cssv('--s4'),cssv('--critical')];
+  const rows=[{n:"City hubs",d:sla.proper},{n:"Branches",d:sla.branch},{n:"Zone total",d:sla.grand}];
+  const barH=32, gap=(H-P.t-P.b-barH*3)/2;
+  const x=v=>P.l+v/100*(W-P.l-P.r);
+  rows.forEach((r,i)=>{
+    const yy=P.t+i*(barH+gap);
+    let acc=0;
+    r.d.forEach((v,j)=>{
+      const xx=x(acc), w=x(acc+v)-x(acc)-1.5;
+      s.appendChild(el("rect",{x:xx,y:yy,width:Math.max(1,w),height:barH,rx:2,fill:cols[j]}));
+      if(v>=7){const t=el("text",{x:xx+w/2,y:yy+barH/2+4,"text-anchor":"middle","font-size":"10.5","font-weight":"700",fill:"#fff"});t.textContent=v.toFixed(0);s.appendChild(t);}
+      acc+=v;
+    });
+    s.appendChild(el("text",{x:P.l-9,y:yy+barH/2+4,"text-anchor":"end",class:"cat-lbl","font-weight":"600"})).textContent=r.n;
+  });
+  s.appendChild(el("text",{x:P.l,y:H-12,class:"axis-lbl"})).textContent="0%";
+  s.appendChild(el("text",{x:W-P.r,y:H-12,"text-anchor":"end",class:"axis-lbl"})).textContent="100% of shipments";
+  document.getElementById("slaChart").appendChild(s);
+}
+
+// ---------- 7. AGING bars ----------
+function ageChart(){
+  const W=520,H=210,P={t:18,r:14,b:34,l:40};
+  const s=el("svg",{viewBox:`0 0 ${W} ${H}`,width:"100%",role:"img"});
+  const max=100, y=v=>P.t+(1-v/max)*(H-P.t-P.b);
+  [25,50,75,100].forEach(g=>{
+    s.appendChild(el("line",{x1:P.l,x2:W-P.r,y1:y(g),y2:y(g),stroke:cssv('--grid'),"stroke-width":1}));
+    s.appendChild(el("text",{x:P.l-6,y:y(g)+4,"text-anchor":"end",class:"axis-lbl"})).textContent=g;
+  });
+  const bw=76, gap=(W-P.l-P.r-bw*aging.length)/(aging.length+1);
+  aging.forEach((d,i)=>{
+    const xx=P.l+gap+i*(bw+gap), yy=y(d.sr), h=(H-P.b)-yy;
+    const col=d.sr>=72?cssv('--s3'):d.sr>=62?cssv('--warning'):cssv('--critical');
+    s.appendChild(el("rect",{x:xx,y:yy,width:bw,height:h,rx:4,fill:col}));
+    s.appendChild(el("text",{x:xx+bw/2,y:yy-7,"text-anchor":"middle",class:"val-lbl tab"})).textContent=d.sr.toFixed(1)+"%";
+    s.appendChild(el("text",{x:xx+bw/2,y:H-12,"text-anchor":"middle",class:"axis-lbl"})).textContent=d.s;
+  });
+  document.getElementById("ageChart").appendChild(s);
+}
+
+// ---------- month-over-month hub table (sortable) ----------
+const sortState={metric:'ach', month:'jun', dir:-1}; // dir -1 = high→low
+const METRIC_IDX={cn:0, ach:5, sr:3};
+function mTable(){
+  const body=document.getElementById('mtblBody'); body.innerHTML='';
+  const achCls=v=>v>=100?'achb':v>=98?'achg':v>=95?'achw':'achc';
+  const cell=(m,first)=>{
+    if(!m) return `<td class="${first?'gsep':''}">—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td>`;
+    const [cn,bs,del,sr,tgt,ach]=m;
+    return `<td class="${first?'gsep':''}">${fmt(cn)}</td><td>${fmt(bs)}</td><td>${fmt(del)}</td>`+
+           `<td>${sr.toFixed(1)}</td><td>${tgt.toFixed(1)}</td><td class="ach ${achCls(ach)}">${ach.toFixed(1)}</td>`;
+  };
+  const rowHtml=(d,cls)=>`<tr class="${cls||''}"><td class="hubcol">${d.h}</td>${cell(d.apr,true)}${cell(d.may,true)}${cell(d.jun,true)}</tr>`;
+  const sep=t=>`<tr class="grouprow"><td class="hubcol" colspan="19">${t}</td></tr>`;
+  const idx=METRIC_IDX[sortState.metric];
+  const srt=arr=>[...arr].sort((a,b)=>(a[sortState.month][idx]-b[sortState.month][idx])*sortState.dir);
+  // city hubs
+  srt(mHubs).forEach(d=>body.insertAdjacentHTML('beforeend',rowHtml(d)));
+  body.insertAdjacentHTML('beforeend',rowHtml(mTotal,'totrow'));
+  // Allied locations (KHI Branches)
+  body.insertAdjacentHTML('beforeend',sep('Allied Locations — KHI Branches'));
+  srt(mBranches).forEach(d=>body.insertAdjacentHTML('beforeend',rowHtml(d)));
+  body.insertAdjacentHTML('beforeend',rowHtml(mBranchTotal,'totrow'));
+  body.insertAdjacentHTML('beforeend',rowHtml(mGrand,'grandrow'));
+  // other South zones (May–Jun only; April not in the regional file)
+  mSouthZones.forEach(z=>{
+    body.insertAdjacentHTML('beforeend',sep(z.name+'  ·  May–Jun'));
+    z.hubs.forEach(hb=>body.insertAdjacentHTML('beforeend',rowHtml({h:hb.h,apr:null,may:hb.may,jun:hb.jun})));
+    body.insertAdjacentHTML('beforeend',rowHtml({h:z.name+' — Total',apr:null,may:z.tmay,jun:z.tjun},'totrow'));
+  });
+}
+function wireSort(){
+  document.querySelectorAll('#sortMetric button').forEach(b=>b.addEventListener('click',()=>{
+    sortState.metric=b.dataset.m;
+    document.querySelectorAll('#sortMetric button').forEach(x=>x.classList.toggle('on',x===b));
+    mTable();
+  }));
+  document.querySelectorAll('#sortMonth button').forEach(b=>b.addEventListener('click',()=>{
+    sortState.month=b.dataset.mo;
+    document.querySelectorAll('#sortMonth button').forEach(x=>x.classList.toggle('on',x===b));
+    mTable();
+  }));
+  document.getElementById('sortDir').addEventListener('click',function(){
+    sortState.dir*=-1;
+    this.textContent=sortState.dir===-1?'↓ High → Low':'↑ Low → High';
+    mTable();
+  });
+}
+
+// ---------- SOUTH REGION E-COMMERCE D2D (Zonal tab) ----------
+const southD2D={"Jun":{"zones":{"HYD":{"cn":125682,"del":93242,"sr":74.2,"tgt":78.9,"ach":94.0},"KHI":{"cn":368329,"del":276953,"sr":75.2,"tgt":81.6,"ach":92.2},"SKZ":{"cn":114396,"del":81895,"sr":71.6,"tgt":78.0,"ach":91.8},"UET":{"cn":59690,"del":39589,"sr":66.3,"tgt":77.3,"ach":85.8}},"cats":{"Top Brand":84.5,"Normal A+":86.9,"Normal A":70.3,"DARAZ":77.0,"COD Retail":75.8,"New":69.7,"Normal B+":48.3,"Normal B":35.9}},"May":{"zones":{"HYD":{"cn":116784,"del":87971,"sr":75.3,"tgt":79.9,"ach":94.2},"KHI":{"cn":326918,"del":251050,"sr":76.8,"tgt":82.8,"ach":92.8},"SKZ":{"cn":109404,"del":79899,"sr":73.0,"tgt":78.9,"ach":92.6},"UET":{"cn":55386,"del":35966,"sr":64.9,"tgt":78.2,"ach":83.0}}}};
+const southZones=['KHI','HYD','SKZ','UET'];
+function southZoneChart(){
+  const zd=southD2D.Jun.zones;
+  const W=520,H=250,P={t:18,r:14,b:36,l:32};
+  const s=el('svg',{viewBox:`0 0 ${W} ${H}`,width:'100%',role:'img'});
+  const max=100,y=v=>P.t+(1-v/max)*(H-P.t-P.b);
+  [25,50,75,100].forEach(g=>{s.appendChild(el('line',{x1:P.l,x2:W-P.r,y1:y(g),y2:y(g),stroke:cssv('--grid'),'stroke-width':1}));
+    s.appendChild(el('text',{x:P.l-6,y:y(g)+4,'text-anchor':'end',class:'axis-lbl'})).textContent=g;});
+  const gw=(W-P.l-P.r)/southZones.length,bw=30;
+  southZones.forEach((z,i)=>{const gx=P.l+i*gw+gw/2;
+    [[zd[z].sr,cssv('--s1')],[zd[z].ach,cssv('--s3')]].forEach((o,j)=>{
+      const xx=gx-bw-3+j*(bw+6),yy=y(o[0]),h=(H-P.b)-yy;
+      s.appendChild(el('rect',{x:xx,y:yy,width:bw,height:h,rx:3,fill:o[1]}));
+      s.appendChild(el('text',{x:xx+bw/2,y:yy-5,'text-anchor':'middle',class:'val-lbl tab','font-size':'9'})).textContent=o[0].toFixed(0);});
+    s.appendChild(el('text',{x:gx,y:H-12,'text-anchor':'middle',class:'axis-lbl','font-weight':'700'})).textContent=z;});
+  document.getElementById('southZoneChart').appendChild(s);
+}
+function southCatChart(){
+  const cats=Object.entries(southD2D.Jun.cats).sort((a,b)=>b[1]-a[1]);
+  const rowH=26,W=520,P={t:6,r:52,b:8,l:96};
+  const H=P.t+cats.length*rowH+P.b;
+  const s=el('svg',{viewBox:`0 0 ${W} ${H}`,width:'100%',role:'img'});
+  const x=v=>P.l+v/100*(W-P.l-P.r);
+  cats.forEach((c,i)=>{const yy=P.t+i*rowH+4,bh=rowH-11,v=c[1];
+    const col=v>=80?cssv('--s3'):v>=65?cssv('--s1'):v>=50?cssv('--warning'):cssv('--critical');
+    s.appendChild(el('text',{x:P.l-9,y:yy+bh/2+4,'text-anchor':'end',class:'cat-lbl'})).textContent=c[0];
+    s.appendChild(el('rect',{x:P.l,y:yy,width:Math.max(2,x(v)-P.l),height:bh,rx:3,fill:col}));
+    s.appendChild(el('text',{x:x(v)+6,y:yy+bh/2+4,class:'val-lbl tab','font-size':'10.5'})).textContent=v.toFixed(1)+'%';});
+  document.getElementById('southCatChart').appendChild(s);
+}
+function southTable(){
+  const tb=document.getElementById('southTable');tb.innerHTML='';
+  const cell=(o,first)=>o?`<td class="${first?'gsep':''}">${fmt(o.cn)}</td><td>${o.sr.toFixed(1)}</td><td>${o.ach.toFixed(1)}</td>`:`<td class="${first?'gsep':''}">—</td><td>—</td><td>—</td>`;
+  southZones.forEach(z=>{tb.insertAdjacentHTML('beforeend',`<tr><td class="hubcol">${z}</td>${cell(southD2D.May.zones[z],true)}${cell(southD2D.Jun.zones[z],true)}</tr>`);});
+  const tot=mo=>{const zs=southD2D[mo].zones;let cn=0,dl=0,tg=0;southZones.forEach(z=>{cn+=zs[z].cn;dl+=zs[z].del;tg+=zs[z].tgt*zs[z].cn;});const sr=dl/cn*100,tgt=tg/cn;return {cn:cn,sr:sr,ach:sr/tgt*100};};
+  tb.insertAdjacentHTML('beforeend',`<tr class="totrow"><td class="hubcol">South Region — Total</td>${cell(tot('May'),true)}${cell(tot('Jun'),true)}</tr>`);
+}
+
+// ---------- EXPRESS tab (zone-filterable · South region Q2) ----------
+const exMonths=['Apr','May','Jun','Jul'];
+const exZones={"KHI":{"clo5":[94.3,93.5,96.2,93.8],"clo6":[95.1,94.4,96.8,94.4],"cvol":[132142,147053,129992,82582],"sda":[90.6,83.8,88.1,89.8],"sdaNon":[3.8,10.6,6.1,4.3],"svol":[55353,157721,146447,137407]},"HYD":{"clo5":[99.0,98.3,98.6,99.2],"clo6":[99.4,98.7,99.1,99.5],"cvol":[58080,50784,50798,32787],"sda":[88.3,82.7,84.8,84.8],"sdaNon":[0.7,2.3,2.0,1.6],"svol":[22920,58150,58869,59095]},"SKZ":{"clo5":[98.5,97.7,97.9,97.8],"clo6":[98.8,98.3,98.4,98.1],"cvol":[57433,51466,49419,34395],"sda":[90.9,86.2,87.8,87.8],"sdaNon":[0.9,1.9,1.8,1.6],"svol":[22987,60793,59154,59842]},"UET":{"clo5":[96.2,93.4,95.2,94.9],"clo6":[97.5,94.6,96.4,96.3],"cvol":[13447,13826,11700,7882],"sda":[85.8,82.3,79.8,77.5],"sdaNon":[2.7,5.1,2.2,6.9],"svol":[5597,17514,15773,15949]},"All":{"clo5":[96.3,95.3,97.0,95.8],"clo6":[97.0,96.0,97.6,96.3],"cvol":[261102,263129,241909,157646],"sda":[90.0,84.0,86.9,87.6],"sdaNon":[2.4,6.8,4.1,3.3],"svol":[106857,294178,280243,272293]}};
+const exZoneNames={All:'All South region',KHI:'Karachi (KHI)',HYD:'Hyderabad (HYD)',SKZ:'Sukkur (SKZ)',UET:'Quetta (UET)'};
+const exZoneList=['KHI','HYD','SKZ','UET'];
+let exZone='All';
+const EZ=()=>exZones[exZone];
+
+function exCloTrend(){
+  const c5=EZ().clo5,c6=EZ().clo6;
+  const W=520,H=240,P={t:18,r:16,b:34,l:34};
+  const s=el('svg',{viewBox:`0 0 ${W} ${H}`,width:'100%',role:'img'});
+  const n=exMonths.length,x=i=>P.l+i*(W-P.l-P.r)/(n-1);
+  const yMin=88,yMax=100,y=v=>P.t+(yMax-v)/(yMax-yMin)*(H-P.t-P.b);
+  [90,92,94,96,98,100].forEach(g=>{s.appendChild(el('line',{x1:P.l,x2:W-P.r,y1:y(g),y2:y(g),stroke:cssv('--grid'),'stroke-width':1}));
+    s.appendChild(el('text',{x:P.l-6,y:y(g)+4,'text-anchor':'end',class:'axis-lbl'})).textContent=g;});
+  const line=(arr,col,lbl)=>{
+    let d=`M ${x(0)} ${y(arr[0])}`;arr.forEach((v,i)=>{if(i)d+=` L ${x(i)} ${y(v)}`;});
+    s.appendChild(el('path',{d,fill:'none',stroke:col,'stroke-width':2.5,'stroke-linecap':'round','stroke-linejoin':'round'}));
+    arr.forEach((v,i)=>{s.appendChild(el('circle',{cx:x(i),cy:y(v),r:3.5,fill:col,stroke:cssv('--surface-1'),'stroke-width':1.5}));
+      if(lbl)s.appendChild(el('text',{x:x(i),y:y(v)-9,'text-anchor':'middle',class:'val-lbl tab','font-size':'9.5'})).textContent=v.toFixed(1);});
+  };
+  line(c6,cssv('--s2'),false); line(c5,cssv('--s1'),true);
+  exMonths.forEach((m,i)=>s.appendChild(el('text',{x:x(i),y:H-12,'text-anchor':'middle',class:'axis-lbl'})).textContent=m);
+  document.getElementById('exCloTrend').appendChild(s);
+}
+function exSdaTrend(){
+  const arr=EZ().sda;
+  const W=520,H=240,P={t:18,r:12,b:34,l:34};
+  const s=el('svg',{viewBox:`0 0 ${W} ${H}`,width:'100%',role:'img'});
+  const max=100,y=v=>P.t+(1-v/max)*(H-P.t-P.b);
+  [25,50,75,100].forEach(g=>{s.appendChild(el('line',{x1:P.l,x2:W-P.r,y1:y(g),y2:y(g),stroke:cssv('--grid'),'stroke-width':1}));
+    s.appendChild(el('text',{x:P.l-6,y:y(g)+4,'text-anchor':'end',class:'axis-lbl'})).textContent=g;});
+  const n=exMonths.length,gap=(W-P.l-P.r)/n,bw=gap*0.5;
+  exMonths.forEach((m,i)=>{const v=arr[i],xx=P.l+i*gap+(gap-bw)/2,yy=y(v),h=(H-P.b)-yy;
+    const col=v>=88?cssv('--s3'):v>=82?cssv('--s4'):cssv('--warning');
+    s.appendChild(el('rect',{x:xx,y:yy,width:bw,height:h,rx:4,fill:col}));
+    s.appendChild(el('text',{x:xx+bw/2,y:yy-6,'text-anchor':'middle',class:'val-lbl tab','font-size':'10'})).textContent=v.toFixed(1);
+    s.appendChild(el('text',{x:xx+bw/2,y:H-12,'text-anchor':'middle',class:'axis-lbl'})).textContent=m;});
+  document.getElementById('exSdaTrend').appendChild(s);
+}
+function exZoneCompare(){
+  const W=560,H=250,P={t:18,r:14,b:36,l:34};
+  const s=el('svg',{viewBox:`0 0 ${W} ${H}`,width:'100%',role:'img'});
+  const max=100,y=v=>P.t+(1-v/max)*(H-P.t-P.b);
+  [25,50,75,100].forEach(g=>{s.appendChild(el('line',{x1:P.l,x2:W-P.r,y1:y(g),y2:y(g),stroke:cssv('--grid'),'stroke-width':1}));
+    s.appendChild(el('text',{x:P.l-6,y:y(g)+4,'text-anchor':'end',class:'axis-lbl'})).textContent=g;});
+  const gw=(W-P.l-P.r)/exZoneList.length,bw=30;
+  exZoneList.forEach((z,i)=>{const gx=P.l+i*gw+gw/2;
+    [[exZones[z].clo5[3],cssv('--s1')],[exZones[z].sda[3],cssv('--s3')]].forEach((o,j)=>{
+      const xx=gx-bw-3+j*(bw+6),yy=y(o[0]),h=(H-P.b)-yy;
+      s.appendChild(el('rect',{x:xx,y:yy,width:bw,height:h,rx:3,fill:o[1]}));
+      s.appendChild(el('text',{x:xx+bw/2,y:yy-5,'text-anchor':'middle',class:'val-lbl tab','font-size':'9'})).textContent=o[0].toFixed(0);});
+    s.appendChild(el('text',{x:gx,y:H-12,'text-anchor':'middle',class:'axis-lbl','font-weight':'700'})).textContent=z;});
+  document.getElementById('exZoneCompare').appendChild(s);
+}
+function exZoneTable(){
+  const z=EZ(),tb=document.getElementById('exZoneTable');tb.innerHTML='';
+  const pr=(l,a,tot)=>`<tr class="${tot?'totrow':''}"><td class="hubcol">${l}</td>${a.map(v=>`<td>${v.toFixed(1)}%</td>`).join('')}</tr>`;
+  const pv=(l,a)=>`<tr><td class="hubcol">${l}</td>${a.map(v=>`<td>${fmt(v)}</td>`).join('')}</tr>`;
+  tb.insertAdjacentHTML('beforeend',pr('5-Day closure · within SLA %',z.clo5,true));
+  tb.insertAdjacentHTML('beforeend',pr('6-Day closure · within SLA %',z.clo6));
+  tb.insertAdjacentHTML('beforeend',pr('Same-Day Assignation %',z.sda));
+  tb.insertAdjacentHTML('beforeend',pr('Non-compliance %',z.sdaNon));
+  tb.insertAdjacentHTML('beforeend',pv('Light shipment volume',z.cvol));
+}
+function updateExKpis(){
+  const z=EZ();
+  const setP=(idV,idD,jul,jun)=>{document.getElementById(idV).innerHTML=jul.toFixed(1)+'<small>%</small>';
+    const df=jul-jun;document.getElementById(idD).innerHTML='<span class="'+(df>=0?'up':'down')+'">'+(df>=0?'▲':'▼')+' '+Math.abs(df).toFixed(1)+' pts vs Jun</span>';};
+  setP('exK5','exK5d',z.clo5[3],z.clo5[2]);
+  setP('exK6','exK6d',z.clo6[3],z.clo6[2]);
+  setP('exKS','exKSd',z.sda[3],z.sda[2]);
+  document.getElementById('exKV').innerHTML=(z.cvol[3]/1000).toFixed(0)+'<small>k</small>';
+  document.getElementById('exKVd').innerHTML='<span>'+fmt(z.cvol[3])+' light shipments</span>';
+}
+function renderExpress(){
+  ['exCloTrend','exSdaTrend','exZoneCompare'].forEach(id=>{const e=document.getElementById(id);if(e)e.innerHTML='';});
+  exCloTrend();exSdaTrend();exZoneCompare();exZoneTable();updateExKpis();
+}
+function wireExFilter(){
+  document.querySelectorAll('#exZoneFilter button').forEach(b=>b.addEventListener('click',()=>{
+    exZone=b.dataset.z;
+    document.querySelectorAll('#exZoneFilter button').forEach(x=>x.classList.toggle('on',x===b));
+    document.getElementById('exScope').textContent=exZoneNames[exZone];
+    renderExpress();
+  }));
+}
+
+// ---------- GAP ANALYSIS · RC-to-Arrival ----------
+// ---------- RC-TO-ARRIVAL (zone-wise) ----------
+// KHI: Apr–Jul (existing). South zones: May–Jul from shipment-level RC records.
+const rcZones={
+  KHI:{months:['Apr','May','Jun','Jul'],
+    fresh:[97.14,96.51,95.78,97.84], b47:[2.75,3.23,4.02,1.85], b8:[0.11,0.26,0.19,0.03],
+    srF:[76.73,77.50,76.06,77.19], srB47:[65.68,70.41,69.18,62.47], srB8:[39.80,58.94,58.12,44.71],
+    delayed:[2.86,3.49,4.21,1.88]},
+  HYD:{months:['May','Jun','Jul'],
+    fresh:[91.49,90.0,94.93], b47:[8.15,9.8,4.96], b8:[0.36,0.20,0.11],
+    srF:[75.4,74.8,74.3], srB47:[69.5,68.4,62.4], srB8:[56.5,58.9,53.4],
+    delayed:[8.51,10.0,5.07]},
+  SKZ:{months:['May','Jun','Jul'],
+    fresh:[92.09,93.1,95.12], b47:[7.66,6.67,4.63], b8:[0.26,0.23,0.24],
+    srF:[71.7,72.0,72.0], srB47:[67.0,66.1,62.3], srB8:[58.4,57.5,48.6],
+    delayed:[7.92,6.9,4.87]},
+  UET:{months:['May','Jun','Jul'],
+    fresh:[84.56,82.64,86.54], b47:[13.97,17.05,13.37], b8:[1.46,0.31,0.09],
+    srF:[64.7,67.0,63.0], srB47:[63.3,63.0,57.4], srB8:[58.3,49.2,55.8],
+    delayed:[15.43,17.36,13.46]},
+};
+const RCZ=()=>rcZones[gapZone];
+
+// ---------- JUNE -> JULY MOVEMENT (zone-wise) ----------
+// Top-10 movers ranked by JULY VOLUME (load), split improved vs slipped.
+const gapMovers={"KHI":{"gained":[{"n":"KHI-NORTH (SG)","s":"52,413 CN","t":"94.8 → 97.4","d":2.5},{"n":"KHI-NORTH (Express)","s":"46,192 CN","t":"96.8 → 100.5","d":3.7},{"n":"Karachi (general)","s":"33,672 CN","t":"95.5 → 97.0","d":1.5},{"n":"KHI-EAST (Malir)","s":"28,978 CN","t":"95.6 → 96.9","d":1.3},{"n":"KHI-WEST (SITE)","s":"27,233 CN","t":"91.2 → 91.9","d":0.8},{"n":"KHI-SOUTH (LHK)","s":"16,191 CN","t":"79.2 → 82.5","d":3.3},{"n":"KHI-SOUTH (DHA)","s":"15,740 CN","t":"97.2 → 97.8","d":0.6},{"n":"Hub Chowki","s":"3,251 CN","t":"48.7 → 76.5","d":27.8},{"n":"Lasbela","s":"333 CN","t":"35.2 → 63.0","d":27.7},{"n":"Uthal","s":"320 CN","t":"38.5 → 59.3","d":20.9}],"slipped":[{"n":"KHI-SOUTH (TCP)","s":"6,111 CN","t":"88.8 → 85.5","d":-3.3},{"n":"Gwadar","s":"1,598 CN","t":"68.8 → 46.2","d":-22.5},{"n":"Turbat","s":"1,418 CN","t":"60.4 → 53.2","d":-7.1},{"n":"Pasni","s":"171 CN","t":"39.4 → 33.8","d":-5.5}]},"HYD":{"gained":[{"n":"Mirpur Khas","s":"8,295 CN","t":"95.1 → 96.4","d":1.3},{"n":"Nawab Shah","s":"7,588 CN","t":"93.8 → 94.5","d":0.7},{"n":"Hyderabad Hub","s":"3,388 CN","t":"94.8 → 95.2","d":0.4},{"n":"Nowshero Feroz","s":"2,354 CN","t":"96.6 → 97.8","d":1.2},{"n":"Moro","s":"1,501 CN","t":"96.1 → 97.5","d":1.4},{"n":"Tando Mohd.khan","s":"1,442 CN","t":"91.6 → 95.0","d":3.4},{"n":"Kot Ghulam Mohd","s":"439 CN","t":"86.5 → 86.7","d":0.2},{"n":"Bhan Saeed Abad","s":"429 CN","t":"95.1 → 97.3","d":2.2},{"n":"Jhudo","s":"389 CN","t":"86.8 → 94.8","d":8.0},{"n":"Makli","s":"371 CN","t":"98.0 → 98.4","d":0.4}],"slipped":[{"n":"Dadu","s":"3,065 CN","t":"96.5 → 96.4","d":-0.1},{"n":"Tando Allah Yar","s":"3,017 CN","t":"94.3 → 93.3","d":-1.0},{"n":"Thatta","s":"2,942 CN","t":"93.6 → 92.5","d":-1.1},{"n":"Sanghar","s":"2,856 CN","t":"96.7 → 93.9","d":-2.8},{"n":"Jamshoro","s":"2,822 CN","t":"93.2 → 89.8","d":-3.4},{"n":"Badin","s":"2,415 CN","t":"96.5 → 96.4","d":-0.1},{"n":"Matli","s":"2,268 CN","t":"97.2 → 96.7","d":-0.5},{"n":"Tando Adam","s":"1,943 CN","t":"97.1 → 94.8","d":-2.3},{"n":"Umer Kot","s":"1,815 CN","t":"83.5 → 81.5","d":-2.0},{"n":"Shahdadpur","s":"1,566 CN","t":"98.5 → 93.2","d":-5.3}]},"SKZ":{"gained":[{"n":"Sukkur","s":"8,649 CN","t":"96.6 → 97.0","d":0.4},{"n":"Khairpur","s":"4,845 CN","t":"91.8 → 92.4","d":0.6},{"n":"Jacobabad","s":"3,266 CN","t":"81.8 → 83.7","d":1.9},{"n":"Dharki","s":"3,091 CN","t":"90.4 → 94.3","d":3.9},{"n":"Shahdadkot","s":"2,824 CN","t":"85.9 → 87.3","d":1.4},{"n":"Mehar","s":"1,735 CN","t":"95.7 → 97.3","d":1.6},{"n":"Kandhkot","s":"1,574 CN","t":"89.2 → 92.3","d":3.1},{"n":"Sui","s":"1,559 CN","t":"89.7 → 92.9","d":3.2},{"n":"Usta Muhammad","s":"1,533 CN","t":"75.1 → 77.4","d":2.3},{"n":"Mirpur Mathelo","s":"1,282 CN","t":"93.8 → 94.6","d":0.8}],"slipped":[{"n":"Rahim Yar Khan","s":"11,718 CN","t":"96.4 → 94.6","d":-1.8},{"n":"Larkana","s":"8,736 CN","t":"92.7 → 92.5","d":-0.2},{"n":"Sadiqabad","s":"8,464 CN","t":"96.5 → 95.8","d":-0.7},{"n":"Khan Pur","s":"4,624 CN","t":"88.5 → 88.3","d":-0.2},{"n":"Shikarpur","s":"3,478 CN","t":"95.9 → 94.6","d":-1.3},{"n":"Ghotki","s":"2,859 CN","t":"90.8 → 87.1","d":-3.7},{"n":"Liaqatpur","s":"2,428 CN","t":"90.8 → 88.2","d":-2.6},{"n":"Pano Aqil","s":"2,026 CN","t":"91.0 → 89.9","d":-1.1},{"n":"Kashmoor","s":"1,516 CN","t":"72.4 → 67.6","d":-4.8},{"n":"Rani Pur","s":"1,403 CN","t":"90.7 → 90.6","d":-0.1}]},"UET":{"gained":[],"slipped":[{"n":"Quetta","s":"33,391 CN","t":"85.2 → 81.8","d":-3.4},{"n":"Khuzdar","s":"2,636 CN","t":"85.6 → 76.0","d":-9.6},{"n":"Sibbi","s":"1,935 CN","t":"96.1 → 87.4","d":-8.7},{"n":"Chaman","s":"1,883 CN","t":"86.5 → 78.9","d":-7.6},{"n":"Zhob","s":"1,610 CN","t":"84.0 → 68.0","d":-16.0},{"n":"Loralai","s":"1,555 CN","t":"83.1 → 70.8","d":-12.3},{"n":"Pishin","s":"1,553 CN","t":"78.1 → 71.3","d":-6.8},{"n":"Qila Saifullah","s":"801 CN","t":"98.6 → 86.1","d":-12.5},{"n":"Nushki","s":"677 CN","t":"70.6 → 66.0","d":-4.6},{"n":"Kalat","s":"562 CN","t":"90.5 → 90.4","d":-0.1}]}};
+let gapZone='KHI';
+const gapZoneName={KHI:'Karachi (KHI)',HYD:'Hyderabad (HYD)',SKZ:'Sukkur (SKZ)',UET:'Quetta (UET)'};
+const gapZones={
+  KHI:{
+    kpis:[
+      {label:'Zone Achievement',val:'94.7',unit:'%',delta:'▲ +1.9 pts · from 92.8% in June',dir:'up'},
+      {label:'KHI Proper Achievement',val:'95.6',unit:'%',delta:'▲ +1.8 pts · crossed the 95% line',dir:'up'},
+      {label:'Allied Network Achievement',val:'61.4',unit:'%',delta:'▲ +7.7 pts · from 53.7% in June',dir:'up'},
+    ],
+    upHead:"✓ Gaps closed — July recovered June's shortfalls",
+    upSub:'Ranked by improvement (achievement %, June → July)',
+    gained:[
+      {n:'Hub Chowki',s:'Allied · largest branch',t:'48.7 → 76.6',d:27.8},
+      {n:'Lasbela',s:'Allied',t:'35.2 → 63.0',d:27.7},
+      {n:'Winder',s:'Allied',t:'45.6 → 69.4',d:23.8},
+      {n:'Uthal',s:'Allied',t:'38.5 → 59.3',d:20.9},
+      {n:'Allied network',s:'all branches',t:'53.7 → 61.4',d:7.7},
+      {n:'Express hub',s:'City · beat target',t:'96.8 → 100.5',d:3.7},
+      {n:'LHK hub',s:'City · was lowest',t:'79.2 → 82.5',d:3.3},
+      {n:'SG Hub',s:'City',t:'94.8 → 97.4',d:2.5},
+      {n:'KHI Proper total',s:'All city hubs',t:'93.8 → 95.6',d:1.8},
+    ],
+    slipped:[
+      {n:'Gwadar',s:'Allied',t:'68.8 → 46.2',d:-22.5},
+      {n:'Turbat',s:'Allied',t:'60.4 → 53.2',d:-7.1},
+      {n:'Pasni',s:'Allied',t:'39.4 → 33.8',d:-5.5},
+      {n:'Express 5-day closure',s:'within-SLA %',t:'97.2 → 92.9',d:-4.3},
+      {n:'TCP hub',s:'City',t:'88.8 → 85.5',d:-3.3},
+      {n:'Same-Day Assignation',s:'Express · compliance %',t:'90.4 → 87.8',d:-2.6},
+    ],
+    note:'Deltas are July minus June (percentage points). The biggest wins are in the Allied/branch network — directly validating the branch-turnaround action. July achievement uses the matured reporting window; confirm the window before the review.'
+  },
+  HYD:{
+    kpis:[
+      {label:'Zone Achievement',val:'92.9',unit:'%',delta:'▼ 1.0 pts · from 93.9% in June',dir:'down'},
+      {label:'July Delivery Volume',val:'102,506',unit:'',delta:'consignments · matured RC ≤24 Jul',dir:'flat'},
+      {label:'Hubs improved',val:'6',unit:'',delta:'6 up · 26 slipped vs June',dir:'down'},
+    ],
+    upHead:'✓ Improved — hubs that moved up',
+    upSub:'Ranked by improvement (achievement %, June → July)',
+    gained:[
+      {n:'Tando Mohd. Khan',s:'Hub',t:'91.6 → 95.0',d:3.4},
+      {n:'Moro',s:'Hub',t:'96.1 → 97.5',d:1.4},
+      {n:'Mirpur Khas',s:'Hub',t:'95.1 → 96.4',d:1.3},
+      {n:'Nowshero Feroz',s:'Hub',t:'96.6 → 97.8',d:1.2},
+      {n:'Nawab Shah',s:'Hub',t:'93.8 → 94.5',d:0.7},
+      {n:'Hyderabad Hub',s:'Hub',t:'94.8 → 95.2',d:0.4},
+    ],
+    slipped:[
+      {n:'Nooriabad',s:'Hub',t:'64.5 → 44.9',d:-19.6},
+      {n:'Sujawal',s:'Hub',t:'83.0 → 67.6',d:-15.4},
+      {n:'Islamkot',s:'Hub',t:'79.8 → 68.0',d:-11.8},
+      {n:'Mithi',s:'Hub',t:'82.5 → 73.0',d:-9.5},
+      {n:'Kunri',s:'Hub',t:'94.7 → 89.0',d:-5.7},
+      {n:'Shahdadpur',s:'Hub',t:'98.5 → 93.2',d:-5.3},
+    ],
+    note:'HYD zone held near 93% (93.9% → 92.9%). The main city hubs (Hyderabad, Mirpur Khas, Nawab Shah) stayed strong; the slippage is concentrated in low-volume desert/coastal spurs (Nooriabad, Sujawal, Islamkot, Mithi). June = full month; July = matured RC ≤24 Jul window — compare rates, not absolute volume.'
+  },
+  SKZ:{
+    kpis:[
+      {label:'Zone Achievement',val:'91.4',unit:'%',delta:'▼ 0.3 pts · from 91.7% in June',dir:'down'},
+      {label:'July Delivery Volume',val:'89,431',unit:'',delta:'consignments · matured RC ≤24 Jul',dir:'flat'},
+      {label:'Hubs improved',val:'15',unit:'',delta:'15 up · 12 slipped vs June',dir:'up'},
+    ],
+    upHead:'✓ Improved — hubs that moved up',
+    upSub:'Ranked by improvement (achievement %, June → July)',
+    gained:[
+      {n:'Kamber Ali Khan',s:'Hub',t:'80.0 → 87.6',d:7.6},
+      {n:'Mehrabpur',s:'Hub',t:'90.7 → 95.4',d:4.7},
+      {n:'Dharki',s:'Hub',t:'90.4 → 94.3',d:3.9},
+      {n:'Sui',s:'Hub',t:'89.7 → 92.9',d:3.2},
+      {n:'Kandhkot',s:'Hub',t:'89.2 → 92.3',d:3.1},
+      {n:'Usta Muhammad',s:'Hub',t:'75.1 → 77.4',d:2.3},
+    ],
+    slipped:[
+      {n:'Zahir Peer',s:'Hub',t:'85.9 → 77.0',d:-8.9},
+      {n:'Kashmoor',s:'Hub',t:'72.4 → 67.6',d:-4.8},
+      {n:'Ghotki',s:'Hub',t:'90.8 → 87.1',d:-3.7},
+      {n:'Liaqatpur',s:'Hub',t:'90.8 → 88.2',d:-2.6},
+      {n:'Rahim Yar Khan',s:'Hub · largest',t:'96.4 → 94.6',d:-1.8},
+      {n:'Shikarpur',s:'Hub',t:'95.9 → 94.6',d:-1.3},
+    ],
+    note:'SKZ was the steadiest South zone (91.7% → 91.4%) — 15 hubs improved against 12 that slipped, and the moves are small. Sukkur (97.0%) and Sadiqabad (95.8%) anchor the zone; Ghotki and Kashmoor are the recurring soft spots. June = full month; July = matured RC ≤24 Jul window.'
+  },
+  UET:{
+    kpis:[
+      {label:'Zone Achievement',val:'80.4',unit:'%',delta:'▼ 5.3 pts · from 85.7% in June',dir:'down'},
+      {label:'July Delivery Volume',val:'48,769',unit:'',delta:'consignments · matured RC ≤24 Jul',dir:'flat'},
+      {label:'Hubs improved',val:'0',unit:'',delta:'0 up · 10 slipped vs June',dir:'down'},
+    ],
+    upHead:'✓ Improved — hubs that moved up',
+    upSub:'Ranked by improvement (achievement %, June → July)',
+    gained:[],
+    slipped:[
+      {n:'Zhob',s:'Hub',t:'84.0 → 68.0',d:-16.0},
+      {n:'Qila Saifullah',s:'Hub',t:'98.6 → 86.1',d:-12.5},
+      {n:'Loralai',s:'Hub',t:'83.1 → 70.8',d:-12.3},
+      {n:'Khuzdar',s:'Hub',t:'85.6 → 76.0',d:-9.6},
+      {n:'Sibbi',s:'Hub',t:'96.1 → 87.4',d:-8.7},
+      {n:'Chaman',s:'Hub',t:'86.5 → 78.9',d:-7.6},
+    ],
+    note:'UET (Quetta) is the clear priority zone: it fell 5.3 pts (85.7% → 80.4%) and every tracked hub slipped, led by Quetta itself (81.8%) and the mountain spurs (Zhob, Loralai, Qila Saifullah). Long-haul distance and terrain drive the gap. June = full month; July = matured RC ≤24 Jul window; part of the drop may still firm up — but the trend warrants a dedicated Q3 recovery plan.'
+  },
+};
+function renderGap(){
+  const g=gapZones[gapZone];
+  document.getElementById('gapScope').textContent=gapZoneName[gapZone];
+  const kp=document.getElementById('gapKpis');
+  kp.innerHTML=g.kpis.map(k=>{
+    const ac=k.dir==='up'?'var(--good)':k.dir==='down'?'var(--critical)':'var(--s1)';
+    const dc=k.dir==='up'?'up':k.dir==='down'?'down':'';
+    return `<div class="kpi"><div class="label">${k.label}</div><div class="val">${k.val}${k.unit?`<small>${k.unit}</small>`:''}</div><div class="delta"><span class="${dc}">${k.delta}</span></div><div class="accent" style="background:${ac}"></div></div>`;
+  }).join('');
+  document.getElementById('gapUpHead').textContent=g.upHead;
+  const mov=gapMovers[gapZone];
+  document.getElementById('gapUpSub').textContent='Top 10 by volume (load) that improved · achievement %, June → July';
+  document.getElementById('gapDnSub').textContent='Top 10 by volume (load) that slipped · achievement %, June → July';
+  const row=m=>`<div class="mv-row"><span class="mv-name">${m.n}${m.s?` <small>${m.s}</small>`:''}</span><span class="mv-track">${m.t}</span><span class="mv-delta ${m.d>=0?'up':'down'}">${m.d>=0?'▲':'▼'} ${Math.abs(m.d).toFixed(1)}</span></div>`;
+  document.getElementById('gapUpList').innerHTML = mov.gained.length? mov.gained.map(row).join('') : `<div class="mv-row" style="opacity:.72"><span class="mv-name">No high-volume hub improved vs June — every tracked hub slipped this window</span></div>`;
+  document.getElementById('gapDnList').innerHTML=mov.slipped.map(row).join('');
+  document.getElementById('gapNote').innerHTML=g.note;
+}
+function wireGapZoneFilter(){
+  document.querySelectorAll('#gapZoneFilter button').forEach(b=>b.addEventListener('click',()=>{
+    gapZone=b.dataset.z;
+    document.querySelectorAll('#gapZoneFilter button').forEach(x=>x.classList.toggle('on',x===b));
+    renderGap();renderRC();renderRTA();renderApp();
+  }));
+}
+
+function rcDelayChart(){
+  const z=RCZ(), months=z.months, arr=z.delayed;
+  const W=520,H=240,P={t:20,r:14,b:34,l:36};
+  const s=el('svg',{viewBox:`0 0 ${W} ${H}`,width:'100%',role:'img'});
+  const max=Math.max(6,Math.ceil(Math.max(...arr)/2)*2),y=v=>P.t+(1-v/max)*(H-P.t-P.b);
+  const gl=[]; for(let g=max/4;g<=max+0.01;g+=max/4)gl.push(+g.toFixed(1));
+  gl.forEach(g=>{
+    s.appendChild(el('line',{x1:P.l,x2:W-P.r,y1:y(g),y2:y(g),stroke:cssv('--grid'),'stroke-width':1}));
+    s.appendChild(el('text',{x:P.l-6,y:y(g)+4,'text-anchor':'end',class:'axis-lbl'})).textContent=g+'%';
+  });
+  const n=months.length, gap=(W-P.l-P.r)/n, bw=Math.min(gap*0.5,60);
+  months.forEach((m,i)=>{
+    const v=arr[i], xx=P.l+i*gap+(gap-bw)/2, yy=y(v), h=(H-P.b)-yy;
+    const col=v>=8?cssv('--critical'):v<4?cssv('--good'):cssv('--warning');
+    s.appendChild(el('rect',{x:xx,y:yy,width:bw,height:h,rx:4,fill:col}));
+    s.appendChild(el('text',{x:xx+bw/2,y:yy-7,'text-anchor':'middle',class:'val-lbl tab'})).textContent=v.toFixed(1)+'%';
+    s.appendChild(el('text',{x:xx+bw/2,y:H-12,'text-anchor':'middle',class:'axis-lbl'})).textContent=m;
+  });
+  document.getElementById('rcDelayChart').appendChild(s);
+}
+function rcSRChart(){
+  const z=RCZ(), L=z.months.length-1;
+  const bands=[{b:'≤3 days',v:z.srF[L]},{b:'4–7 days',v:z.srB47[L]},{b:'8–15 days',v:z.srB8[L]}];
+  const W=520,H=240,P={t:20,r:14,b:34,l:36};
+  const s=el('svg',{viewBox:`0 0 ${W} ${H}`,width:'100%',role:'img'});
+  const max=100,y=v=>P.t+(1-v/max)*(H-P.t-P.b);
+  [25,50,75,100].forEach(g=>{
+    s.appendChild(el('line',{x1:P.l,x2:W-P.r,y1:y(g),y2:y(g),stroke:cssv('--grid'),'stroke-width':1}));
+    s.appendChild(el('text',{x:P.l-6,y:y(g)+4,'text-anchor':'end',class:'axis-lbl'})).textContent=g;
+  });
+  const n=bands.length, gap=(W-P.l-P.r)/n, bw=gap*0.5;
+  bands.forEach((d,i)=>{
+    const xx=P.l+i*gap+(gap-bw)/2, yy=y(d.v), h=(H-P.b)-yy;
+    const col=d.v>=72?cssv('--s3'):d.v>=55?cssv('--warning'):cssv('--critical');
+    s.appendChild(el('rect',{x:xx,y:yy,width:bw,height:h,rx:4,fill:col}));
+    s.appendChild(el('text',{x:xx+bw/2,y:yy-7,'text-anchor':'middle',class:'val-lbl tab'})).textContent=d.v.toFixed(1)+'%';
+    s.appendChild(el('text',{x:xx+bw/2,y:H-12,'text-anchor':'middle',class:'axis-lbl'})).textContent=d.b;
+  });
+  document.getElementById('rcSRChart').appendChild(s);
+}
+function rcTable(){
+  const z=RCZ(); const tb=document.getElementById('rcTable'); tb.innerHTML='';
+  document.getElementById('rcTableHead').innerHTML='<th class="hubcol">Metric</th>'+z.months.map(m=>`<th>${m}</th>`).join('');
+  const row=(label,arr,cls)=>{
+    const cells=arr.map(v=>`<td>${v.toFixed(v<1?2:1)}</td>`).join('');
+    return `<tr class="${cls||''}"><td class="hubcol">${label}</td>${cells}</tr>`;
+  };
+  tb.insertAdjacentHTML('beforeend',row('Arrived ≤3 days · % of volume',z.fresh,'totrow'));
+  tb.insertAdjacentHTML('beforeend',row('Arrived 4–7 days · %',z.b47));
+  tb.insertAdjacentHTML('beforeend',row('Arrived 8+ days · %',z.b8));
+  tb.insertAdjacentHTML('beforeend',row('SR% · ≤3 day arrivals',z.srF));
+  tb.insertAdjacentHTML('beforeend',row('SR% · 4–7 day arrivals',z.srB47));
+  tb.insertAdjacentHTML('beforeend',row('SR% · 8–15 day arrivals',z.srB8));
+}
+function renderRC(){
+  const z=RCZ(), L=z.months.length-1, prev=L-1;
+  document.getElementById('rcScope').textContent=gapZoneName[gapZone];
+  document.getElementById('rcHint').textContent='Days between booking (RC) and hub arrival · '+z.months[0]+'–'+z.months[L];
+  const lm=z.months[L], pm=z.months[prev];
+  const dFresh=(z.fresh[L]-z.fresh[prev]), dDel=(z.delayed[L]-z.delayed[prev]);
+  const slow=z.months[z.delayed.indexOf(Math.max(...z.delayed))];
+  const kp=[
+    {label:`Arrived within 3 days (${lm})`,val:z.fresh[L].toFixed(1),unit:'%',
+      delta:`${dFresh>=0?'▲ +':'▼ '}${Math.abs(dFresh).toFixed(1)} pts · from ${z.fresh[prev].toFixed(1)}% in ${pm}`,dir:dFresh>=0?'up':'down'},
+    {label:`Delayed 4+ days (${lm})`,val:z.delayed[L].toFixed(1),unit:'%',
+      delta:`${dDel<=0?'▼ ':'▲ +'}${Math.abs(dDel).toFixed(1)} pts vs ${pm} (${z.delayed[prev].toFixed(1)}%)`,dir:dDel<=0?'up':'down'},
+    {label:'SR · fresh arrivals (≤3d)',val:z.srF[L].toFixed(1),unit:'%',
+      delta:`vs ${z.srB8[L].toFixed(1)}% on 8–15 day arrivals`,dir:'flat'},
+    {label:'Slowest month',val:slow,unit:'',
+      delta:`▼ ${Math.max(...z.delayed).toFixed(1)}% delayed · weakest inbound`,dir:'down'},
+  ];
+  document.getElementById('rcKpis').innerHTML=kp.map((k,i)=>{
+    const ac=['var(--good)','var(--s1)','var(--s3)','var(--critical)'][i];
+    const dc=k.dir==='up'?'up':k.dir==='down'?'down':'';
+    return `<div class="kpi"><div class="label">${k.label}</div><div class="val">${k.val}${k.unit?`<small>${k.unit}</small>`:''}</div><div class="delta"><span class="${dc}">${k.delta}</span></div><div class="accent" style="background:${ac}"></div></div>`;
+  }).join('');
+  document.getElementById('rcNote').textContent = gapZone==='KHI'
+    ? "RC-to-Arrival = days between a shipment's booking/RC date and its arrival at the destination hub. Faster inbound → fresher shipments → higher delivery success. KHI Proper + Allied, Apr–Jul."
+    : `RC-to-Arrival for ${gapZoneName[gapZone]} — days between booking (RC) and hub arrival, from shipment-level South-region records. May–Jul; July on the matured RC ≤24 Jul window. Faster inbound protects delivery SR.`;
+  document.getElementById('rcDelaySub').textContent = `Inbound delay share (4+ days) by month — lower is better. ${lm}: ${z.delayed[L].toFixed(1)}%.`;
+  document.getElementById('rcSRHead').textContent = `Aging penalty — delivery SR% by arrival band (${lm})`;
+  document.getElementById('rcSRSub').textContent = `Fresh (≤3d) arrivals deliver at ${z.srF[L].toFixed(0)}%; past a week, success falls to ${z.srB8[L].toFixed(0)}%. Inbound speed directly protects SR.`;
+  document.getElementById('rcTblHint').textContent = `Arrival mix & band SR% · ${z.months[0]}–${z.months[L]} 2026`;
+  ['rcDelayChart','rcSRChart'].forEach(id=>document.getElementById(id).innerHTML='');
+  rcDelayChart();rcSRChart();rcTable();
+}
+
+const rtaZonesData={"SKZ":{"Jun":{"reqd":11207,"reassignPct":81.8,"approved":5382,"notApprPct":52.0,"apprPct":48.0,"nextDayPct":73.8,"dlvPct":60.1,"pending":13},"Jul":{"reqd":8921,"reassignPct":84.1,"approved":4490,"notApprPct":49.7,"apprPct":50.3,"nextDayPct":74.5,"dlvPct":55.5,"pending":1373}},"HYD":{"Jun":{"reqd":9280,"reassignPct":82.0,"approved":3747,"notApprPct":59.6,"apprPct":40.4,"nextDayPct":77.0,"dlvPct":59.5,"pending":17},"Jul":{"reqd":6794,"reassignPct":78.1,"approved":2948,"notApprPct":56.6,"apprPct":43.4,"nextDayPct":69.9,"dlvPct":55.9,"pending":1457}},"KHI":{"Jun":{"reqd":14943,"reassignPct":87.1,"approved":5412,"notApprPct":63.8,"apprPct":36.2,"nextDayPct":82.3,"dlvPct":53.8,"pending":62},"Jul":{"reqd":14393,"reassignPct":87.1,"approved":5833,"notApprPct":59.5,"apprPct":40.5,"nextDayPct":82.6,"dlvPct":49.9,"pending":2747}},"UET":{"Jun":{"reqd":2468,"reassignPct":77.2,"approved":989,"notApprPct":59.9,"apprPct":40.1,"nextDayPct":72.8,"dlvPct":60.7,"pending":3},"Jul":{"reqd":1888,"reassignPct":76.5,"approved":929,"notApprPct":50.8,"apprPct":49.2,"nextDayPct":69.9,"dlvPct":53.8,"pending":590}}};
+let rtaApp=[{m:'June (1–30)', ap:36.2, na:63.8},{m:'July (1–27)', ap:40.5, na:59.5}];
+function renderRTA(){
+  const R=rtaZonesData[gapZone], j=R.Jun, l=R.Jul;
+  rtaApp=[{m:'June (1–30)',ap:j.apprPct,na:j.notApprPct},{m:'July (1–27)',ap:l.apprPct,na:l.notApprPct}];
+  document.getElementById('rtaScope').textContent=gapZoneName[gapZone];
+  document.getElementById('rtaDetailSub').textContent=gapZoneName[gapZone]+' zone · reattempt funnel';
+  const dNA=(l.notApprPct-j.notApprPct), dAp=(l.approved-j.approved), dRe=(l.reassignPct-j.reassignPct), dND=(l.nextDayPct-j.nextDayPct);
+  const kpis=[
+    {label:'Not-approved reasons',val:l.notApprPct.toFixed(1),unit:'%',delta:`${dNA<=0?'▼ ':'▲ +'}${Math.abs(dNA).toFixed(1)} pts vs June (${j.notApprPct.toFixed(1)}%)`,dir:dNA<=0?'up':'down',ac:'var(--good)'},
+    {label:'Approved reattempts',val:fmt(l.approved),unit:'',delta:`${dAp>=0?'▲ +':'▼ '}${Math.abs(dAp)} vs June · more validated`,dir:dAp>=0?'up':'down',ac:'var(--good)'},
+    {label:'Reassign coverage',val:l.reassignPct.toFixed(1),unit:'%',delta:`${Math.abs(dRe)<0.05?'▬ steady vs June':(dRe>0?'▲ +':'▼ ')+Math.abs(dRe).toFixed(1)+' pts vs June'} (${j.reassignPct.toFixed(1)}%)`,dir:dRe>=0?'up':'down',ac:'var(--s1)'},
+    {label:'Next-day reassign',val:l.nextDayPct.toFixed(1),unit:'%',delta:`${dND>=0?'▲ +':'▼ '}${Math.abs(dND).toFixed(1)} pts vs June`,dir:dND>=0?'up':'down',ac:'var(--s3)'},
+  ];
+  document.getElementById('rtaKpis').innerHTML=kpis.map(k=>{
+    const dc=k.dir==='up'?'up':k.dir==='down'?'down':'';
+    return `<div class="kpi"><div class="label">${k.label}</div><div class="val">${k.val}${k.unit?`<small>${k.unit}</small>`:''}</div><div class="delta"><span class="${dc}">${k.delta}</span></div><div class="accent" style="background:${k.ac}"></div></div>`;
+  }).join('');
+  const pill=(txt,cls,st)=>`<span class="pill ${cls||''}"${st?` style="${st}"`:''}>${txt}</span>`;
+  const mut='background:var(--plane);color:var(--muted)';
+  const chNA=l.notApprPct-j.notApprPct, chAp=l.approved-j.approved, chRe=l.reassignPct-j.reassignPct, chND=l.nextDayPct-j.nextDayPct, chDv=l.dlvPct-j.dlvPct;
+  const rows=[
+    ['Reattempts required',fmt(j.reqd),fmt(l.reqd),pill('30d vs 27d','',mut)],
+    ['Reassign %',j.reassignPct.toFixed(1),l.reassignPct.toFixed(1), Math.abs(chRe)<0.05?pill('▬ flat','',mut):pill((chRe>0?'▲ ':'▼ ')+Math.abs(chRe).toFixed(1),chRe>=0?'g':'w')],
+    ['Approved reattempts',fmt(j.approved),fmt(l.approved),pill((chAp>=0?'▲ ':'▼ ')+Math.abs(chAp)+(chAp>=0?' good':''),chAp>=0?'g':'w')],
+    ['Not-approved %',j.notApprPct.toFixed(1),l.notApprPct.toFixed(1),pill((chNA<=0?'▼ ':'▲ ')+Math.abs(chNA).toFixed(1)+(chNA<=0?' good':''),chNA<=0?'g':'w')],
+    ['Next-day reassign %',j.nextDayPct.toFixed(1),l.nextDayPct.toFixed(1),pill((chND>=0?'▲ ':'▼ ')+Math.abs(chND).toFixed(1),chND>=0?'g':'w')],
+    ['Delivered % (of reassigned)',j.dlvPct.toFixed(1),l.dlvPct.toFixed(1),pill('▼ '+Math.abs(chDv).toFixed(1)+'*','w')],
+    ['Pending',fmt(j.pending),fmt(l.pending),pill('▲ settling*','w')],
+  ];
+  document.getElementById('rtaDetail').innerHTML=rows.map(r=>`<tr><td>${r[0]}</td><td>${r[1]}</td><td>${r[2]}</td><td>${r[3]}</td></tr>`).join('');
+  document.getElementById('rtaNote').innerHTML=`<b>Verdict (${gapZoneName[gapZone]}):</b> not-approved reattempts moved ${j.notApprPct.toFixed(1)}% → ${l.notApprPct.toFixed(1)}% and approved (validated) reattempts went ${fmt(j.approved)} → ${fmt(l.approved)}. <b>*Delivered % and Pending look weaker for July only because of a settling effect</b> — June's reattempts have fully matured, while July's last week (21–27) was still in progress. <b>Windows differ</b> (June = full 30 days, July = 01–27), so compare rates, not absolute counts.`;
+  document.getElementById('rtaChart').innerHTML=''; rtaChart();
+}
+function rtaChart(){
+  const W=520,H=250,P={t:18,r:14,b:34,l:36};
+  const s=el('svg',{viewBox:`0 0 ${W} ${H}`,width:'100%',role:'img'});
+  const max=100,y=v=>P.t+(1-v/max)*(H-P.t-P.b);
+  [25,50,75,100].forEach(g=>{
+    s.appendChild(el('line',{x1:P.l,x2:W-P.r,y1:y(g),y2:y(g),stroke:cssv('--grid'),'stroke-width':1}));
+    s.appendChild(el('text',{x:P.l-6,y:y(g)+4,'text-anchor':'end',class:'axis-lbl'})).textContent=g;
+  });
+  const n=rtaApp.length, gap=(W-P.l-P.r)/n, bw=120;
+  rtaApp.forEach((d,i)=>{
+    const xx=P.l+i*gap+(gap-bw)/2;
+    // approved (bottom)
+    const yAp=y(d.ap), hAp=(H-P.b)-yAp;
+    s.appendChild(el('rect',{x:xx,y:yAp,width:bw,height:hAp,rx:4,fill:cssv('--s3')}));
+    s.appendChild(el('text',{x:xx+bw/2,y:yAp+18,'text-anchor':'middle','font-size':'12','font-weight':'800',fill:'#fff'})).textContent=d.ap.toFixed(1)+'%';
+    // not-approved (top)
+    const yNa=y(100), hNa=yAp-yNa-2;
+    s.appendChild(el('rect',{x:xx,y:yNa,width:bw,height:hNa,rx:4,fill:cssv('--warning')}));
+    s.appendChild(el('text',{x:xx+bw/2,y:yNa+hNa/2+4,'text-anchor':'middle','font-size':'12','font-weight':'800',fill:'#5a4200'})).textContent=d.na.toFixed(1)+'%';
+    s.appendChild(el('text',{x:xx+bw/2,y:H-12,'text-anchor':'middle',class:'axis-lbl'})).textContent=d.m;
+  });
+  document.getElementById('rtaChart').appendChild(s);
+}
+
+// ---------- APP PERFORMANCE (Karachi zone) · filterable by Division/Type ----------
+const appMonths=['Jan','Feb','Mar','Apr','May','Jun','Jul'];
+const qsrTimes=['1 PM','4 PM','6 PM','8 PM'];
+const appZones={"KHI":{"All":{"All":{"mob":[66.9,71.6,69.5,63.3,70.8,65.4,79.5],"qsr":[74.0,77.6,76.0,75.1,75.0,72.4,78.3],"off":[11.8,12.1,13.7,12.7,13.2,12.6,11.9],"vio":[37.3,45.3,40.0,33.7,27.5,23.4,35.7],"jun":[12.5,41.0,55.5,72.4],"jul":[12.7,42.6,61.6,78.3]},"Forward":{"mob":[79.2,81.6,82.7,78.6,83.7,78.8,92.0],"qsr":[83.7,85.8,86.3,86.8,83.2,81.7,86.8],"off":[14.0,13.7,16.3,15.8,15.6,15.2,13.7],"vio":[44.2,51.6,47.5,41.9,32.5,28.2,41.2],"jun":[13.2,45.3,61.9,81.7],"jul":[13.8,47.0,68.3,86.8]},"Return":{"mob":[0.0,0.0,0.0,0.0,0.0,0.0,0.0],"qsr":[21.5,19.3,21.1,26.5,30.1,27.1,24.0],"off":[0.0,0.0,0.0,0.0,0.0,0.0,0.0],"vio":[0.0,0.0,0.0,0.0,0.0,0.0,0.0],"jun":[8.7,20.2,24.0,27.1],"jul":[5.7,14.0,18.7,24.0]}},"Express":{"All":{"mob":[87.8,90.7,85.5,79.1,84.1,79.7,92.8],"qsr":[91.7,92.2,92.9,94.8,91.4,87.5,93.6],"off":[8.4,10.0,8.4,7.9,7.1,6.4,5.1],"vio":[54.0,64.3,59.9,53.4,49.4,44.0,60.4],"jun":[20.0,61.4,76.5,87.5],"jul":[19.2,60.7,82.4,93.6]},"Forward":{"mob":[90.1,92.2,88.5,83.6,90.1,86.8,96.1],"qsr":[91.7,92.2,92.8,94.5,91.4,89.3,93.7],"off":[8.6,10.1,8.7,8.3,7.7,6.9,5.2],"vio":[55.4,65.3,61.9,56.4,52.9,48.0,62.5],"jun":[19.6,61.7,77.6,89.3],"jul":[18.9,61.0,82.9,93.7]},"Return":{"mob":[0.0,0.0,0.0,0.0,0.0,0.0,0.0],"qsr":[93.5,91.1,95.9,99.6,91.5,67.1,90.3],"off":[0.0,0.0,0.0,0.0,0.0,0.0,0.0],"vio":[0.0,0.0,0.0,0.0,0.0,0.0,0.0],"jun":[25.3,57.4,63.5,67.1],"jul":[25.4,52.9,67.7,90.3]}},"Ecom":{"All":{"mob":[45.4,46.5,53.3,48.5,55.6,49.9,61.4],"qsr":[55.8,58.5,58.9,56.6,56.4,56.0,57.4],"off":[15.3,14.8,19.0,17.2,20.1,19.4,21.2],"vio":[20.1,20.3,19.8,15.3,2.7,1.0,1.9],"jun":[4.2,18.8,32.6,56.0],"jul":[3.9,17.8,33.2,57.4]},"Forward":{"mob":[63.9,63.1,74.7,72.0,74.6,68.0,84.5],"qsr":[72.5,74.5,77.5,76.7,71.6,71.3,74.3],"off":[21.6,20.1,26.7,25.6,26.9,26.4,29.1],"vio":[28.3,27.6,27.8,22.7,3.7,1.4,2.6],"jun":[4.6,22.9,40.6,71.3],"jul":[4.5,21.8,41.8,74.3]},"Return":{"mob":[0.0,0.0,0.0,0.0,0.0,0.0,0.0],"qsr":[14.9,13.7,12.4,15.2,11.7,13.6,12.8],"off":[0.0,0.0,0.0,0.0,0.0,0.0,0.0],"vio":[0.0,0.0,0.0,0.0,0.0,0.0,0.0],"jun":[3.1,7.7,10.6,13.6],"jul":[2.4,7.4,10.4,12.8]}},"T_Overnight":{"All":{"mob":[88.2,91.2,86.3,79.9,84.7,80.6,93.3],"qsr":[92.2,92.6,93.2,95.2,92.5,88.1,94.0],"off":[7.9,9.5,8.0,7.4,6.3,5.9,4.8],"vio":[54.0,64.4,60.4,53.9,50.8,44.9,60.9],"jun":[20.3,62.2,77.4,88.1],"jul":[19.3,61.2,83.0,94.0]},"Forward":{"mob":[90.6,92.7,89.3,84.6,90.9,87.9,96.6],"qsr":[92.2,92.6,93.1,94.9,92.5,90.1,94.1],"off":[8.1,9.7,8.3,7.8,6.7,6.5,4.9],"vio":[55.5,65.4,62.5,57.0,54.5,49.0,63.1],"jun":[19.9,62.7,78.7,90.1],"jul":[19.1,61.5,83.6,94.1]},"Return":{"mob":[0.0,0.0,0.0,0.0,0.0,0.0,0.0],"qsr":[93.7,91.3,95.9,99.6,92.6,67.2,90.4],"off":[0.0,0.0,0.0,0.0,0.0,0.0,0.0],"vio":[0.0,0.0,0.0,0.0,0.0,0.0,0.0],"jun":[25.4,57.6,63.6,67.2],"jul":[25.5,53.3,68.1,90.4]}},"T_Overland":{"All":{"mob":[73.3,70.6,42.2,38.9,62.3,39.4,50.1],"qsr":[68.2,69.4,71.2,75.7,68.6,54.8,59.4],"off":[30.8,33.2,32.0,30.6,50.4,29.9,35.3],"vio":[56.2,59.5,32.2,30.5,8.3,1.6,3.5],"jun":[3.8,20.6,30.4,54.8],"jul":[4.4,17.6,32.9,59.4]},"Forward":{"mob":[73.7,71.7,42.9,39.2,63.1,40.0,50.7],"qsr":[68.3,69.3,70.9,75.6,68.5,54.8,59.3],"off":[31.0,33.7,32.6,30.8,51.0,30.4,35.7],"vio":[56.5,60.4,32.8,30.7,8.4,1.6,3.5],"jun":[3.8,20.7,30.5,54.8],"jul":[4.4,17.7,33.0,59.3]},"Return":{"mob":[0.0,0.0,0.0,0.0,0.0,0.0,0.0],"qsr":[63.2,79.1,89.2,90.5,72.3,60.6,70.8],"off":[0.0,0.0,0.0,0.0,0.0,0.0,0.0],"vio":[0.0,0.0,0.0,0.0,0.0,0.0,0.0],"jun":[2.1,12.0,25.4,60.6],"jul":[1.5,6.2,21.5,70.8]}},"T_Detain":{"All":{"mob":[67.4,67.4,44.8,42.6,59.1,37.2,51.2],"qsr":[74.7,73.1,75.0,80.8,74.3,59.0,63.8],"off":[26.3,28.9,26.3,28.0,40.8,23.7,34.6],"vio":[46.9,51.6,30.3,28.8,8.8,3.6,4.3],"jun":[7.8,24.5,35.4,59.0],"jul":[7.2,19.6,34.3,63.8]},"Forward":{"mob":[68.0,68.1,45.2,42.9,60.2,37.8,51.8],"qsr":[74.7,73.2,74.9,80.8,74.2,59.0,63.8],"off":[26.5,29.2,26.6,28.2,41.6,24.1,35.1],"vio":[47.3,52.1,30.6,29.1,9.0,3.7,4.3],"jun":[7.8,24.6,35.3,59.0],"jul":[7.2,19.7,34.3,63.8]},"Return":{"mob":[0.0,0.0,0.0,0.0,0.0,0.0,0.0],"qsr":[72.2,65.6,91.7,82.9,78.1,58.2,64.7],"off":[0.0,0.0,0.0,0.0,0.0,0.0,0.0],"vio":[0.0,0.0,0.0,0.0,0.0,0.0,0.0],"jun":[6.3,20.3,38.0,58.2],"jul":[5.9,15.7,31.4,64.7]}}},"HYD":{"All":{"All":{"mob":[91.6,89.7,90.3,90.3,91.1,89.3,92.3],"qsr":[92.1,89.8,87.5,89.2,85.2,85.6,89.2],"off":[5.3,9.9,9.2,9.1,5.2,7.5,9.8],"vio":[30.1,33.5,29.3,30.4,25.3,21.7,28.8],"jun":[13.8,34.3,56.4,85.6],"jul":[15.4,38.0,61.2,89.2]},"Forward":{"mob":[92.8,91.1,92.0,91.9,92.5,90.9,93.6],"qsr":[92.1,89.8,87.4,89.2,85.2,85.6,89.1],"off":[5.4,10.1,9.3,9.3,5.3,7.6,10.0],"vio":[30.5,34.0,29.9,31.0,25.7,22.1,29.2],"jun":[13.7,34.2,56.1,85.6],"jul":[15.5,38.0,61.1,89.1]},"Return":{"mob":[0.0,0.0,0.0,0.0,0.0,0.0,0.0],"qsr":[92.6,92.6,92.3,91.3,83.1,87.1,90.8],"off":[0.0,0.0,0.0,0.0,0.0,0.0,0.0],"vio":[0.0,0.0,0.0,0.0,0.0,0.0,0.0],"jun":[17.1,42.2,73.4,87.1],"jul":[11.3,36.0,68.1,90.8]}},"Express":{"All":{"mob":[93.9,93.1,93.7,92.4,93.6,91.7,93.8],"qsr":[95.1,93.7,92.7,93.7,87.6,88.5,92.0],"off":[3.8,7.7,7.4,6.0,3.9,6.8,8.2],"vio":[45.9,50.5,47.2,47.7,46.1,38.6,47.7],"jun":[19.2,43.0,64.0,88.5],"jul":[19.4,45.6,68.7,92.0]},"Forward":{"mob":[94.0,93.2,94.1,93.3,94.6,92.6,94.5],"qsr":[95.2,93.7,92.7,93.7,87.8,88.6,92.0],"off":[3.8,7.7,7.4,6.1,3.9,6.9,8.3],"vio":[46.0,50.6,47.4,48.1,46.6,39.0,48.0],"jun":[19.1,43.0,64.0,88.6],"jul":[19.4,45.6,68.8,92.0]},"Return":{"mob":[0.0,0.0,0.0,0.0,0.0,0.0,0.0],"qsr":[91.9,85.0,94.5,98.0,66.4,80.2,90.1],"off":[0.0,0.0,0.0,0.0,0.0,0.0,0.0],"vio":[0.0,0.0,0.0,0.0,0.0,0.0,0.0],"jun":[24.6,48.0,65.6,80.2],"jul":[20.1,36.7,59.4,90.1]}},"Ecom":{"All":{"mob":[89.4,86.8,88.0,88.5,88.7,86.7,90.2],"qsr":[89.2,86.4,84.0,85.6,82.8,82.5,85.4],"off":[6.7,11.9,10.4,11.6,6.5,8.1,12.0],"vio":[15.1,18.6,17.0,16.4,4.9,3.4,3.5],"jun":[7.9,24.9,48.1,82.5],"jul":[10.0,27.8,51.2,85.4]},"Forward":{"mob":[91.6,89.2,90.6,90.8,90.5,88.9,92.3],"qsr":[89.1,86.2,83.7,85.5,82.6,82.3,85.2],"off":[6.9,12.3,10.7,11.9,6.7,8.3,12.3],"vio":[15.5,19.1,17.5,16.8,5.0,3.5,3.6],"jun":[7.8,24.5,47.4,82.3],"jul":[10.1,27.6,50.7,85.2]},"Return":{"mob":[0.0,0.0,0.0,0.0,0.0,0.0,0.0],"qsr":[92.6,93.0,92.1,89.3,92.1,90.1,91.0],"off":[0.0,0.0,0.0,0.0,0.0,0.0,0.0],"vio":[0.0,0.0,0.0,0.0,0.0,0.0,0.0],"jun":[13.9,39.6,76.9,90.1],"jul":[7.8,35.7,71.5,91.0]}},"T_Overnight":{"All":{"mob":[93.7,93.0,93.7,92.4,93.6,91.7,93.9],"qsr":[95.3,93.9,92.7,93.6,87.4,88.5,92.0],"off":[3.8,7.8,7.3,6.1,3.9,6.9,8.2],"vio":[46.4,51.3,48.1,48.6,47.3,39.0,47.9],"jun":[19.3,43.2,64.0,88.5],"jul":[19.4,45.7,68.7,92.0]},"Forward":{"mob":[93.8,93.2,94.0,93.3,94.7,92.6,94.6],"qsr":[95.3,93.9,92.7,93.5,87.6,88.6,92.0],"off":[3.8,7.8,7.4,6.2,3.9,7.0,8.3],"vio":[46.5,51.3,48.3,49.0,47.8,39.4,48.2],"jun":[19.3,43.1,64.0,88.6],"jul":[19.4,45.7,68.8,92.0]},"Return":{"mob":[0.0,0.0,0.0,0.0,0.0,0.0,0.0],"qsr":[91.8,84.5,94.6,98.1,66.7,80.3,90.5],"off":[0.0,0.0,0.0,0.0,0.0,0.0,0.0],"vio":[0.0,0.0,0.0,0.0,0.0,0.0,0.0],"jun":[23.4,47.7,65.4,80.3],"jul":[19.1,37.6,61.0,90.5]}},"T_Overland":{"All":{"mob":[97.3,94.3,96.2,93.5,96.3,89.8,85.3],"qsr":[92.1,91.0,92.8,95.3,89.6,89.3,94.1],"off":[1.8,4.4,9.1,4.2,3.3,6.3,8.5],"vio":[42.4,40.4,32.7,34.0,27.9,23.8,27.3],"jun":[17.2,39.8,65.0,89.3],"jul":[19.2,41.5,75.6,94.1]},"Forward":{"mob":[97.3,94.4,96.3,93.7,96.7,91.7,85.6],"qsr":[92.1,91.0,92.8,95.3,89.9,89.5,94.1],"off":[1.8,4.4,9.2,4.2,3.3,6.4,8.6],"vio":[42.5,40.5,32.7,34.0,28.1,24.3,27.4],"jun":[16.5,39.4,64.9,89.5],"jul":[19.1,41.4,75.6,94.1]},"Return":{"mob":[0.0,0.0,0.0,0.0,0.0,0.0,0.0],"qsr":[100.0,100.0,100.0,90.0,35.0,78.4,100.0],"off":[0.0,0.0,0.0,0.0,0.0,0.0,0.0],"vio":[0.0,0.0,0.0,0.0,0.0,0.0,0.0],"jun":[54.1,56.8,68.9,78.4],"jul":[57.1,71.4,85.7,100.0]}},"T_Detain":{"All":{"mob":[96.4,92.8,93.4,92.6,95.0,91.2,88.8],"qsr":[92.4,91.4,91.8,95.7,89.1,87.5,94.5],"off":[4.2,6.2,7.4,5.5,3.9,6.2,7.6],"vio":[28.6,36.5,36.1,37.5,28.3,32.5,33.3],"jun":[14.0,38.2,63.3,87.5],"jul":[21.4,43.8,72.6,94.5]},"Forward":{"mob":[96.5,92.9,93.4,92.7,95.2,91.5,89.0],"qsr":[92.4,91.3,91.9,95.7,89.2,87.6,94.5],"off":[4.2,6.2,7.4,5.5,3.9,6.2,7.6],"vio":[28.7,36.5,36.1,37.6,28.3,32.6,33.4],"jun":[14.0,38.2,63.2,87.6],"jul":[21.3,43.8,72.5,94.5]},"Return":{"mob":[0.0,0.0,0.0,0.0,0.0,0.0,0.0],"qsr":[100.0,100.0,50.0,85.7,66.7,77.8,100.0],"off":[0.0,0.0,0.0,0.0,0.0,0.0,0.0],"vio":[0.0,0.0,0.0,0.0,0.0,0.0,0.0],"jun":[22.2,33.3,77.8,77.8],"jul":[40.0,60.0,100.0,100.0]}}},"SKZ":{"All":{"All":{"mob":[90.7,95.0,95.2,95.0,96.3,89.8,95.6],"qsr":[93.3,94.8,96.0,96.6,95.1,94.8,94.6],"off":[14.2,8.9,5.2,3.9,4.7,3.7,5.4],"vio":[34.8,34.5,27.3,28.4,26.2,22.7,29.0],"jun":[23.1,54.0,77.7,94.8],"jul":[22.5,52.7,77.9,94.6]},"Forward":{"mob":[92.2,96.7,97.9,97.1,98.3,92.5,97.9],"qsr":[93.2,94.8,96.0,96.7,95.0,94.9,94.7],"off":[14.4,9.0,5.3,4.0,4.8,3.8,5.5],"vio":[35.4,35.2,28.1,29.1,26.8,23.4,29.7],"jun":[23.1,53.8,77.7,94.9],"jul":[22.4,52.6,77.8,94.7]},"Return":{"mob":[0.0,0.0,0.0,0.0,0.0,0.0,0.0],"qsr":[95.8,92.9,96.6,96.3,96.2,93.6,90.1],"off":[0.0,0.0,0.0,0.0,0.0,0.0,0.0],"vio":[0.0,0.0,0.0,0.0,0.0,0.0,0.0],"jun":[25.9,61.4,79.9,93.6],"jul":[28.0,59.3,83.5,90.1]}},"Express":{"All":{"mob":[91.7,96.6,98.3,97.4,98.3,94.2,97.5],"qsr":[93.3,95.4,95.0,96.5,95.5,94.5,94.2],"off":[13.8,7.0,4.4,3.0,3.3,3.2,5.2],"vio":[49.4,54.9,49.8,48.5,48.9,42.2,48.3],"jun":[28.0,57.2,78.5,94.5],"jul":[24.8,53.8,78.3,94.2]},"Forward":{"mob":[92.0,97.1,98.6,97.9,99.2,95.9,98.4],"qsr":[93.3,95.4,95.0,96.5,95.5,94.5,94.5],"off":[13.9,7.0,4.4,3.0,3.4,3.2,5.3],"vio":[49.6,55.2,50.0,48.8,49.4,43.0,48.7],"jun":[28.2,57.5,78.8,94.5],"jul":[24.8,53.9,78.5,94.5]},"Return":{"mob":[0.0,0.0,0.0,0.0,0.0,0.0,0.0],"qsr":[94.8,95.6,93.7,94.8,94.3,90.7,66.4],"off":[0.0,0.0,0.0,0.0,0.0,0.0,0.0],"vio":[0.0,0.0,0.0,0.0,0.0,0.0,0.0],"jun":[14.5,45.8,61.8,90.7],"jul":[20.2,38.3,54.0,66.4]}},"Ecom":{"All":{"mob":[89.9,93.3,92.7,92.8,94.2,85.0,92.9],"qsr":[93.3,94.2,96.8,96.8,94.6,95.2,95.1],"off":[14.5,10.8,5.8,4.7,6.1,4.2,5.6],"vio":[21.6,13.4,9.5,10.3,2.8,1.3,1.7],"jun":[17.9,50.5,76.9,95.2],"jul":[19.3,51.2,77.4,95.1]},"Forward":{"mob":[92.4,96.4,97.3,96.4,97.3,88.7,97.1],"qsr":[93.2,94.2,96.8,96.8,94.5,95.3,95.0],"off":[14.9,11.2,6.1,4.9,6.3,4.4,5.9],"vio":[22.2,13.8,9.9,10.7,2.9,1.4,1.8],"jun":[17.3,49.7,76.4,95.3],"jul":[18.8,50.5,76.8,95.0]},"Return":{"mob":[0.0,0.0,0.0,0.0,0.0,0.0,0.0],"qsr":[95.9,92.5,96.7,96.5,96.8,94.9,97.0],"off":[0.0,0.0,0.0,0.0,0.0,0.0,0.0],"vio":[0.0,0.0,0.0,0.0,0.0,0.0,0.0],"jun":[31.2,68.6,88.3,94.9],"jul":[30.3,65.5,92.2,97.0]}},"T_Overnight":{"All":{"mob":[92.3,97.2,98.3,97.3,98.2,94.2,97.5],"qsr":[94.2,96.1,95.7,97.2,96.0,94.9,94.4],"off":[13.2,6.6,3.8,2.7,3.0,3.1,5.2],"vio":[50.4,56.0,50.2,49.0,50.1,42.8,48.4],"jun":[28.4,57.9,79.2,94.9],"jul":[24.9,54.1,78.8,94.4]},"Forward":{"mob":[92.7,97.6,98.7,97.8,99.2,96.0,98.4],"qsr":[94.2,96.1,95.7,97.2,96.0,95.0,94.7],"off":[13.3,6.7,3.9,2.7,3.1,3.2,5.2],"vio":[50.6,56.3,50.4,49.3,50.6,43.6,48.9],"jun":[28.7,58.2,79.5,95.0],"jul":[25.0,54.2,79.0,94.7]},"Return":{"mob":[0.0,0.0,0.0,0.0,0.0,0.0,0.0],"qsr":[95.0,95.6,94.3,94.8,94.3,90.8,66.3],"off":[0.0,0.0,0.0,0.0,0.0,0.0,0.0],"vio":[0.0,0.0,0.0,0.0,0.0,0.0,0.0],"jun":[14.5,45.8,61.8,90.8],"jul":[20.3,38.5,54.2,66.3]}},"T_Overland":{"All":{"mob":[79.4,84.5,97.1,99.1,99.8,93.6,98.7],"qsr":[79.2,82.6,82.0,87.1,88.9,84.1,86.9],"off":[22.1,13.1,15.5,9.6,9.4,4.7,7.7],"vio":[34.9,39.3,48.2,44.1,30.8,29.2,30.5],"jun":[17.3,40.2,63.2,84.1],"jul":[18.4,44.9,62.6,86.9]},"Forward":{"mob":[79.4,84.6,97.5,99.2,99.9,93.8,98.9],"qsr":[79.2,82.6,82.0,87.1,88.9,84.1,86.9],"off":[22.1,13.1,15.5,9.6,9.4,4.7,7.7],"vio":[34.9,39.4,48.4,44.2,30.8,29.3,30.5],"jun":[17.3,40.2,63.2,84.1],"jul":[18.5,45.0,62.7,86.9]},"Return":{"mob":[0.0,0.0,0.0,0.0,0.0,0.0,0.0],"qsr":[71.4,85.7,77.3,100.0,87.5,66.7,100.0],"off":[0.0,0.0,0.0,0.0,0.0,0.0,0.0],"vio":[0.0,0.0,0.0,0.0,0.0,0.0,0.0],"jun":[22.2,33.3,44.4,66.7],"jul":[0.0,0.0,20.0,100.0]}},"T_Detain":{"All":{"mob":[87.8,92.7,98.6,99.2,99.6,94.0,98.7],"qsr":[82.9,88.4,89.2,89.3,90.3,84.8,87.5],"off":[21.1,11.2,8.7,4.6,6.9,3.5,5.5],"vio":[38.5,36.9,37.6,40.4,29.9,31.3,32.2],"jun":[19.3,43.3,64.9,84.8],"jul":[22.2,46.4,67.7,87.5]},"Forward":{"mob":[87.8,92.8,98.6,99.2,99.7,94.1,98.9],"qsr":[82.9,88.4,89.2,89.3,90.3,84.8,87.5],"off":[21.1,11.2,8.7,4.6,6.9,3.5,5.5],"vio":[38.5,37.0,37.6,40.5,29.9,31.3,32.3],"jun":[19.3,43.3,64.9,84.8],"jul":[22.2,46.5,67.7,87.5]},"Return":{"mob":[0.0,0.0,0.0,0.0,0.0,0.0,0.0],"qsr":[100.0,100.0,100.0,100.0,80.0,66.7,83.3],"off":[0.0,0.0,0.0,0.0,0.0,0.0,0.0],"vio":[0.0,0.0,0.0,0.0,0.0,0.0,0.0],"jun":[0.0,33.3,66.7,66.7],"jul":[16.7,16.7,50.0,83.3]}}},"UET":{"All":{"All":{"mob":[59.3,61.8,59.7,56.8,59.6,51.0,55.8],"qsr":[70.6,70.8,73.6,76.4,72.9,70.6,72.8],"off":[23.3,16.8,9.8,9.5,8.2,8.1,8.9],"vio":[40.8,41.9,29.1,28.8,17.7,12.5,17.6],"jun":[8.2,25.3,47.2,70.6],"jul":[10.3,27.9,46.6,72.8]},"Forward":{"mob":[59.9,62.2,60.4,57.2,60.0,51.4,56.5],"qsr":[71.0,71.1,74.0,76.5,72.8,70.6,73.1],"off":[23.6,16.9,9.9,9.5,8.3,8.2,9.0],"vio":[41.2,42.2,29.5,29.0,17.8,12.6,17.8],"jun":[8.2,25.1,47.1,70.6],"jul":[10.4,28.0,46.7,73.1]},"Return":{"mob":[0.0,0.0,0.0,0.0,0.0,0.0,0.0],"qsr":[35.7,27.7,42.0,65.9,78.3,65.1,50.9],"off":[0.0,0.0,0.0,0.0,0.0,0.0,0.0],"vio":[0.0,0.0,0.0,0.0,0.0,0.0,0.0],"jun":[7.4,43.4,52.3,65.1],"jul":[3.3,19.4,37.0,50.9]}},"Express":{"All":{"mob":[72.5,75.1,75.6,70.7,72.8,56.8,71.9],"qsr":[73.4,72.5,78.7,82.0,71.2,70.9,77.9],"off":[14.2,11.1,11.3,9.1,7.4,8.7,8.0],"vio":[52.2,62.8,57.6,52.1,37.5,27.7,40.2],"jun":[11.1,27.4,50.7,70.9],"jul":[14.0,33.1,51.5,77.9]},"Forward":{"mob":[72.6,75.1,75.7,70.8,73.1,57.2,72.2],"qsr":[73.4,72.5,78.7,82.0,71.2,71.0,77.9],"off":[14.2,11.1,11.3,9.1,7.5,8.8,8.1],"vio":[52.2,62.8,57.7,52.2,37.6,27.9,40.4],"jun":[11.1,27.4,50.7,71.0],"jul":[14.0,33.0,51.5,77.9]},"Return":{"mob":[0.0,0.0,0.0,0.0,0.0,0.0,0.0],"qsr":[69.7,89.5,88.2,86.5,74.7,56.0,73.0],"off":[0.0,0.0,0.0,0.0,0.0,0.0,0.0],"vio":[0.0,0.0,0.0,0.0,0.0,0.0,0.0],"jun":[14.4,26.4,48.4,56.0],"jul":[20.4,47.8,61.5,73.0]}},"Ecom":{"All":{"mob":[48.8,50.1,49.6,46.9,49.4,46.7,44.2],"qsr":[68.4,69.2,70.4,72.5,74.1,70.3,69.1],"off":[30.6,21.7,8.8,9.7,8.8,7.6,9.5],"vio":[31.8,23.6,11.3,12.1,2.4,1.5,1.3],"jun":[6.1,23.7,44.6,70.3],"jul":[7.6,24.1,43.0,69.1]},"Forward":{"mob":[49.7,50.8,50.6,47.3,49.9,47.3,45.1],"qsr":[69.0,69.9,71.0,72.6,74.1,70.3,69.5],"off":[31.1,22.0,9.0,9.8,8.9,7.7,9.7],"vio":[32.3,23.9,11.5,12.3,2.4,1.5,1.4],"jun":[6.1,23.4,44.5,70.3],"jul":[7.7,24.3,43.2,69.5]},"Return":{"mob":[0.0,0.0,0.0,0.0,0.0,0.0,0.0],"qsr":[34.9,26.6,41.0,63.0,79.4,69.2,47.1],"off":[0.0,0.0,0.0,0.0,0.0,0.0,0.0],"vio":[0.0,0.0,0.0,0.0,0.0,0.0,0.0],"jun":[4.2,51.2,54.1,69.2],"jul":[0.4,14.7,32.8,47.1]}},"T_Overnight":{"All":{"mob":[74.5,76.0,76.3,71.4,74.0,58.1,72.7],"qsr":[75.8,73.4,79.6,82.0,71.8,70.6,77.8],"off":[13.9,10.7,11.1,7.9,6.7,8.5,7.3],"vio":[52.9,63.9,58.8,53.0,39.8,29.0,41.3],"jun":[11.2,27.8,51.2,70.6],"jul":[14.2,33.6,51.8,77.8]},"Forward":{"mob":[74.5,76.0,76.3,71.5,74.3,58.5,73.0],"qsr":[75.8,73.4,79.6,82.0,71.8,70.7,77.9],"off":[13.9,10.7,11.1,7.9,6.7,8.5,7.3],"vio":[52.9,64.0,58.8,53.1,39.9,29.2,41.5],"jun":[11.1,27.8,51.2,70.7],"jul":[14.2,33.6,51.8,77.9]},"Return":{"mob":[0.0,0.0,0.0,0.0,0.0,0.0,0.0],"qsr":[66.7,88.9,87.9,83.6,72.6,55.4,73.0],"off":[0.0,0.0,0.0,0.0,0.0,0.0,0.0],"vio":[0.0,0.0,0.0,0.0,0.0,0.0,0.0],"jun":[14.3,26.4,48.5,55.4],"jul":[20.7,48.6,62.2,73.0]}},"T_Overland":{"All":{"mob":[44.1,57.4,64.8,58.9,57.4,30.7,46.2],"qsr":[39.7,55.0,66.7,81.2,64.8,75.0,87.4],"off":[17.7,20.2,14.9,27.4,19.5,16.1,26.8],"vio":[40.9,42.8,40.5,38.7,10.5,1.7,4.0],"jun":[11.6,21.0,42.0,75.0],"jul":[7.1,18.9,56.3,87.4]},"Forward":{"mob":[44.2,57.5,64.8,59.7,57.8,30.7,46.3],"qsr":[39.6,55.0,66.7,81.0,64.6,74.9,87.4],"off":[17.8,20.2,14.9,27.8,19.6,16.2,26.8],"vio":[41.0,42.8,40.6,39.2,10.6,1.7,4.0],"jun":[11.5,20.9,42.0,74.9],"jul":[7.1,19.0,56.4,87.4]},"Return":{"mob":[0.0,0.0,0.0,0.0,0.0,0.0,0.0],"qsr":[100.0,100.0,100.0,96.6,100.0,100.0,50.0],"off":[0.0,0.0,0.0,0.0,0.0,0.0,0.0],"vio":[0.0,0.0,0.0,0.0,0.0,0.0,0.0],"jun":[33.3,33.3,66.7,100.0],"jul":[0.0,0.0,0.0,50.0]}},"T_Detain":{"All":{"mob":[49.8,58.2,69.1,61.0,59.0,31.0,46.8],"qsr":[43.5,56.4,66.8,82.7,61.6,78.1,80.3],"off":[19.4,18.4,14.8,26.1,16.6,13.4,23.9],"vio":[44.3,40.1,41.1,41.3,11.5,1.9,4.0],"jun":[6.9,19.7,39.4,78.1],"jul":[10.0,22.7,47.8,80.3]},"Forward":{"mob":[49.9,58.2,69.1,61.4,59.3,31.1,46.9],"qsr":[43.4,56.4,66.8,82.7,61.4,78.1,80.2],"off":[19.5,18.4,14.8,26.2,16.7,13.4,23.9],"vio":[44.4,40.1,41.1,41.5,11.5,1.9,4.0],"jun":[7.0,19.7,39.5,78.1],"jul":[10.0,22.8,47.8,80.2]},"Return":{"mob":[0.0,0,0,0.0,0.0,0.0,0.0],"qsr":[66.7,0,0,77.8,87.5,100.0,100.0],"off":[0.0,0,0,0.0,0.0,0.0,0.0],"vio":[0.0,0,0,0.0,0.0,0.0,0.0],"jun":[0.0,0.0,0.0,100.0],"jul":[0.0,0.0,50.0,100.0]}}}};
+const appViewNames={All:'All shipments',Express:'Express division',Ecom:'Ecom',T_Overnight:'Overnight (type)',T_Overland:'Overland (type)',T_Detain:'Detain (type)'};
+let appView='All', appLeg='All';
+const AV=()=>appZones[gapZone][appView][appLeg];
+
+function appMobChart(){
+  const arr=AV().mob;
+  const W=520,H=240,P={t:18,r:12,b:34,l:34};
+  const s=el('svg',{viewBox:`0 0 ${W} ${H}`,width:'100%',role:'img'});
+  const max=100,y=v=>P.t+(1-v/max)*(H-P.t-P.b);
+  [25,50,75,100].forEach(g=>{
+    s.appendChild(el('line',{x1:P.l,x2:W-P.r,y1:y(g),y2:y(g),stroke:cssv('--grid'),'stroke-width':1}));
+    s.appendChild(el('text',{x:P.l-6,y:y(g)+4,'text-anchor':'end',class:'axis-lbl'})).textContent=g;
+  });
+  const mx=Math.max(...arr), n=appMonths.length, gap=(W-P.l-P.r)/n, bw=gap*0.56;
+  appMonths.forEach((m,i)=>{
+    const v=arr[i], xx=P.l+i*gap+(gap-bw)/2, yy=y(v), h=(H-P.b)-yy;
+    const col=v===mx?cssv('--good'):cssv('--brand');
+    s.appendChild(el('rect',{x:xx,y:yy,width:bw,height:h,rx:3,fill:col,opacity:.95}));
+    s.appendChild(el('text',{x:xx+bw/2,y:yy-6,'text-anchor':'middle',class:'val-lbl tab','font-size':'9.5'})).textContent=v.toFixed(0)+'%';
+    s.appendChild(el('text',{x:xx+bw/2,y:H-12,'text-anchor':'middle',class:'axis-lbl'})).textContent=m;
+  });
+  document.getElementById('appMobChart').appendChild(s);
+}
+function qsrCurve(){
+  const jun=AV().jun, jul=AV().jul;
+  const W=520,H=250,P={t:18,r:16,b:34,l:34};
+  const s=el('svg',{viewBox:`0 0 ${W} ${H}`,width:'100%',role:'img'});
+  const n=qsrTimes.length, x=i=>P.l+i*(W-P.l-P.r)/(n-1);
+  const max=100,y=v=>P.t+(1-v/max)*(H-P.t-P.b);
+  [25,50,75,100].forEach(g=>{
+    s.appendChild(el('line',{x1:P.l,x2:W-P.r,y1:y(g),y2:y(g),stroke:cssv('--grid'),'stroke-width':1}));
+    s.appendChild(el('text',{x:P.l-6,y:y(g)+4,'text-anchor':'end',class:'axis-lbl'})).textContent=g;
+  });
+  const line=(arr,col,lbl)=>{
+    let d=`M ${x(0)} ${y(arr[0])}`; arr.forEach((v,i)=>{if(i)d+=` L ${x(i)} ${y(v)}`;});
+    s.appendChild(el('path',{d,fill:'none',stroke:col,'stroke-width':2.5,'stroke-linecap':'round','stroke-linejoin':'round'}));
+    arr.forEach((v,i)=>{s.appendChild(el('circle',{cx:x(i),cy:y(v),r:3.5,fill:col,stroke:cssv('--surface-1'),'stroke-width':1.5}));
+      if(lbl) s.appendChild(el('text',{x:x(i),y:y(v)-9,'text-anchor':'middle',class:'val-lbl tab','font-size':'10'})).textContent=v.toFixed(0);});
+  };
+  line(jun,cssv('--s2'),false); line(jul,cssv('--s1'),true);
+  qsrTimes.forEach((t,i)=>s.appendChild(el('text',{x:x(i),y:H-12,'text-anchor':'middle',class:'axis-lbl'})).textContent=t);
+  document.getElementById('qsrCurve').appendChild(s);
+}
+function appViolChart(){
+  const arr=AV().vio;
+  const W=520,H=240,P={t:18,r:12,b:34,l:34};
+  const s=el('svg',{viewBox:`0 0 ${W} ${H}`,width:'100%',role:'img'});
+  const max=70,y=v=>P.t+(1-v/max)*(H-P.t-P.b);
+  [20,40,60].forEach(g=>{
+    s.appendChild(el('line',{x1:P.l,x2:W-P.r,y1:y(g),y2:y(g),stroke:cssv('--grid'),'stroke-width':1}));
+    s.appendChild(el('text',{x:P.l-6,y:y(g)+4,'text-anchor':'end',class:'axis-lbl'})).textContent=g+'%';
+  });
+  const n=appMonths.length, gap=(W-P.l-P.r)/n, bw=gap*0.56;
+  appMonths.forEach((m,i)=>{
+    const v=arr[i], xx=P.l+i*gap+(gap-bw)/2, yy=y(v), h=(H-P.b)-yy;
+    const col=v>=45?cssv('--critical'):v>=30?cssv('--warning'):cssv('--s3');
+    s.appendChild(el('rect',{x:xx,y:yy,width:bw,height:Math.max(1,h),rx:3,fill:col}));
+    s.appendChild(el('text',{x:xx+bw/2,y:yy-6,'text-anchor':'middle',class:'val-lbl tab','font-size':'9.5'})).textContent=v.toFixed(1)+'%';
+    s.appendChild(el('text',{x:xx+bw/2,y:H-12,'text-anchor':'middle',class:'axis-lbl'})).textContent=m;
+  });
+  document.getElementById('appViolChart').appendChild(s);
+}
+function appTable(){
+  const v=AV(), tb=document.getElementById('appTable'); tb.innerHTML='';
+  const row=(label,arr,cls)=>`<tr class="${cls||''}"><td class="hubcol">${label}</td>${arr.map(x=>`<td>${x.toFixed(1)}%</td>`).join('')}</tr>`;
+  tb.insertAdjacentHTML('beforeend',row('Mobile-app assignment %',v.mob,'totrow'));
+  tb.insertAdjacentHTML('beforeend',row('Status by 8 PM (QSR) %',v.qsr));
+  tb.insertAdjacentHTML('beforeend',row('Updated in office %',v.off));
+  tb.insertAdjacentHTML('beforeend',row('Violations %',v.vio));
+}
+function updateAppKpis(){
+  const v=AV();
+  const set=(idV,idD,jul,jun,higherBetter)=>{
+    document.getElementById(idV).innerHTML=jul.toFixed(1)+'<small>%</small>';
+    const diff=jul-jun, improved=higherBetter?diff>=0:diff<=0;
+    const arrow=higherBetter?(diff>=0?'▲':'▼'):(diff<=0?'▼':'▲');
+    document.getElementById(idD).innerHTML='<span class="'+(improved?'up':'down')+'">'+arrow+' '+Math.abs(diff).toFixed(1)+' pts vs June ('+jun.toFixed(1)+'%)</span>';
+  };
+  set('kMob','kMobD',v.mob[6],v.mob[5],true);
+  set('kQsr','kQsrD',v.qsr[6],v.qsr[5],true);
+  set('kOff','kOffD',v.off[6],v.off[5],false);
+  set('kViol','kViolD',v.vio[6],v.vio[5],false);
+}
+function renderApp(){
+  ['appMobChart','qsrCurve','appViolChart'].forEach(id=>{const e=document.getElementById(id);if(e)e.innerHTML='';});
+  appMobChart();qsrCurve();appViolChart();appTable();updateAppKpis();
+  const scope=appViewNames[appView]||appView;
+  document.getElementById('appScope').textContent=scope+(appLeg==='All'?'':' · '+appLeg+' leg');
+  document.getElementById('appZoneScope').textContent=gapZoneName[gapZone];
+  document.getElementById('appDetailSub').textContent=gapZoneName[gapZone]+' zone · monthly';
+  document.getElementById('appLegWarn').style.display = appLeg==='Return'?'block':'none';
+}
+function wireAppFilter(){
+  document.querySelectorAll('#appFilter button[data-v]').forEach(b=>b.addEventListener('click',()=>{
+    appView=b.dataset.v;
+    document.querySelectorAll('#appFilter button[data-v]').forEach(x=>x.classList.toggle('on',x===b));
+    renderApp();
+  }));
+  document.querySelectorAll('#appFilter button[data-leg]').forEach(b=>b.addEventListener('click',()=>{
+    appLeg=b.dataset.leg;
+    document.querySelectorAll('#appFilter button[data-leg]').forEach(x=>x.classList.toggle('on',x===b));
+    renderApp();
+  }));
+}
+
+// ---------- ROOT CAUSE & WAY FORWARD ----------
+// ---------- ROOT CAUSE (zone-wise) ----------
+let rcaZone='KHI';
+const rcaZoneName={KHI:'Karachi (KHI)',HYD:'Hyderabad (HYD)',SKZ:'Sukkur (SKZ)',UET:'Quetta (UET)'};
+const rcaData={"KHI":{"pareto":[{"r":"Consignee not available","p":48.7},{"r":"Refused (no reason)","p":20.1},{"r":"Need house/flat #","p":9.1},{"r":"On arrival — closed","p":3.9},{"r":"Need landmark","p":3.0},{"r":"Need plot/building","p":1.7},{"r":"No such house/flat","p":1.5},{"r":"Other reasons","p":12.0}],"top3":77.9,"sr":76.4,"tgt":82.0,"gap":5.6,"r1":"Consignee not available","r1p":48.7,"drag":"Allied","dragSub":"branch network ~61% ach."},"HYD":{"pareto":[{"r":"Consignee not available","p":50.5},{"r":"Refused (no reason)","p":21.6},{"r":"Consignee out of city","p":7.1},{"r":"Need house/flat #","p":3.8},{"r":"Fake order","p":3.5},{"r":"On arrival — closed","p":2.0},{"r":"Cash not available","p":1.9},{"r":"Other reasons","p":9.6}],"top3":79.2,"sr":73.6,"tgt":79.3,"gap":5.7,"r1":"Consignee not available","r1p":50.5,"drag":"Spurs","dragSub":"Nooriabad/Sujawal <70%"},"SKZ":{"pareto":[{"r":"Consignee not available","p":38.1},{"r":"Refused (no reason)","p":22.5},{"r":"Need house/flat #","p":9.2},{"r":"Consignee out of city","p":7.1},{"r":"Cash not available","p":3.2},{"r":"On arrival — closed","p":3.0},{"r":"No such consignee","p":2.6},{"r":"Other reasons","p":14.4}],"top3":69.8,"sr":71.4,"tgt":78.1,"gap":6.7,"r1":"Consignee not available","r1p":38.1,"drag":"Ghotki","dragSub":"Ghotki/Kashmoor soft spots"},"UET":{"pareto":[{"r":"Consignee not available","p":63.3},{"r":"Refused (no reason)","p":27.8},{"r":"Need house/flat #","p":1.4},{"r":"Consignee out of city","p":1.1},{"r":"No such consignee","p":0.8},{"r":"Cash not available","p":0.8},{"r":"Open-shipment demand","p":0.7},{"r":"Other reasons","p":4.2}],"top3":92.5,"sr":62.2,"tgt":77.4,"gap":15.2,"r1":"Consignee not available","r1p":63.3,"drag":"Quetta","dragSub":"city + Zhob/Loralai spurs"}};
+let paretoData=rcaData.KHI.pareto;
+function renderRCA(){
+  const d=rcaData[rcaZone];
+  paretoData=d.pareto;
+  document.getElementById('rcaScope').textContent=rcaZoneName[rcaZone];
+  const kp=[
+    {label:'The core gap',val:d.gap.toFixed(1),unit:' pts',delta:`SR ${d.sr.toFixed(1)}% vs ${d.tgt.toFixed(0)}% target`,ac:'var(--critical)'},
+    {label:'Failures from top 3 reasons',val:d.top3.toFixed(0),unit:'%',delta:'the “vital few” to fix',ac:'var(--warning)'},
+    {label:'#1 failure reason',val:d.r1p.toFixed(1),unit:'%',delta:d.r1,ac:'var(--s2)'},
+    {label:'Biggest structural drag',val:d.drag,unit:'',delta:d.dragSub,ac:'var(--s1)'},
+  ];
+  document.getElementById('rcaKpis').innerHTML=kp.map(k=>`<div class="kpi"><div class="label">${k.label}</div><div class="val">${k.val}${k.unit?`<small>${k.unit}</small>`:''}</div><div class="delta"><span class="down">${k.delta}</span></div><div class="accent" style="background:${k.ac}"></div></div>`).join('');
+  document.getElementById('rcaParetoHint').textContent=rcaZoneName[rcaZone]+' zone';
+  const t3=d.pareto.slice(0,3).map(x=>x.r.toLowerCase()).join(', ');
+  document.getElementById('rcaParetoSub').textContent=`Just three reasons — ${t3} — account for ~${d.top3.toFixed(0)}% of all reattempt-required shipments in ${rcaZoneName[rcaZone]}. Fix these and the SR gap closes fastest.`;
+  document.getElementById('rcaFishHint').textContent=`Effect: ${rcaZoneName[rcaZone]} SR ${d.gap.toFixed(1)} pts below target · causes grouped by 6M`;
+  document.getElementById('rcaWhyHint').textContent=`“${d.r1}” · ${d.r1p.toFixed(1)}% of failures`;
+  document.getElementById('rcaWhy1Pct').textContent=d.r1p.toFixed(1)+'%';
+  const goal=Math.round(d.sr)+5;
+  document.getElementById('rcaPlan').innerHTML=`Set Q3 goal: ${rcaZoneName[rcaZone]} SR ${d.sr.toFixed(1)}% → <b>${goal}%+</b>. Prioritise the top-3 Pareto reasons &amp; the ${d.drag} drag (${d.dragSub}). Define one owner per root cause.`;
+  fishTop[0].causes[0]=`Consignee not available ${d.r1p.toFixed(1)}%`;
+  document.getElementById('paretoChart').innerHTML=''; paretoChart();
+  document.getElementById('fishbone').innerHTML=''; fishbone();
+}
+function wireRcaZoneFilter(){
+  document.querySelectorAll('#rcaZoneFilter button').forEach(b=>b.addEventListener('click',()=>{
+    rcaZone=b.dataset.z;
+    document.querySelectorAll('#rcaZoneFilter button').forEach(x=>x.classList.toggle('on',x===b));
+    renderRCA();
+  }));
+}
+function paretoChart(){
+  const W=560,H=310,P={t:16,r:16,b:104,l:32};
+  const s=el('svg',{viewBox:`0 0 ${W} ${H}`,width:'100%',role:'img'});
+  const y=v=>P.t+(1-v/100)*(H-P.t-P.b);
+  [25,50,75,100].forEach(g=>{s.appendChild(el('line',{x1:P.l,x2:W-P.r,y1:y(g),y2:y(g),stroke:cssv('--grid'),'stroke-width':1}));
+    s.appendChild(el('text',{x:P.l-5,y:y(g)+4,'text-anchor':'end',class:'axis-lbl'})).textContent=g;});
+  s.appendChild(el('line',{x1:P.l,x2:W-P.r,y1:y(80),y2:y(80),stroke:cssv('--brand-strong'),'stroke-width':1.5,'stroke-dasharray':'5 4'}));
+  const n=paretoData.length, gap=(W-P.l-P.r)/n, bw=gap*0.62;
+  let cum=0; const pts=[];
+  paretoData.forEach((d,i)=>{
+    const xx=P.l+i*gap+(gap-bw)/2, yy=y(d.p), h=(H-P.b)-yy;
+    s.appendChild(el('rect',{x:xx,y:yy,width:bw,height:h,rx:3,fill:i<3?cssv('--s1'):cssv('--s2'),opacity:.92}));
+    if(d.p>=4) s.appendChild(el('text',{x:xx+bw/2,y:yy-5,'text-anchor':'middle',class:'val-lbl tab','font-size':'9.5'})).textContent=d.p.toFixed(1);
+    cum+=d.p; pts.push([xx+bw/2,y(cum)]);
+    const t=el('text',{x:xx+bw/2,y:H-P.b+14,'text-anchor':'end',class:'axis-lbl','font-size':'9.5',transform:`rotate(-38 ${xx+bw/2} ${H-P.b+14})`});t.textContent=d.r;s.appendChild(t);
+  });
+  let dd=`M ${pts[0][0]} ${pts[0][1]}`; pts.forEach((p,i)=>{if(i)dd+=` L ${p[0]} ${p[1]}`;});
+  s.appendChild(el('path',{d:dd,fill:'none',stroke:cssv('--brand-strong'),'stroke-width':2.5}));
+  pts.forEach((p,i)=>{s.appendChild(el('circle',{cx:p[0],cy:p[1],r:3,fill:cssv('--brand-strong'),stroke:cssv('--surface-1'),'stroke-width':1.5}));
+    if(i<3||i===pts.length-1){let c=0;for(let k=0;k<=i;k++)c+=paretoData[k].p;s.appendChild(el('text',{x:p[0]+(i===0?10:0),y:p[1]-8,'text-anchor':'middle',class:'val-lbl tab','font-size':'9.5',fill:cssv('--brand-strong')})).textContent=c.toFixed(0)+'%';}});
+  document.getElementById('paretoChart').appendChild(s);
+}
+const fishTop=[
+  {c:'People',col:'--s1',x:175,causes:['Consignee not available 48.7%','Rider app violations ~41%','Coastal branch capacity']},
+  {c:'Process',col:'--s2',x:445,causes:['No pre-delivery coordination','Slow same-day assignment','RC→arrival linehaul delay']},
+  {c:'Systems & App',col:'--s3',x:715,causes:['Ecom app adoption only 51%','Office data-updates (bypass)','Returns not app-tracked']},
+];
+const fishBot=[
+  {c:'Shipment & Data',col:'--s7',x:175,causes:['Incomplete addresses ~15%','COD refusals/fake orders 20%','Weak B/B+ brand quality']},
+  {c:'Measurement',col:'--s4',x:445,causes:['QSR status discipline','Pending-data backlog','First-attempt not tied to rider']},
+  {c:'Environment',col:'--s8',x:715,causes:['Coastal remoteness (Gwadar/Turbat)','Closed-on-arrival premises','Eid seasonality swings']},
+];
+function fishbone(){
+  const W=1020,H=560,cy=280;
+  const s=el('svg',{viewBox:`0 0 ${W} ${H}`,width:'100%',role:'img'});
+  s.appendChild(el('line',{x1:24,x2:812,y1:cy,y2:cy,stroke:cssv('--baseline'),'stroke-width':3}));
+  s.appendChild(el('polygon',{points:`812,${cy-8} 828,${cy} 812,${cy+8}`,fill:cssv('--baseline')}));
+  s.appendChild(el('rect',{x:830,y:cy-46,width:186,height:92,rx:12,fill:'#1f1a0c'}));
+  const _d=rcaData[rcaZone];
+  [`Zone SR ${_d.sr.toFixed(1)}%`,`vs ${_d.tgt.toFixed(0)}% target`,`(−${_d.gap.toFixed(1)} pts)`].forEach((t,i)=>s.appendChild(el('text',{x:923,y:cy-14+i*20,'text-anchor':'middle',fill:i===2?'#f5c024':'#fff','font-size':i===2?'12':'14','font-weight':'800'})).textContent=t);
+  const drawCat=(cat,top)=>{
+    const cv=cssv(cat.col);
+    const boxY=top?26:H-50, causeY0=top?60:H-92, dir=top?1:-1;
+    s.appendChild(el('rect',{x:cat.x-96,y:boxY,width:192,height:22,rx:6,fill:cv}));
+    s.appendChild(el('text',{x:cat.x,y:boxY+15,'text-anchor':'middle',fill:'#fff','font-size':'12.5','font-weight':'800'})).textContent=cat.c;
+    cat.causes.forEach((c,i)=>s.appendChild(el('text',{x:cat.x,y:causeY0+dir*i*16,'text-anchor':'middle',class:'cat-lbl','font-size':'11'})).textContent='• '+c);
+    const ribTop=top?(causeY0+2*16+8):(causeY0-2*16-12);
+    const attachX=cat.x+90;
+    s.appendChild(el('line',{x1:attachX,x2:cat.x,y1:cy,y2:ribTop,stroke:cv,'stroke-width':2,opacity:.6}));
+  };
+  fishTop.forEach(c=>drawCat(c,true)); fishBot.forEach(c=>drawCat(c,false));
+  document.getElementById('fishbone').appendChild(s);
+}
+
+// ---------- KPI SCORECARD (South region) ----------
+const scData={"June":{"KHI":{"overland":45.0,"linehaul":76.0,"express":87.6,"ecom":38.1,"exlh":80.2,"total":66.0},"HYD":{"overland":100.0,"linehaul":68.0,"express":94.1,"ecom":53.8,"exlh":89.6,"total":77.5},"SKZ":{"overland":96.7,"linehaul":80.0,"express":94.1,"ecom":55.1,"exlh":91.6,"total":79.3},"UET":{"overland":96.7,"linehaul":68.0,"express":87.6,"ecom":31.1,"exlh":84.8,"total":66.7}},"May":{"KHI":{"overland":73.3,"linehaul":62.0,"express":84.1,"ecom":39.0,"exlh":78.4,"total":65.1},"HYD":{"overland":100.0,"linehaul":62.0,"express":94.1,"ecom":54.1,"exlh":88.4,"total":76.8},"SKZ":{"overland":96.7,"linehaul":70.0,"express":94.1,"ecom":55.0,"exlh":89.6,"total":77.9},"UET":{"overland":80.0,"linehaul":66.0,"express":93.5,"ecom":32.1,"exlh":86.4,"total":68.1}},"April":{"KHI":{"overland":70.0,"linehaul":62.0,"express":89.4,"ecom":45.5,"exlh":81.6,"total":69.4},"HYD":{"overland":100.0,"linehaul":56.0,"express":94.1,"ecom":54.8,"exlh":87.2,"total":76.3},"SKZ":{"overland":93.3,"linehaul":68.0,"express":94.1,"ecom":53.0,"exlh":88.8,"total":76.7},"UET":{"overland":66.7,"linehaul":66.0,"express":93.5,"ecom":40.1,"exlh":84.8,"total":69.7}}};
+const scZones=['KHI','HYD','SKZ','UET'];
+const scMonths=['April','May','June'];
+const scZoneCol={KHI:'--s1',HYD:'--s2',SKZ:'--s3',UET:'--s7'};
+const scCats=[['overland','Overland & Heavy'],['linehaul','Line Haul / Hub'],['express','Express'],['ecom','E-commerce'],['exlh','Express+LineHaul'],['total','TOTAL']];
+let scMonth='All';
+function scStyle(v){
+  if(v>=90) return 'background:color-mix(in srgb,var(--good) 30%,transparent);color:var(--good-ink);font-weight:800';
+  if(v>=75) return 'background:color-mix(in srgb,var(--good) 13%,transparent);color:var(--good-ink);font-weight:700';
+  if(v>=60) return 'background:color-mix(in srgb,var(--warning) 24%,transparent);color:#8a6600;font-weight:700';
+  return 'background:color-mix(in srgb,var(--critical) 16%,transparent);color:var(--critical);font-weight:800';
+}
+const subStruct=[["Overland & Heavy","Same-Day Assigned Heavy"],["Overland & Heavy","Material &amp; SOP Delivery Compliance"],["Overland & Heavy","Heavy Closure &lt;6 Days of AR"],["Line Haul / Hub","Damages / Thefts Resolution"],["Line Haul / Hub","Timely Unloading &amp; Dispatch"],["Line Haul / Hub","Timely Transit-Manifest Balancing"],["Line Haul / Hub","Timely Dispatch of Express Runners"],["Line Haul / Hub","Check-in / Check-out Compliance"],["Express","MTD Performance"],["Express","Effectiveness of Pick-Up PMs"],["Express","Vol-Weight Recording"],["Express","OSA Recording"],["Express","Delivery App Implementation"],["Express","Same-Day Assign (Light)"],["Express","Project / Bulk WSLA DV-DS"],["Express","Light Closure &lt;5 Days of AR"],["E-commerce","1st Attempt Success Ratio"],["E-commerce","DV Unpaid"],["E-commerce","Total SR Achievement"],["E-commerce","Closure KPIs"]];
+const subKpiData={"June":{"KHI":{"Same-Day Assigned Heavy":35.0,"Material &amp; SOP Delivery Compliance":100.0,"Heavy Closure &lt;6 Days of AR":0.0,"Damages / Thefts Resolution":100.0,"Timely Unloading &amp; Dispatch":70.0,"Timely Transit-Manifest Balancing":80.0,"Timely Dispatch of Express Runners":60.0,"Check-in / Check-out Compliance":70.0,"MTD Performance":100.0,"Effectiveness of Pick-Up PMs":100.0,"Vol-Weight Recording":100.0,"OSA Recording":100.0,"Delivery App Implementation":50.0,"Same-Day Assign (Light)":100.0,"Project / Bulk WSLA DV-DS":80.0,"Light Closure &lt;5 Days of AR":90.0,"1st Attempt Success Ratio":31.0,"DV Unpaid":100.0,"Total SR Achievement":0.0,"Closure KPIs":54.0},"HYD":{"Same-Day Assigned Heavy":100.0,"Material &amp; SOP Delivery Compliance":100.0,"Heavy Closure &lt;6 Days of AR":100.0,"Damages / Thefts Resolution":100.0,"Timely Unloading &amp; Dispatch":60.0,"Timely Transit-Manifest Balancing":80.0,"Timely Dispatch of Express Runners":100.0,"Check-in / Check-out Compliance":0.0,"MTD Performance":100.0,"Effectiveness of Pick-Up PMs":100.0,"Vol-Weight Recording":100.0,"OSA Recording":100.0,"Delivery App Implementation":67.0,"Same-Day Assign (Light)":100.0,"Project / Bulk WSLA DV-DS":100.0,"Light Closure &lt;5 Days of AR":100.0,"1st Attempt Success Ratio":56.0,"DV Unpaid":99.0,"Total SR Achievement":0.0,"Closure KPIs":82.0},"SKZ":{"Same-Day Assigned Heavy":90.0,"Material &amp; SOP Delivery Compliance":100.0,"Heavy Closure &lt;6 Days of AR":100.0,"Damages / Thefts Resolution":100.0,"Timely Unloading &amp; Dispatch":60.0,"Timely Transit-Manifest Balancing":80.0,"Timely Dispatch of Express Runners":100.0,"Check-in / Check-out Compliance":60.0,"MTD Performance":100.0,"Effectiveness of Pick-Up PMs":100.0,"Vol-Weight Recording":100.0,"OSA Recording":100.0,"Delivery App Implementation":67.0,"Same-Day Assign (Light)":100.0,"Project / Bulk WSLA DV-DS":100.0,"Light Closure &lt;5 Days of AR":100.0,"1st Attempt Success Ratio":56.0,"DV Unpaid":100.0,"Total SR Achievement":0.0,"Closure KPIs":85.0},"UET":{"Same-Day Assigned Heavy":90.0,"Material &amp; SOP Delivery Compliance":100.0,"Heavy Closure &lt;6 Days of AR":100.0,"Damages / Thefts Resolution":100.0,"Timely Unloading &amp; Dispatch":70.0,"Timely Transit-Manifest Balancing":70.0,"Timely Dispatch of Express Runners":100.0,"Check-in / Check-out Compliance":0.0,"MTD Performance":100.0,"Effectiveness of Pick-Up PMs":100.0,"Vol-Weight Recording":100.0,"OSA Recording":100.0,"Delivery App Implementation":50.0,"Same-Day Assign (Light)":100.0,"Project / Bulk WSLA DV-DS":80.0,"Light Closure &lt;5 Days of AR":90.0,"1st Attempt Success Ratio":11.0,"DV Unpaid":99.0,"Total SR Achievement":0.0,"Closure KPIs":48.0}},"May":{"KHI":{"Same-Day Assigned Heavy":40.0,"Material &amp; SOP Delivery Compliance":100.0,"Heavy Closure &lt;6 Days of AR":80.0,"Damages / Thefts Resolution":100.0,"Timely Unloading &amp; Dispatch":80.0,"Timely Transit-Manifest Balancing":80.0,"Timely Dispatch of Express Runners":50.0,"Check-in / Check-out Compliance":0.0,"MTD Performance":100.0,"Effectiveness of Pick-Up PMs":100.0,"Vol-Weight Recording":80.0,"OSA Recording":100.0,"Delivery App Implementation":67.0,"Same-Day Assign (Light)":75.0,"Project / Bulk WSLA DV-DS":80.0,"Light Closure &lt;5 Days of AR":80.0,"1st Attempt Success Ratio":35.0,"DV Unpaid":100.0,"Total SR Achievement":0.0,"Closure KPIs":54.0},"HYD":{"Same-Day Assigned Heavy":100.0,"Material &amp; SOP Delivery Compliance":100.0,"Heavy Closure &lt;6 Days of AR":100.0,"Damages / Thefts Resolution":100.0,"Timely Unloading &amp; Dispatch":60.0,"Timely Transit-Manifest Balancing":80.0,"Timely Dispatch of Express Runners":70.0,"Check-in / Check-out Compliance":0.0,"MTD Performance":100.0,"Effectiveness of Pick-Up PMs":100.0,"Vol-Weight Recording":100.0,"OSA Recording":100.0,"Delivery App Implementation":67.0,"Same-Day Assign (Light)":100.0,"Project / Bulk WSLA DV-DS":100.0,"Light Closure &lt;5 Days of AR":100.0,"1st Attempt Success Ratio":55.0,"DV Unpaid":100.0,"Total SR Achievement":0.0,"Closure KPIs":83.0},"SKZ":{"Same-Day Assigned Heavy":90.0,"Material &amp; SOP Delivery Compliance":100.0,"Heavy Closure &lt;6 Days of AR":100.0,"Damages / Thefts Resolution":100.0,"Timely Unloading &amp; Dispatch":70.0,"Timely Transit-Manifest Balancing":80.0,"Timely Dispatch of Express Runners":100.0,"Check-in / Check-out Compliance":0.0,"MTD Performance":100.0,"Effectiveness of Pick-Up PMs":100.0,"Vol-Weight Recording":100.0,"OSA Recording":100.0,"Delivery App Implementation":67.0,"Same-Day Assign (Light)":100.0,"Project / Bulk WSLA DV-DS":100.0,"Light Closure &lt;5 Days of AR":100.0,"1st Attempt Success Ratio":55.0,"DV Unpaid":100.0,"Total SR Achievement":0.0,"Closure KPIs":86.0},"UET":{"Same-Day Assigned Heavy":40.0,"Material &amp; SOP Delivery Compliance":100.0,"Heavy Closure &lt;6 Days of AR":100.0,"Damages / Thefts Resolution":100.0,"Timely Unloading &amp; Dispatch":50.0,"Timely Transit-Manifest Balancing":80.0,"Timely Dispatch of Express Runners":100.0,"Check-in / Check-out Compliance":0.0,"MTD Performance":100.0,"Effectiveness of Pick-Up PMs":100.0,"Vol-Weight Recording":100.0,"OSA Recording":100.0,"Delivery App Implementation":67.0,"Same-Day Assign (Light)":100.0,"Project / Bulk WSLA DV-DS":100.0,"Light Closure &lt;5 Days of AR":95.0,"1st Attempt Success Ratio":16.0,"DV Unpaid":100.0,"Total SR Achievement":0.0,"Closure KPIs":47.0}},"April":{"KHI":{"Same-Day Assigned Heavy":70.0,"Material &amp; SOP Delivery Compliance":50.0,"Heavy Closure &lt;6 Days of AR":90.0,"Damages / Thefts Resolution":90.0,"Timely Unloading &amp; Dispatch":90.0,"Timely Transit-Manifest Balancing":80.0,"Timely Dispatch of Express Runners":50.0,"Check-in / Check-out Compliance":0.0,"MTD Performance":100.0,"Effectiveness of Pick-Up PMs":100.0,"Vol-Weight Recording":100.0,"OSA Recording":100.0,"Delivery App Implementation":67.0,"Same-Day Assign (Light)":100.0,"Project / Bulk WSLA DV-DS":80.0,"Light Closure &lt;5 Days of AR":80.0,"1st Attempt Success Ratio":30.0,"DV Unpaid":100.0,"Total SR Achievement":0.0,"Closure KPIs":76.0},"HYD":{"Same-Day Assigned Heavy":100.0,"Material &amp; SOP Delivery Compliance":100.0,"Heavy Closure &lt;6 Days of AR":100.0,"Damages / Thefts Resolution":90.0,"Timely Unloading &amp; Dispatch":60.0,"Timely Transit-Manifest Balancing":80.0,"Timely Dispatch of Express Runners":50.0,"Check-in / Check-out Compliance":0.0,"MTD Performance":100.0,"Effectiveness of Pick-Up PMs":100.0,"Vol-Weight Recording":100.0,"OSA Recording":100.0,"Delivery App Implementation":67.0,"Same-Day Assign (Light)":100.0,"Project / Bulk WSLA DV-DS":100.0,"Light Closure &lt;5 Days of AR":100.0,"1st Attempt Success Ratio":54.0,"DV Unpaid":100.0,"Total SR Achievement":0.0,"Closure KPIs":86.0},"SKZ":{"Same-Day Assigned Heavy":80.0,"Material &amp; SOP Delivery Compliance":100.0,"Heavy Closure &lt;6 Days of AR":100.0,"Damages / Thefts Resolution":90.0,"Timely Unloading &amp; Dispatch":70.0,"Timely Transit-Manifest Balancing":80.0,"Timely Dispatch of Express Runners":100.0,"Check-in / Check-out Compliance":0.0,"MTD Performance":100.0,"Effectiveness of Pick-Up PMs":100.0,"Vol-Weight Recording":100.0,"OSA Recording":100.0,"Delivery App Implementation":67.0,"Same-Day Assign (Light)":100.0,"Project / Bulk WSLA DV-DS":100.0,"Light Closure &lt;5 Days of AR":100.0,"1st Attempt Success Ratio":45.0,"DV Unpaid":100.0,"Total SR Achievement":0.0,"Closure KPIs":87.0},"UET":{"Same-Day Assigned Heavy":0.0,"Material &amp; SOP Delivery Compliance":100.0,"Heavy Closure &lt;6 Days of AR":100.0,"Damages / Thefts Resolution":100.0,"Timely Unloading &amp; Dispatch":60.0,"Timely Transit-Manifest Balancing":70.0,"Timely Dispatch of Express Runners":100.0,"Check-in / Check-out Compliance":0.0,"MTD Performance":100.0,"Effectiveness of Pick-Up PMs":100.0,"Vol-Weight Recording":100.0,"OSA Recording":100.0,"Delivery App Implementation":67.0,"Same-Day Assign (Light)":100.0,"Project / Bulk WSLA DV-DS":100.0,"Light Closure &lt;5 Days of AR":95.0,"1st Attempt Success Ratio":16.0,"DV Unpaid":99.0,"Total SR Achievement":0.0,"Closure KPIs":70.0}}};
+(function(){ // build "All" = Apr–Jun average
+  var ms=['April','May','June'];
+  scData['All']={}; subKpiData['All']={};
+  scZones.forEach(function(z){
+    var o={};['overland','linehaul','express','ecom','exlh','total'].forEach(function(k){
+      o[k]=Math.round(ms.reduce(function(s,m){return s+scData[m][z][k];},0)/3*10)/10;});
+    scData['All'][z]=o;
+    var so={};subStruct.forEach(function(cn){var n=cn[1];
+      so[n]=Math.round(ms.reduce(function(s,m){return s+subKpiData[m][z][n];},0)/3);});
+    subKpiData['All'][z]=so;
+  });
+})();
+function scLbl(){return scMonth==='All'?'Apr–Jun avg':scMonth;}
+function scSubR(){
+  const tb=document.getElementById('scSubBody');tb.innerHTML='';
+  const md=subKpiData[scMonth], cd=scData[scMonth];let lastCat=null;
+  const catKey={'Overland & Heavy':'overland','Line Haul / Hub':'linehaul','Express':'express','E-commerce':'ecom'};
+  function subtotal(cat){
+    var k=catKey[cat];
+    var cells=scZones.map(function(z){var v=cd[z][k];return '<td style="'+scStyle(v)+'">'+v.toFixed(0)+'%</td>';}).join('');
+    tb.insertAdjacentHTML('beforeend','<tr class="totrow"><td class="hubcol">'+cat+' — score</td>'+cells+'</tr>');
+  }
+  subStruct.forEach(function(cn){
+    var cat=cn[0],name=cn[1];
+    if(cat!==lastCat){ if(lastCat)subtotal(lastCat); tb.insertAdjacentHTML('beforeend','<tr class="grouprow"><td class="hubcol" colspan="5">'+cat+'</td></tr>');lastCat=cat;}
+    var cells=scZones.map(function(z){var v=md[z][name];return '<td style="'+scStyle(v)+'">'+v.toFixed(0)+'%</td>';}).join('');
+    tb.insertAdjacentHTML('beforeend','<tr><td class="hubcol">'+name+'</td>'+cells+'</tr>');
+  });
+  if(lastCat)subtotal(lastCat);
+  var tc=scZones.map(function(z){var v=cd[z].total;return '<td style="'+scStyle(v)+'">'+v.toFixed(0)+'%</td>';}).join('');
+  tb.insertAdjacentHTML('beforeend','<tr class="grandrow"><td class="hubcol">TOTAL SCORE</td>'+tc+'</tr>');
+  document.getElementById('scMonthD').textContent=scLbl();
+}
+function scBodyR(){
+  const tb=document.getElementById('scBody');tb.innerHTML='';const md=scData[scMonth];
+  scZones.forEach(z=>{let cells='';
+    scCats.forEach(c=>{const v=md[z][c[0]];cells+=`<td style="${scStyle(v)}">${v.toFixed(0)}%</td>`;});
+    tb.insertAdjacentHTML('beforeend',`<tr><td class="hubcol">${z}</td>${cells}</tr>`);});
+}
+function scBar(){
+  const md=scData[scMonth];
+  const W=520,H=250,P={t:18,r:14,b:36,l:32};
+  const s=el('svg',{viewBox:`0 0 ${W} ${H}`,width:'100%',role:'img'});
+  const max=100,y=v=>P.t+(1-v/max)*(H-P.t-P.b);
+  [25,50,75,100].forEach(g=>{s.appendChild(el('line',{x1:P.l,x2:W-P.r,y1:y(g),y2:y(g),stroke:cssv('--grid'),'stroke-width':1}));
+    s.appendChild(el('text',{x:P.l-6,y:y(g)+4,'text-anchor':'end',class:'axis-lbl'})).textContent=g;});
+  const zs=[...scZones].sort((a,b)=>md[b].total-md[a].total);
+  const gap=(W-P.l-P.r)/zs.length,bw=gap*0.5;
+  zs.forEach((z,i)=>{const v=md[z].total,xx=P.l+i*gap+(gap-bw)/2,yy=y(v),h=(H-P.b)-yy;
+    const col=v>=75?cssv('--s3'):v>=60?cssv('--s4'):cssv('--warning');
+    s.appendChild(el('rect',{x:xx,y:yy,width:bw,height:h,rx:4,fill:col}));
+    s.appendChild(el('text',{x:xx+bw/2,y:yy-6,'text-anchor':'middle',class:'val-lbl tab'})).textContent=v.toFixed(1)+'%';
+    s.appendChild(el('text',{x:xx+bw/2,y:H-12,'text-anchor':'middle',class:'axis-lbl','font-weight':'700'})).textContent=z;});
+  document.getElementById('scBar').appendChild(s);
+}
+function scTrend(){
+  const W=520,H=250,P={t:18,r:16,b:34,l:32};
+  const s=el('svg',{viewBox:`0 0 ${W} ${H}`,width:'100%',role:'img'});
+  const n=scMonths.length,x=i=>P.l+i*(W-P.l-P.r)/(n-1);
+  const yMin=55,yMax=85,y=v=>P.t+(yMax-v)/(yMax-yMin)*(H-P.t-P.b);
+  [55,65,75,85].forEach(g=>{s.appendChild(el('line',{x1:P.l,x2:W-P.r,y1:y(g),y2:y(g),stroke:cssv('--grid'),'stroke-width':1}));
+    s.appendChild(el('text',{x:P.l-6,y:y(g)+4,'text-anchor':'end',class:'axis-lbl'})).textContent=g;});
+  scZones.forEach(z=>{const col=cssv(scZoneCol[z]);
+    const arr=scMonths.map(m=>scData[m][z].total);
+    let d=`M ${x(0)} ${y(arr[0])}`;arr.forEach((v,i)=>{if(i)d+=` L ${x(i)} ${y(v)}`;});
+    s.appendChild(el('path',{d,fill:'none',stroke:col,'stroke-width':2.5,'stroke-linecap':'round','stroke-linejoin':'round'}));
+    arr.forEach((v,i)=>s.appendChild(el('circle',{cx:x(i),cy:y(v),r:3.5,fill:col,stroke:cssv('--surface-1'),'stroke-width':1.5})));});
+  scMonths.forEach((m,i)=>s.appendChild(el('text',{x:x(i),y:H-12,'text-anchor':'middle',class:'axis-lbl'})).textContent=m.slice(0,3));
+  document.getElementById('scTrend').appendChild(s);
+  document.getElementById('scLegend').innerHTML=scZones.map(z=>`<span><span class="swatch" style="background:var(${scZoneCol[z]})"></span>${z}</span>`).join('');
+}
+function updateScKpis(){
+  const md=scData[scMonth];
+  const top=[...scZones].sort((a,b)=>md[b].total-md[a].total)[0];
+  document.getElementById('scTop').textContent=top+' · '+md[top].total.toFixed(1)+'%';
+  document.getElementById('scTopd').innerHTML='<span class="up">highest total this month</span>';
+  document.getElementById('scKhi').innerHTML=md.KHI.total.toFixed(1)+'<small>%</small>';
+  const khiRank=[...scZones].sort((a,b)=>md[b].total-md[a].total).indexOf('KHI')+1;
+  document.getElementById('scKhid').innerHTML='<span class="'+(khiRank<=2?'up':'down')+'">rank '+khiRank+' of 4 zones</span>';
+  const avg=scZones.reduce((s,z)=>s+md[z].total,0)/4;
+  document.getElementById('scAvg').innerHTML=avg.toFixed(1)+'<small>%</small>';
+  ['scScope','scMonthH','scMonthB'].forEach(id=>document.getElementById(id).textContent=scLbl());
+}
+function renderScore(){
+  ['scBar','scTrend'].forEach(id=>{const e=document.getElementById(id);if(e)e.innerHTML='';});
+  scBodyR();scBar();scTrend();updateScKpis();scSubR();
+}
+function wireScFilter(){
+  document.querySelectorAll('#scMonthFilter button').forEach(b=>b.addEventListener('click',()=>{
+    scMonth=b.dataset.m;
+    document.querySelectorAll('#scMonthFilter button').forEach(x=>x.classList.toggle('on',x===b));
+    renderScore();
+  }));
+}
+
+function renderAll(){
+  document.querySelectorAll('svg').forEach(s=>s.remove());
+  document.getElementById('hubTable').innerHTML='';
+  trend();vol();hub();splitChart();catChart();slaChart();ageChart();mTable();
+  exCloTrend();exSdaTrend();exZoneCompare();exZoneTable();updateExKpis();
+  renderGap();renderRC();renderRTA();renderApp();
+  renderRCA();
+  scBodyR();scBar();scTrend();updateScKpis();scSubR();
+}
+renderAll();
+wireSort();
+wireAppFilter();
+wireExFilter();
+wireScFilter();
+wireHubZoneFilter();
+wireGapZoneFilter();
+wireRcaZoneFilter();
+
+// tab switching
+document.querySelectorAll('.navtab').forEach(t=>t.addEventListener('click',()=>{
+  const id=t.dataset.tab;
+  document.querySelectorAll('.navtab').forEach(x=>x.classList.toggle('on',x===t));
+  document.getElementById('tab-zonal').hidden = id!=='zonal';
+  document.getElementById('tab-express').hidden = id!=='express';
+  document.getElementById('tab-gap').hidden = id!=='gap';
+  document.getElementById('tab-rca').hidden = id!=='rca';
+  document.getElementById('tab-score').hidden = id!=='score';
+  window.scrollTo({top:0,behavior:'smooth'});
+}));
+
+// theme toggle
+const btn=document.getElementById('themeBtn');
+btn.addEventListener('click',()=>{
+  const dark=document.documentElement.getAttribute('data-theme')==='dark';
+  document.documentElement.setAttribute('data-theme',dark?'light':'dark');
+  btn.textContent=dark?'◐ Dark mode':'◑ Light mode';
+  renderAll();
+});
+</script>
+</body>
+</html>
